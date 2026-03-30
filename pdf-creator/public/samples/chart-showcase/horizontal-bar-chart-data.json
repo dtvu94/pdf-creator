@@ -1,0 +1,35 @@
+{
+  "title": {
+    "text": "Revenue by Market, H1 vs H2 2024 ($M)",
+    "textStyle": { "fontSize": 12, "color": "#1E293B", "fontWeight": "bold" }
+  },
+  "tooltip": { "trigger": "axis", "axisPointer": { "type": "shadow" } },
+  "legend": { "data": ["H1", "H2"], "right": 8, "top": 8, "textStyle": { "fontSize": 10 } },
+  "grid": { "left": 120, "right": 60, "top": 52, "bottom": 28 },
+  "xAxis": {
+    "type": "value",
+    "name": "$M",
+    "nameTextStyle": { "color": "#94A3B8", "fontSize": 10 }
+  },
+  "yAxis": {
+    "type": "category",
+    "data": ["Middle East", "Latin America", "EMEA", "APAC", "North America"],
+    "axisLabel": { "fontSize": 10 }
+  },
+  "series": [
+    {
+      "name": "H1",
+      "type": "bar",
+      "data": [18.4, 24.7, 53.2, 76.5, 112.8],
+      "itemStyle": { "color": "#3B82F6" },
+      "label": { "show": true, "position": "right", "fontSize": 9 }
+    },
+    {
+      "name": "H2",
+      "type": "bar",
+      "data": [21.3, 28.1, 61.4, 89.2, 128.6],
+      "itemStyle": { "color": "#10B981" },
+      "label": { "show": true, "position": "right", "fontSize": 9 }
+    }
+  ]
+}

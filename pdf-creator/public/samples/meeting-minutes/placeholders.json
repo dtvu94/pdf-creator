@@ -1,0 +1,22 @@
+{
+  "meeting_date": "April 3, 2026",
+  "meeting_time": "10:00 AM – 11:30 AM",
+  "location": "Conference Room B / Zoom",
+  "facilitator": "Maria Santos",
+  "attendees": "Maria Santos, James Lee, Priya Patel, Tom Chen, Anna Kim, David Brown",
+  "presenter_1": "James Lee",
+  "presenter_2": "Priya Patel",
+  "presenter_3": "Tom Chen",
+  "discussion_notes": "The team reviewed the current sprint progress. Backend API is 80% complete, with authentication endpoints remaining. Frontend dashboard redesign is on track for next week's demo. Priya raised a concern about third-party API rate limits — the team agreed to implement a caching layer. Tom presented the load test results showing the system handles 10K concurrent users.",
+  "action_1": "Implement Redis caching layer for external API calls",
+  "owner_1": "Priya Patel",
+  "due_1": "April 10, 2026",
+  "action_2": "Complete authentication API endpoints",
+  "owner_2": "James Lee",
+  "due_2": "April 7, 2026",
+  "action_3": "Prepare demo environment for stakeholder review",
+  "owner_3": "Tom Chen",
+  "due_3": "April 9, 2026",
+  "next_meeting_date": "April 10, 2026",
+  "next_meeting_time": "10:00 AM"
+}

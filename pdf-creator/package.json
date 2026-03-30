@@ -1,0 +1,52 @@
+{
+  "name": "pdf-creator",
+  "version": "1.0.0",
+  "license": "MIT",
+  "author": {
+    "name": "Vu Dang",
+    "email": "dtvu94@gmail.com"
+  },
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint",
+    "test": "jest",
+    "test:coverage": "jest --coverage"
+  },
+  "dependencies": {
+    "@react-pdf/renderer": "^4.3.2",
+    "echarts": "^6.0.0",
+    "lucide-react": "^1.7.0",
+    "next": "16.2.1",
+    "react": "19.2.4",
+    "react-dom": "19.2.4",
+    "sharp": "^0.34.5"
+  },
+  "devDependencies": {
+    "@fontsource/cantarell": "^5.2.8",
+    "@fontsource/carlito": "^5.2.8",
+    "@fontsource/inter": "^5.2.8",
+    "@fontsource/lato": "^5.2.7",
+    "@fontsource/open-sans": "^5.2.7",
+    "@fontsource/roboto": "^5.2.10",
+    "@tailwindcss/postcss": "^4",
+    "@testing-library/jest-dom": "^6.9.1",
+    "@testing-library/react": "^16.3.2",
+    "@testing-library/user-event": "^14.6.1",
+    "@types/jest": "^30.0.0",
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "@types/react-pdf": "^6.2.0",
+    "eslint": "^9",
+    "eslint-config-next": "16.2.1",
+    "jest": "^30.3.0",
+    "jest-environment-jsdom": "^30.3.0",
+    "tailwindcss": "^4",
+    "ts-jest": "^29.4.9",
+    "tsx": "^4.21.0",
+    "typescript": "^5"
+  }
+}

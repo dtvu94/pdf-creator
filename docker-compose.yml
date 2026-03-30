@@ -1,0 +1,31 @@
+services:
+  pdf-creator:
+    build:
+      context: ./pdf-creator
+      dockerfile: Dockerfile
+    ports:
+      - "3000:3000"
+    environment:
+      - NODE_ENV=production
+      - PDFA_SERVICE_URL=http://pdfa-generator:8090
+    volumes:
+      - uploaded-fonts:/tmp/pdf-creator-fonts
+    depends_on:
+      pdfa-generator:
+        condition: service_started
+
+  pdfa-generator:
+    build:
+      context: ./pdfa-generator
+      dockerfile: Dockerfile
+    ports:
+      - "8090:8090"
+    environment:
+      - PORT=8090
+      - BUNDLED_FONT_DIR=/app/fonts
+      - UPLOAD_FONT_DIR=/tmp/pdf-creator-fonts
+    volumes:
+      - uploaded-fonts:/tmp/pdf-creator-fonts
+
+volumes:
+  uploaded-fonts:

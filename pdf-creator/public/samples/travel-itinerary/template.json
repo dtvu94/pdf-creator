@@ -1,0 +1,658 @@
+{
+  "name": "Travel Itinerary",
+  "pageSize": "A4",
+  "fonts": [
+    {
+      "family": "Open Sans",
+      "faces": [
+        {
+          "weight": "normal",
+          "style": "normal",
+          "source": "bundled",
+          "ref": "OpenSans-Regular.ttf"
+        },
+        {
+          "weight": "bold",
+          "style": "normal",
+          "source": "bundled",
+          "ref": "OpenSans-Bold.ttf"
+        },
+        {
+          "weight": "normal",
+          "style": "italic",
+          "source": "bundled",
+          "ref": "OpenSans-Italic.ttf"
+        },
+        {
+          "weight": "bold",
+          "style": "italic",
+          "source": "bundled",
+          "ref": "OpenSans-BoldItalic.ttf"
+        }
+      ]
+    },
+    {
+      "family": "Roboto",
+      "faces": [
+        {
+          "weight": "normal",
+          "style": "normal",
+          "source": "bundled",
+          "ref": "Roboto-Regular.ttf"
+        },
+        {
+          "weight": "bold",
+          "style": "normal",
+          "source": "bundled",
+          "ref": "Roboto-Bold.ttf"
+        },
+        {
+          "weight": "normal",
+          "style": "italic",
+          "source": "bundled",
+          "ref": "Roboto-Italic.ttf"
+        },
+        {
+          "weight": "bold",
+          "style": "italic",
+          "source": "bundled",
+          "ref": "Roboto-BoldItalic.ttf"
+        }
+      ]
+    },
+    {
+      "family": "Calibri",
+      "faces": [
+        {
+          "weight": "normal",
+          "style": "normal",
+          "source": "bundled",
+          "ref": "Calibri-Regular.ttf"
+        },
+        {
+          "weight": "bold",
+          "style": "normal",
+          "source": "bundled",
+          "ref": "Calibri-Bold.ttf"
+        },
+        {
+          "weight": "normal",
+          "style": "italic",
+          "source": "bundled",
+          "ref": "Calibri-Italic.ttf"
+        },
+        {
+          "weight": "bold",
+          "style": "italic",
+          "source": "bundled",
+          "ref": "Calibri-BoldItalic.ttf"
+        }
+      ]
+    },
+    {
+      "family": "Lato",
+      "faces": [
+        {
+          "weight": "normal",
+          "style": "normal",
+          "source": "bundled",
+          "ref": "Lato-Regular.ttf"
+        },
+        {
+          "weight": "bold",
+          "style": "normal",
+          "source": "bundled",
+          "ref": "Lato-Bold.ttf"
+        },
+        {
+          "weight": "normal",
+          "style": "italic",
+          "source": "bundled",
+          "ref": "Lato-Italic.ttf"
+        },
+        {
+          "weight": "bold",
+          "style": "italic",
+          "source": "bundled",
+          "ref": "Lato-BoldItalic.ttf"
+        }
+      ]
+    },
+    {
+      "family": "Inter",
+      "faces": [
+        {
+          "weight": "normal",
+          "style": "normal",
+          "source": "bundled",
+          "ref": "Inter-Regular.ttf"
+        },
+        {
+          "weight": "bold",
+          "style": "normal",
+          "source": "bundled",
+          "ref": "Inter-Bold.ttf"
+        },
+        {
+          "weight": "normal",
+          "style": "italic",
+          "source": "bundled",
+          "ref": "Inter-Italic.ttf"
+        },
+        {
+          "weight": "bold",
+          "style": "italic",
+          "source": "bundled",
+          "ref": "Inter-BoldItalic.ttf"
+        }
+      ]
+    },
+    {
+      "family": "Verdana",
+      "faces": [
+        {
+          "weight": "normal",
+          "style": "normal",
+          "source": "bundled",
+          "ref": "Verdana-Regular.ttf"
+        },
+        {
+          "weight": "bold",
+          "style": "normal",
+          "source": "bundled",
+          "ref": "Verdana-Bold.ttf"
+        },
+        {
+          "weight": "normal",
+          "style": "italic",
+          "source": "bundled",
+          "ref": "Verdana-Italic.ttf"
+        },
+        {
+          "weight": "bold",
+          "style": "italic",
+          "source": "bundled",
+          "ref": "Verdana-BoldItalic.ttf"
+        }
+      ]
+    },
+    {
+      "family": "Arial",
+      "faces": [
+        {
+          "weight": "normal",
+          "style": "normal",
+          "source": "bundled",
+          "ref": "Calibri-Regular.ttf"
+        },
+        {
+          "weight": "bold",
+          "style": "normal",
+          "source": "bundled",
+          "ref": "Calibri-Bold.ttf"
+        },
+        {
+          "weight": "normal",
+          "style": "italic",
+          "source": "bundled",
+          "ref": "Calibri-Italic.ttf"
+        },
+        {
+          "weight": "bold",
+          "style": "italic",
+          "source": "bundled",
+          "ref": "Calibri-BoldItalic.ttf"
+        }
+      ]
+    }
+  ],
+  "styles": {
+    "primaryColor": "#0E7490"
+  },
+  "pages": [
+    {
+      "id": "fm8bvl9",
+      "elements": [
+        {
+          "id": "lpndem9",
+          "type": "shape",
+          "x": 0,
+          "y": 0,
+          "shapeType": "rectangle",
+          "width": 595,
+          "height": 120,
+          "fillColor": "#0E7490",
+          "strokeColor": "#0E7490",
+          "strokeWidth": 0,
+          "borderRadius": 0
+        },
+        {
+          "id": "fvk1rju",
+          "type": "heading",
+          "x": 40,
+          "y": 25,
+          "content": "Travel Itinerary",
+          "fontSize": 28,
+          "bold": true,
+          "italic": false,
+          "underline": false,
+          "color": "#FFFFFF",
+          "width": 515
+        },
+        {
+          "id": "17jg7y2",
+          "type": "text",
+          "x": 40,
+          "y": 62,
+          "content": "{{trip_name}}",
+          "fontSize": 16,
+          "bold": false,
+          "italic": false,
+          "underline": false,
+          "color": "#CFFAFE",
+          "width": 300
+        },
+        {
+          "id": "q86da66",
+          "type": "text",
+          "x": 40,
+          "y": 88,
+          "content": "{{travel_dates}}  •  {{traveler_name}}",
+          "fontSize": 11,
+          "bold": false,
+          "italic": false,
+          "underline": false,
+          "color": "#A5F3FC",
+          "width": 400
+        },
+        {
+          "id": "l5ys7s9",
+          "type": "text",
+          "x": 40,
+          "y": 140,
+          "content": "Destination: {{destination}}\nAccommodation: {{hotel_name}}\nBooking Ref: {{booking_ref}}\nEmergency Contact: {{emergency_contact}}",
+          "fontSize": 11,
+          "bold": false,
+          "italic": false,
+          "underline": false,
+          "color": "#374151",
+          "width": 515,
+          "lineHeight": 1.7
+        },
+        {
+          "id": "hquf2yc",
+          "type": "divider",
+          "x": 40,
+          "y": 240,
+          "color": "#0E7490",
+          "width": 515,
+          "thickness": 2
+        },
+        {
+          "id": "7yyyfpe",
+          "type": "heading",
+          "x": 40,
+          "y": 252,
+          "content": "Day 1 — {{day1_date}}",
+          "fontSize": 15,
+          "bold": true,
+          "italic": false,
+          "underline": false,
+          "color": "#0E7490",
+          "width": 515
+        },
+        {
+          "id": "q365m1f",
+          "type": "table",
+          "x": 40,
+          "y": 278,
+          "headers": [
+            "Time",
+            "Activity",
+            "Location",
+            "Notes"
+          ],
+          "rows": [
+            [
+              "{{d1_time1}}",
+              "{{d1_activity1}}",
+              "{{d1_location1}}",
+              "{{d1_notes1}}"
+            ],
+            [
+              "{{d1_time2}}",
+              "{{d1_activity2}}",
+              "{{d1_location2}}",
+              "{{d1_notes2}}"
+            ],
+            [
+              "{{d1_time3}}",
+              "{{d1_activity3}}",
+              "{{d1_location3}}",
+              "{{d1_notes3}}"
+            ],
+            [
+              "{{d1_time4}}",
+              "{{d1_activity4}}",
+              "{{d1_location4}}",
+              "{{d1_notes4}}"
+            ]
+          ],
+          "headerColor": "#0E7490",
+          "headerTextColor": "#ffffff",
+          "fontSize": 10,
+          "width": 515
+        },
+        {
+          "id": "21bqci4",
+          "type": "divider",
+          "x": 40,
+          "y": 445,
+          "color": "#0E7490",
+          "width": 515,
+          "thickness": 2
+        },
+        {
+          "id": "a0rslva",
+          "type": "heading",
+          "x": 40,
+          "y": 457,
+          "content": "Day 2 — {{day2_date}}",
+          "fontSize": 15,
+          "bold": true,
+          "italic": false,
+          "underline": false,
+          "color": "#0E7490",
+          "width": 515
+        },
+        {
+          "id": "tocsysb",
+          "type": "table",
+          "x": 40,
+          "y": 483,
+          "headers": [
+            "Time",
+            "Activity",
+            "Location",
+            "Notes"
+          ],
+          "rows": [
+            [
+              "{{d2_time1}}",
+              "{{d2_activity1}}",
+              "{{d2_location1}}",
+              "{{d2_notes1}}"
+            ],
+            [
+              "{{d2_time2}}",
+              "{{d2_activity2}}",
+              "{{d2_location2}}",
+              "{{d2_notes2}}"
+            ],
+            [
+              "{{d2_time3}}",
+              "{{d2_activity3}}",
+              "{{d2_location3}}",
+              "{{d2_notes3}}"
+            ],
+            [
+              "{{d2_time4}}",
+              "{{d2_activity4}}",
+              "{{d2_location4}}",
+              "{{d2_notes4}}"
+            ]
+          ],
+          "headerColor": "#0E7490",
+          "headerTextColor": "#ffffff",
+          "fontSize": 10,
+          "width": 515
+        },
+        {
+          "id": "yyyvjzx",
+          "type": "divider",
+          "x": 40,
+          "y": 650,
+          "color": "#CBD5E1",
+          "width": 515,
+          "thickness": 1
+        },
+        {
+          "id": "cmgnl91",
+          "type": "heading",
+          "x": 40,
+          "y": 665,
+          "content": "Important Notes",
+          "fontSize": 12,
+          "bold": true,
+          "italic": false,
+          "underline": false,
+          "color": "#0E7490",
+          "width": 515
+        },
+        {
+          "id": "f2hax0x",
+          "type": "text",
+          "x": 40,
+          "y": 685,
+          "content": "{{important_notes}}",
+          "fontSize": 10,
+          "bold": false,
+          "italic": false,
+          "underline": false,
+          "color": "#374151",
+          "width": 515,
+          "lineHeight": 1.5
+        }
+      ]
+    },
+    {
+      "id": "xsr3iia",
+      "elements": [
+        {
+          "id": "ote5qcn",
+          "type": "divider",
+          "x": 40,
+          "y": 30,
+          "color": "#0E7490",
+          "width": 515,
+          "thickness": 2
+        },
+        {
+          "id": "1l45qv8",
+          "type": "heading",
+          "x": 40,
+          "y": 42,
+          "content": "Day 3 — {{day3_date}}",
+          "fontSize": 15,
+          "bold": true,
+          "italic": false,
+          "underline": false,
+          "color": "#0E7490",
+          "width": 515
+        },
+        {
+          "id": "gqbgzj8",
+          "type": "table",
+          "x": 40,
+          "y": 68,
+          "headers": [
+            "Time",
+            "Activity",
+            "Location",
+            "Notes"
+          ],
+          "rows": [
+            [
+              "{{d3_time1}}",
+              "{{d3_activity1}}",
+              "{{d3_location1}}",
+              "{{d3_notes1}}"
+            ],
+            [
+              "{{d3_time2}}",
+              "{{d3_activity2}}",
+              "{{d3_location2}}",
+              "{{d3_notes2}}"
+            ],
+            [
+              "{{d3_time3}}",
+              "{{d3_activity3}}",
+              "{{d3_location3}}",
+              "{{d3_notes3}}"
+            ]
+          ],
+          "headerColor": "#0E7490",
+          "headerTextColor": "#ffffff",
+          "fontSize": 10,
+          "width": 515
+        },
+        {
+          "id": "m2in58a",
+          "type": "divider",
+          "x": 40,
+          "y": 215,
+          "color": "#0E7490",
+          "width": 515,
+          "thickness": 2
+        },
+        {
+          "id": "vtmgzxa",
+          "type": "heading",
+          "x": 40,
+          "y": 227,
+          "content": "Day 4 — {{day4_date}}",
+          "fontSize": 15,
+          "bold": true,
+          "italic": false,
+          "underline": false,
+          "color": "#0E7490",
+          "width": 515
+        },
+        {
+          "id": "euwybhf",
+          "type": "table",
+          "x": 40,
+          "y": 253,
+          "headers": [
+            "Time",
+            "Activity",
+            "Location",
+            "Notes"
+          ],
+          "rows": [
+            [
+              "{{d4_time1}}",
+              "{{d4_activity1}}",
+              "{{d4_location1}}",
+              "{{d4_notes1}}"
+            ],
+            [
+              "{{d4_time2}}",
+              "{{d4_activity2}}",
+              "{{d4_location2}}",
+              "{{d4_notes2}}"
+            ],
+            [
+              "{{d4_time3}}",
+              "{{d4_activity3}}",
+              "{{d4_location3}}",
+              "{{d4_notes3}}"
+            ]
+          ],
+          "headerColor": "#0E7490",
+          "headerTextColor": "#ffffff",
+          "fontSize": 10,
+          "width": 515
+        },
+        {
+          "id": "vvh9zi6",
+          "type": "divider",
+          "x": 40,
+          "y": 410,
+          "color": "#CBD5E1",
+          "width": 515,
+          "thickness": 1
+        },
+        {
+          "id": "23url08",
+          "type": "heading",
+          "x": 40,
+          "y": 425,
+          "content": "Packing Checklist",
+          "fontSize": 15,
+          "bold": true,
+          "italic": false,
+          "underline": false,
+          "color": "#0E7490",
+          "width": 515
+        },
+        {
+          "id": "8cpdpth",
+          "type": "text",
+          "x": 40,
+          "y": 450,
+          "content": "{{packing_list}}",
+          "fontSize": 11,
+          "bold": false,
+          "italic": false,
+          "underline": false,
+          "color": "#374151",
+          "width": 240,
+          "lineHeight": 1.5,
+          "listStyle": "bullet"
+        },
+        {
+          "id": "vog1sdo",
+          "type": "text",
+          "x": 315,
+          "y": 450,
+          "content": "{{packing_list_2}}",
+          "fontSize": 11,
+          "bold": false,
+          "italic": false,
+          "underline": false,
+          "color": "#374151",
+          "width": 240,
+          "lineHeight": 1.5,
+          "listStyle": "bullet"
+        },
+        {
+          "id": "gur0fue",
+          "type": "divider",
+          "x": 40,
+          "y": 640,
+          "color": "#CBD5E1",
+          "width": 515,
+          "thickness": 1
+        },
+        {
+          "id": "vzt0pw2",
+          "type": "heading",
+          "x": 40,
+          "y": 655,
+          "content": "Emergency Contacts & Useful Numbers",
+          "fontSize": 12,
+          "bold": true,
+          "italic": false,
+          "underline": false,
+          "color": "#0E7490",
+          "width": 515
+        },
+        {
+          "id": "p0c3h4x",
+          "type": "text",
+          "x": 40,
+          "y": 678,
+          "content": "Hotel: {{hotel_phone}}\nAirline: {{airline_phone}}\nEmbassy: {{embassy_phone}}\nTravel Insurance: {{insurance_phone}}",
+          "fontSize": 10,
+          "bold": false,
+          "italic": false,
+          "underline": false,
+          "color": "#374151",
+          "width": 515,
+          "lineHeight": 1.7
+        }
+      ]
+    }
+  ]
+}

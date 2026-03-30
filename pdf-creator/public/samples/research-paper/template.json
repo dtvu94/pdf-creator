@@ -1,0 +1,525 @@
+{
+  "name": "Research Paper",
+  "pageSize": "A4",
+  "fonts": [
+    {
+      "family": "Open Sans",
+      "faces": [
+        {
+          "weight": "normal",
+          "style": "normal",
+          "source": "bundled",
+          "ref": "OpenSans-Regular.ttf"
+        },
+        {
+          "weight": "bold",
+          "style": "normal",
+          "source": "bundled",
+          "ref": "OpenSans-Bold.ttf"
+        },
+        {
+          "weight": "normal",
+          "style": "italic",
+          "source": "bundled",
+          "ref": "OpenSans-Italic.ttf"
+        },
+        {
+          "weight": "bold",
+          "style": "italic",
+          "source": "bundled",
+          "ref": "OpenSans-BoldItalic.ttf"
+        }
+      ]
+    },
+    {
+      "family": "Roboto",
+      "faces": [
+        {
+          "weight": "normal",
+          "style": "normal",
+          "source": "bundled",
+          "ref": "Roboto-Regular.ttf"
+        },
+        {
+          "weight": "bold",
+          "style": "normal",
+          "source": "bundled",
+          "ref": "Roboto-Bold.ttf"
+        },
+        {
+          "weight": "normal",
+          "style": "italic",
+          "source": "bundled",
+          "ref": "Roboto-Italic.ttf"
+        },
+        {
+          "weight": "bold",
+          "style": "italic",
+          "source": "bundled",
+          "ref": "Roboto-BoldItalic.ttf"
+        }
+      ]
+    },
+    {
+      "family": "Calibri",
+      "faces": [
+        {
+          "weight": "normal",
+          "style": "normal",
+          "source": "bundled",
+          "ref": "Calibri-Regular.ttf"
+        },
+        {
+          "weight": "bold",
+          "style": "normal",
+          "source": "bundled",
+          "ref": "Calibri-Bold.ttf"
+        },
+        {
+          "weight": "normal",
+          "style": "italic",
+          "source": "bundled",
+          "ref": "Calibri-Italic.ttf"
+        },
+        {
+          "weight": "bold",
+          "style": "italic",
+          "source": "bundled",
+          "ref": "Calibri-BoldItalic.ttf"
+        }
+      ]
+    },
+    {
+      "family": "Lato",
+      "faces": [
+        {
+          "weight": "normal",
+          "style": "normal",
+          "source": "bundled",
+          "ref": "Lato-Regular.ttf"
+        },
+        {
+          "weight": "bold",
+          "style": "normal",
+          "source": "bundled",
+          "ref": "Lato-Bold.ttf"
+        },
+        {
+          "weight": "normal",
+          "style": "italic",
+          "source": "bundled",
+          "ref": "Lato-Italic.ttf"
+        },
+        {
+          "weight": "bold",
+          "style": "italic",
+          "source": "bundled",
+          "ref": "Lato-BoldItalic.ttf"
+        }
+      ]
+    },
+    {
+      "family": "Inter",
+      "faces": [
+        {
+          "weight": "normal",
+          "style": "normal",
+          "source": "bundled",
+          "ref": "Inter-Regular.ttf"
+        },
+        {
+          "weight": "bold",
+          "style": "normal",
+          "source": "bundled",
+          "ref": "Inter-Bold.ttf"
+        },
+        {
+          "weight": "normal",
+          "style": "italic",
+          "source": "bundled",
+          "ref": "Inter-Italic.ttf"
+        },
+        {
+          "weight": "bold",
+          "style": "italic",
+          "source": "bundled",
+          "ref": "Inter-BoldItalic.ttf"
+        }
+      ]
+    },
+    {
+      "family": "Verdana",
+      "faces": [
+        {
+          "weight": "normal",
+          "style": "normal",
+          "source": "bundled",
+          "ref": "Verdana-Regular.ttf"
+        },
+        {
+          "weight": "bold",
+          "style": "normal",
+          "source": "bundled",
+          "ref": "Verdana-Bold.ttf"
+        },
+        {
+          "weight": "normal",
+          "style": "italic",
+          "source": "bundled",
+          "ref": "Verdana-Italic.ttf"
+        },
+        {
+          "weight": "bold",
+          "style": "italic",
+          "source": "bundled",
+          "ref": "Verdana-BoldItalic.ttf"
+        }
+      ]
+    },
+    {
+      "family": "Arial",
+      "faces": [
+        {
+          "weight": "normal",
+          "style": "normal",
+          "source": "bundled",
+          "ref": "Calibri-Regular.ttf"
+        },
+        {
+          "weight": "bold",
+          "style": "normal",
+          "source": "bundled",
+          "ref": "Calibri-Bold.ttf"
+        },
+        {
+          "weight": "normal",
+          "style": "italic",
+          "source": "bundled",
+          "ref": "Calibri-Italic.ttf"
+        },
+        {
+          "weight": "bold",
+          "style": "italic",
+          "source": "bundled",
+          "ref": "Calibri-BoldItalic.ttf"
+        }
+      ]
+    }
+  ],
+  "pages": [
+    {
+      "id": "ybz6kxs",
+      "elements": [
+        {
+          "id": "zmop583",
+          "type": "heading",
+          "x": 40,
+          "y": 200,
+          "content": "{{paper_title}}",
+          "fontSize": 26,
+          "bold": true,
+          "italic": false,
+          "underline": false,
+          "color": "#1E40AF",
+          "width": 515,
+          "textAlign": "center"
+        },
+        {
+          "id": "728anu7",
+          "type": "text",
+          "x": 40,
+          "y": 260,
+          "content": "{{author_name}}",
+          "fontSize": 14,
+          "bold": false,
+          "italic": false,
+          "underline": false,
+          "color": "#374151",
+          "width": 515,
+          "textAlign": "center"
+        },
+        {
+          "id": "e8jbblm",
+          "type": "text",
+          "x": 40,
+          "y": 285,
+          "content": "{{affiliation}}",
+          "fontSize": 12,
+          "bold": false,
+          "italic": true,
+          "underline": false,
+          "color": "#64748B",
+          "width": 515,
+          "textAlign": "center"
+        },
+        {
+          "id": "6u1sqlv",
+          "type": "text",
+          "x": 40,
+          "y": 320,
+          "content": "{{submission_date}}",
+          "fontSize": 12,
+          "bold": false,
+          "italic": false,
+          "underline": false,
+          "color": "#64748B",
+          "width": 515,
+          "textAlign": "center"
+        },
+        {
+          "id": "o7tx6b8",
+          "type": "divider",
+          "x": 200,
+          "y": 350,
+          "width": 195,
+          "thickness": 1,
+          "color": "#CBD5E1"
+        },
+        {
+          "id": "spgc3as",
+          "type": "text",
+          "x": 40,
+          "y": 370,
+          "content": "{{author_email}}",
+          "fontSize": 11,
+          "bold": false,
+          "italic": false,
+          "underline": false,
+          "color": "#64748B",
+          "width": 515,
+          "textAlign": "center"
+        }
+      ]
+    },
+    {
+      "id": "mtv3596",
+      "elements": [
+        {
+          "id": "15q0ah9",
+          "type": "heading",
+          "x": 40,
+          "y": 40,
+          "content": "Abstract",
+          "fontSize": 16,
+          "bold": true,
+          "italic": false,
+          "underline": false,
+          "color": "#1E40AF",
+          "width": 515
+        },
+        {
+          "id": "znd475n",
+          "type": "divider",
+          "x": 40,
+          "y": 62,
+          "width": 515,
+          "thickness": 1,
+          "color": "#1E40AF"
+        },
+        {
+          "id": "z6j8ca6",
+          "type": "text",
+          "x": 40,
+          "y": 78,
+          "content": "{{abstract}}",
+          "fontSize": 11,
+          "bold": false,
+          "italic": true,
+          "underline": false,
+          "color": "#374151",
+          "width": 515,
+          "lineHeight": 1.6
+        },
+        {
+          "id": "wmz6vvc",
+          "type": "text",
+          "x": 40,
+          "y": 185,
+          "content": "[1]",
+          "fontSize": 11,
+          "bold": false,
+          "italic": false,
+          "underline": false,
+          "color": "#1E40AF",
+          "width": 30,
+          "superscript": true
+        },
+        {
+          "id": "rrhhqtr",
+          "type": "text",
+          "x": 40,
+          "y": 200,
+          "content": "Keywords: {{keywords}}",
+          "fontSize": 11,
+          "bold": true,
+          "italic": false,
+          "underline": false,
+          "color": "#374151",
+          "width": 515
+        },
+        {
+          "id": "ifhqs6d",
+          "type": "divider",
+          "x": 40,
+          "y": 225,
+          "width": 515,
+          "thickness": 1,
+          "color": "#CBD5E1"
+        },
+        {
+          "id": "oeh5ofb",
+          "type": "heading",
+          "x": 40,
+          "y": 245,
+          "content": "1. Introduction",
+          "fontSize": 16,
+          "bold": true,
+          "italic": false,
+          "underline": false,
+          "color": "#1E40AF",
+          "width": 515
+        },
+        {
+          "id": "zryoeyq",
+          "type": "text",
+          "x": 40,
+          "y": 270,
+          "content": "{{introduction}}",
+          "fontSize": 11,
+          "bold": false,
+          "italic": false,
+          "underline": false,
+          "color": "#374151",
+          "width": 515,
+          "lineHeight": 1.6
+        },
+        {
+          "id": "x8xjc6p",
+          "type": "heading",
+          "x": 40,
+          "y": 490,
+          "content": "2. Methodology",
+          "fontSize": 16,
+          "bold": true,
+          "italic": false,
+          "underline": false,
+          "color": "#1E40AF",
+          "width": 515
+        },
+        {
+          "id": "gb084bu",
+          "type": "text",
+          "x": 40,
+          "y": 515,
+          "content": "{{methodology}}",
+          "fontSize": 11,
+          "bold": false,
+          "italic": false,
+          "underline": false,
+          "color": "#374151",
+          "width": 515,
+          "lineHeight": 1.6
+        }
+      ]
+    },
+    {
+      "id": "b5j63ej",
+      "elements": [
+        {
+          "id": "nefbino",
+          "type": "heading",
+          "x": 40,
+          "y": 40,
+          "content": "3. Results",
+          "fontSize": 16,
+          "bold": true,
+          "italic": false,
+          "underline": false,
+          "color": "#1E40AF",
+          "width": 515
+        },
+        {
+          "id": "rhljr9k",
+          "type": "text",
+          "x": 40,
+          "y": 65,
+          "content": "{{results}}",
+          "fontSize": 11,
+          "bold": false,
+          "italic": false,
+          "underline": false,
+          "color": "#374151",
+          "width": 515,
+          "lineHeight": 1.6
+        },
+        {
+          "id": "mxijflq",
+          "type": "heading",
+          "x": 40,
+          "y": 300,
+          "content": "4. Conclusion",
+          "fontSize": 16,
+          "bold": true,
+          "italic": false,
+          "underline": false,
+          "color": "#1E40AF",
+          "width": 515
+        },
+        {
+          "id": "ysba9dc",
+          "type": "text",
+          "x": 40,
+          "y": 325,
+          "content": "{{conclusion}}",
+          "fontSize": 11,
+          "bold": false,
+          "italic": false,
+          "underline": false,
+          "color": "#374151",
+          "width": 515,
+          "lineHeight": 1.6
+        },
+        {
+          "id": "l34vln8",
+          "type": "heading",
+          "x": 40,
+          "y": 520,
+          "content": "References",
+          "fontSize": 16,
+          "bold": true,
+          "italic": false,
+          "underline": false,
+          "color": "#1E40AF",
+          "width": 515
+        },
+        {
+          "id": "i3otki9",
+          "type": "divider",
+          "x": 40,
+          "y": 542,
+          "width": 515,
+          "thickness": 1,
+          "color": "#1E40AF"
+        },
+        {
+          "id": "i35zquc",
+          "type": "text",
+          "x": 40,
+          "y": 558,
+          "content": "{{references}}",
+          "fontSize": 10,
+          "bold": false,
+          "italic": false,
+          "underline": false,
+          "color": "#374151",
+          "width": 515,
+          "lineHeight": 1.6,
+          "listStyle": "numbered"
+        }
+      ]
+    }
+  ],
+  "styles": {
+    "primaryColor": "#1E40AF"
+  }
+}

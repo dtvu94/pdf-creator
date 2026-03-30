@@ -1,0 +1,16 @@
+{
+  "quote_number": "QT-2026-0187",
+  "from_company": "Apex Digital Solutions",
+  "from_address": "321 Tech Park, Suite 500, Austin, TX 78701",
+  "from_email": "sales@apexdigital.com",
+  "client_name": "Jennifer Walsh",
+  "client_company": "Greenfield Enterprises",
+  "client_email": "j.walsh@greenfield.com",
+  "quote_date": "April 4, 2026",
+  "valid_until": "May 4, 2026",
+  "subtotal": "$18,500.00",
+  "discount": "- $1,850.00 (10%)",
+  "tax": "$1,498.50",
+  "total": "$18,148.50",
+  "terms": "1. This quotation is valid for 30 days from the date of issue.\n2. Payment: 50% upon acceptance, 50% upon delivery.\n3. Delivery timeline: 6–8 weeks from acceptance date.\n4. All prices are in USD and exclude applicable taxes unless stated.\n5. Changes to scope after acceptance may result in revised pricing.\n6. Apex Digital Solutions retains intellectual property rights until full payment is received."
+}

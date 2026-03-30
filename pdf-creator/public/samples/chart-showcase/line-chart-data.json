@@ -1,0 +1,41 @@
+{
+  "title": {
+    "text": "Monthly Temperature Trend (°C)",
+    "textStyle": { "fontSize": 12, "color": "#1E293B", "fontWeight": "bold" }
+  },
+  "tooltip": { "trigger": "axis" },
+  "legend": { "data": ["Zone A", "Zone B"], "right": 8, "top": 8, "textStyle": { "fontSize": 10 } },
+  "grid": { "left": 50, "right": 20, "top": 52, "bottom": 36 },
+  "xAxis": {
+    "type": "category",
+    "boundaryGap": false,
+    "data": ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"]
+  },
+  "yAxis": {
+    "type": "value",
+    "name": "°C",
+    "nameTextStyle": { "color": "#94A3B8", "fontSize": 10 }
+  },
+  "series": [
+    {
+      "name": "Zone A",
+      "type": "line",
+      "smooth": true,
+      "data": [4.2, 5.8, 10.1, 15.4, 20.7, 25.3, 28.6, 27.9, 23.2, 17.5, 10.8, 6.1],
+      "itemStyle": { "color": "#3B82F6" },
+      "areaStyle": { "color": "#3B82F6", "opacity": 0.08 },
+      "symbol": "circle",
+      "symbolSize": 5
+    },
+    {
+      "name": "Zone B",
+      "type": "line",
+      "smooth": true,
+      "data": [7.5, 9.2, 13.8, 18.6, 23.4, 28.1, 31.4, 30.8, 26.3, 20.1, 13.9, 9.2],
+      "itemStyle": { "color": "#10B981" },
+      "areaStyle": { "color": "#10B981", "opacity": 0.08 },
+      "symbol": "circle",
+      "symbolSize": 5
+    }
+  ]
+}

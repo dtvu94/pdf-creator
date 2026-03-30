@@ -1,0 +1,1422 @@
+{
+  "name": "Monthly Sensor Report",
+  "pageSize": "A4",
+  "fonts": [
+    {
+      "family": "Open Sans",
+      "faces": [
+        {
+          "weight": "normal",
+          "style": "normal",
+          "source": "bundled",
+          "ref": "OpenSans-Regular.ttf"
+        },
+        {
+          "weight": "bold",
+          "style": "normal",
+          "source": "bundled",
+          "ref": "OpenSans-Bold.ttf"
+        },
+        {
+          "weight": "normal",
+          "style": "italic",
+          "source": "bundled",
+          "ref": "OpenSans-Italic.ttf"
+        },
+        {
+          "weight": "bold",
+          "style": "italic",
+          "source": "bundled",
+          "ref": "OpenSans-BoldItalic.ttf"
+        }
+      ]
+    },
+    {
+      "family": "Roboto",
+      "faces": [
+        {
+          "weight": "normal",
+          "style": "normal",
+          "source": "bundled",
+          "ref": "Roboto-Regular.ttf"
+        },
+        {
+          "weight": "bold",
+          "style": "normal",
+          "source": "bundled",
+          "ref": "Roboto-Bold.ttf"
+        },
+        {
+          "weight": "normal",
+          "style": "italic",
+          "source": "bundled",
+          "ref": "Roboto-Italic.ttf"
+        },
+        {
+          "weight": "bold",
+          "style": "italic",
+          "source": "bundled",
+          "ref": "Roboto-BoldItalic.ttf"
+        }
+      ]
+    },
+    {
+      "family": "Calibri",
+      "faces": [
+        {
+          "weight": "normal",
+          "style": "normal",
+          "source": "bundled",
+          "ref": "Calibri-Regular.ttf"
+        },
+        {
+          "weight": "bold",
+          "style": "normal",
+          "source": "bundled",
+          "ref": "Calibri-Bold.ttf"
+        },
+        {
+          "weight": "normal",
+          "style": "italic",
+          "source": "bundled",
+          "ref": "Calibri-Italic.ttf"
+        },
+        {
+          "weight": "bold",
+          "style": "italic",
+          "source": "bundled",
+          "ref": "Calibri-BoldItalic.ttf"
+        }
+      ]
+    },
+    {
+      "family": "Lato",
+      "faces": [
+        {
+          "weight": "normal",
+          "style": "normal",
+          "source": "bundled",
+          "ref": "Lato-Regular.ttf"
+        },
+        {
+          "weight": "bold",
+          "style": "normal",
+          "source": "bundled",
+          "ref": "Lato-Bold.ttf"
+        },
+        {
+          "weight": "normal",
+          "style": "italic",
+          "source": "bundled",
+          "ref": "Lato-Italic.ttf"
+        },
+        {
+          "weight": "bold",
+          "style": "italic",
+          "source": "bundled",
+          "ref": "Lato-BoldItalic.ttf"
+        }
+      ]
+    },
+    {
+      "family": "Inter",
+      "faces": [
+        {
+          "weight": "normal",
+          "style": "normal",
+          "source": "bundled",
+          "ref": "Inter-Regular.ttf"
+        },
+        {
+          "weight": "bold",
+          "style": "normal",
+          "source": "bundled",
+          "ref": "Inter-Bold.ttf"
+        },
+        {
+          "weight": "normal",
+          "style": "italic",
+          "source": "bundled",
+          "ref": "Inter-Italic.ttf"
+        },
+        {
+          "weight": "bold",
+          "style": "italic",
+          "source": "bundled",
+          "ref": "Inter-BoldItalic.ttf"
+        }
+      ]
+    },
+    {
+      "family": "Verdana",
+      "faces": [
+        {
+          "weight": "normal",
+          "style": "normal",
+          "source": "bundled",
+          "ref": "Verdana-Regular.ttf"
+        },
+        {
+          "weight": "bold",
+          "style": "normal",
+          "source": "bundled",
+          "ref": "Verdana-Bold.ttf"
+        },
+        {
+          "weight": "normal",
+          "style": "italic",
+          "source": "bundled",
+          "ref": "Verdana-Italic.ttf"
+        },
+        {
+          "weight": "bold",
+          "style": "italic",
+          "source": "bundled",
+          "ref": "Verdana-BoldItalic.ttf"
+        }
+      ]
+    },
+    {
+      "family": "Arial",
+      "faces": [
+        {
+          "weight": "normal",
+          "style": "normal",
+          "source": "bundled",
+          "ref": "Calibri-Regular.ttf"
+        },
+        {
+          "weight": "bold",
+          "style": "normal",
+          "source": "bundled",
+          "ref": "Calibri-Bold.ttf"
+        },
+        {
+          "weight": "normal",
+          "style": "italic",
+          "source": "bundled",
+          "ref": "Calibri-Italic.ttf"
+        },
+        {
+          "weight": "bold",
+          "style": "italic",
+          "source": "bundled",
+          "ref": "Calibri-BoldItalic.ttf"
+        }
+      ]
+    }
+  ],
+  "styles": {
+    "primaryColor": "#1E40AF"
+  },
+  "pages": [
+    {
+      "id": "4lpwub7",
+      "bookmark": "Cover",
+      "elements": [
+        {
+          "id": "8c84751",
+          "type": "divider",
+          "x": 0,
+          "y": 0,
+          "color": "#1E40AF",
+          "width": 595,
+          "thickness": 8
+        },
+        {
+          "id": "f1iz1xo",
+          "type": "image",
+          "x": 207,
+          "y": 140,
+          "label": "Company Logo",
+          "width": 180,
+          "height": 110,
+          "bgColor": "#DBEAFE",
+          "src": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAQMAAADCCAYAAABNEqduAAAACXBIWXMAAAsTAAALEwEAmpwYAAAWZklEQVR4nO2dX4gd1R3H97H4B8GErKSQDYEgRV+CFJEUoaH0ISrkpdAIQonxoX0otsWH+qK+iLYPtUQQH0RMyYMPpXkQFCq0IEapUqmkppVFYpKqy2ajdd1uVjf3lO9v5nf2N7Nz750z99y58+f7gclmd2fm3js75zO/8zu/OTPnCCHEOTfHo0AIoQwIIR5GBoQQgTIghAiUASFEoAwIIQJlQAgRKANCiEAZEEIEyoAQIlAGhBCBMiCECJQBIUSgDAghAmVACBEoA0KIQBkQQgTKgBAiUAaEEIEyIIQIlAEhRKAMCCECZUAIESgDQohAGRBCBMqAECJQBoQQgTKIyGAwkK+bbjD097pOV8l/Rvwfx8Mek64fg7ZCGUQEJ7w2hq0mkC6mUXR5yX/OzLHQY0MZNBLKIALbGoDb3HY1zIiiR4scHyMDtxnjiJNpQBlEQE92OdHTZVhXoW/447C5JU3n1mf9tkiKjdIogwhkI4F1d/X8Wbdy+pT79Jmn3PKTT7iVxx7t5YLPjmPwxeun3bWlC5muA2kGlEGEA4jlqgn/IQGc9EtHj7gr18+5/35rzm3ezAXHActnC992/3nklyIFewz1/4ykZg8jgwr4pFj6FZHAh/ceFglAAG7vTvfNvt2yuD3zftGfdXmxnzez7N0px+bidbtEmtJVSLsOZDgxkq5lt6cMAtEEoeQInJMT+9KuRABuYYf/OrjlBkYGaWSkxwWywHGBNK+89HzSpTLHlMwWyiAQDWnx79dn3pArnZzs6YKTHXJApIA+85WTz8mCHMKVUyd7t1z6zW/dx3fdKV0FiRwgy707M0LwiVcyUyiDislC9H3/fdOcNH45yRd2yAl//sEH3PrZ9330oFe+vqGfWfMpaPgQQFGE4IcdyUyhDALRBv7JsYeSEHjPvD+xL504UThsZhtGmXF5/1otrSvIg+MFvnztFYmkcLy064DjhqipaF99lOgsoQwqgCu/vcohIsAQGkQgJzATYxl8A3ebkmO5OJ92GdLEohdCWqvhu2KMFmqFMqgAhsg0KsCyeOgHzq2tbnUJ2P8tjAyS47Lu/veXPycyTWVQlENgVFA/lEEoa6vu0wO3JyfxnnmJCmSoLE2C2Rp8kmCv9NrIL//1j5JzsUOPeSHwGNYLZRDItcXFZCgRJ/DCjuSEXluVkxxXQDvsSBJUBLZICwuEAAFoQlFzL8svPCvbUQYNl8Goq15dBRIxXyd0HxhO1HwBZHD5yD2ZfY56ndBjF5qoG7ffKvuokjAssw/1JboMyCGg26V5BIkQTp3M3umYu+ux7PsK/d0g4vEpyyTJ2WH7KPrdsO0UyiBQBjh50TXQuoKlnxwtdcApg+0jBbaMW+o10irNoYVJPZbBOGYig74zTAakPNqlsnkWHFff/UqjLluHIF0w5mKmCmUwgQxwBaMMwslHB3p1Qg4BXQafVDRCYFJx+lAGgVAGk2MloFd8HT3QLgO6C8gjZLsMTCpOE8ogEHYTpodGCP7mL3TFtkUI2YlSQnM+ZDiUQSCUwfTwUUIuqWhLvm1SkSJooAyakNipksWtAmUwHfxMUSapqKXLw3IIVYUQ4zwZNGAfk5zzRdsxMgiEMpgSaeiv4b/WIeSTitnCpPT2ZxIFyiAQymA6qAAy8yTaCAFdhnS2JFu6vK0wKb3FnIRDGQRCGdRMeuW3dzvqJClFw46cG6E6lMGMZTCqKm7Uz8quX1f146jKtyrvQ7sLvjipoFJRcwjaZbBdjNCqvsGE1Yzj9lGlMrBKVWKZ7YbtgzKoKoO0So5FR/UkFe2wY9HdjjaHMOtkdluhDAKhDGrE1BPYR7UhqailyzZCkBxCug4JhzLouAxsYk6Tcv5269xtxX7m54ZcWbe9dzNNvdztqFOomQlSEDnYBKJux6TieCiDjstABWBv9EFjunZ5WeZhUCGU6Y82ASstGXbUwqSFHRIlnLv7Dvlcdn1SDsqgwzKwDdsn19ZW3blHHnTv7l9wZ269SaZ0//zNt5MNTOKtqdgIBzmCzCSre3cm81GeflnWbYvgei2DNv5x9P22UQZ+olG3KVO541kGcvXcWJH3j4Tc6ntvZboPtb/Hsq9pug369cOfHs/MVI3PqPu2r0FGQxl0XQbmCdF41gMigiSMTsp5IQH0tTGpq84bUGf+LVQGeRHo7FPyN0m7C3hoC0cVwmE3ocNFR5oM1Gw83vvZn/8s/W0yLg8x4KGoEIJGB02+iha9P+Q/dLgRkQE+z7WVZb8+k4floAw6LINMrsA5d/4PL8nzHTKjBulsz/hMmHcQtK3xeBns3bklg6ULGRGS8VAGPZCBjrtDBijOuZpLKF7Yt0/63Hg2JGhb40EUsE0GK8uUQSCUQU+6CTYyyD8zUmcnxsNhWimDId0ERgYVZRBadz3qd2XruavWd4fWXU+ynv1dGRnM4v2PXdLIAMNwHz32q2SfaQCtj4qDDFYeezR4FuK6liL05z4yGCGDWb//QUOXQhmQcrRpNEFIhxQBEoT/vP+eTKYdgsDngQx81NDgBGIR42TQpKrKJkMZdFwGGhlolwBDi7ZxoOYAIsDS1klHKYM4UAYdloGd+EOThWe+e8BdPX/WXzGXjh4REeAz4bPpdm2CMogDZdAnGTgnOQMMIUqksLIsd//pVGKQRMK6axOUQRwog57JADkCLdfFPQny3MiFHdLP9oVILZaBfhbmDCKNJhQx6nehxNxXU2RQ5jMVrROaQS+zXdE+bOb97ZvnJH9w6cQJ/6ASX8+v+feSf6Oi1xn1HmL8LP+7qjIIfZ2yxNxHVaq8B8qgRzLQ79HwUXyEOxbxGfB58L1tOJTBoL8yIN3rJgwDN/ag6lC6BnvmJW+AeoPMzMQtYlhkADi0WB7KoGcykNzBxopMAoLuARbcm6ATnbSxC0cZTEEGbTwRulKOPKoLEXu/GDm8fOQeX1+AMuR8pV7M9zHt84qjCdWxf5fSOQNSjwyG9fMn3a//3m36OQzsvIG6Xv4uvxjnxbTPLcqgOpRBzyMDuY05nRlI6wt0UhMVQn57RgY9kgHpR84ADR45An0qEb7+6xe/9jUGbYwOQyODqiMloTTleHI0YUq0XQY6RRgkgK8rp0+5v//w+/LztsJuQhwYGXR4PgM7X6D+X5KFaaGRTDO+tiqViDo3YtHQ4qyvbJPOZ8C7FstBGXRYBi6XB0DVodQWpDMCQQx6UxJmOdK5DoomN2myEKwMWI5cHcqg4zLQqAAJQqkyROIwrTrEqIJMgQYhrK1KdIB7F0YNMzYRymBGMphW1rvKe6gjuZNfJ4YMYpSplt1eH5+GBCGmENdCI5lOPC000saPKkS5b2FxUbYtU404bDi07GcbNaRadh+zuFFpEFgyHvK72Psf9zoKZdBhGeSfLaB3KOq9CLo/+1BTJBQx50H+GYfj3k/Vz0YZDEod17LHrlYZ9J02dRP8FXEzuTlJugh7d0riEPmDorkBEUEgf/CPB35cWKJsv9+2vY8xkiX/OHV9L7EnXGU3IQ6UQYdlIOChq+fPJo8w37tThAAx6FOWMjcn6QNa3abIQGdLlhqEwNmP7K3Qsql5+GvsiZQogzhQBjXIILRLEKsvqY0OowSQAGoL0FXA04vtsxOShp42eG2oa6vy2WSEYW1V8gjYDt0IRA54MhOecQix6ILv8Ts8+FTyDqkAbISA76XaMZBRn5tDi9VhN6HBMoiZWMoMJy7skMShzGGQPmfRjjQkrEviTaZPP3XSLT18XOSBqAKFSYgUMIEqJk6FFHAsUKOgC0YisB2kgIQeKh0lN7Gxko0SpigDDi2GQRl0ODLIRwXylCQ0kvSmJDRYO8KAhoTkItZDg8doAm5vRsPHQ1d0enU08OSBrVsSyS/2dzpnAo4VHuqKrkr+oS7RZMBpzypDGXS0HNkPo+nU6J+dk6gA3QPNFWjIjynPECWg8eMrrvhowIgkJHGY2kSiho0V6S6gDgFRQ/pi/nX0NZMIQ+dRTG6I0mcyZKZVizzMRxnEgTmDDsnANrar5pkIPoo5ekSGDf928DsSCeCzIDKwV2rt0/tHs+sQo9uU9c/celMSbaRRgr3a+9xD2tjRlchMuGpGJ2JCGcSBMuiIDHRYULsAtvQYi/Tfn3xCwn5tyH5bc4VPZkZe990IWczwIOSB/SBKQH5AIgmzHzsiIaMWt9wgxwldBnld84SnWFAGcaAMOiIDII1sY0XyAvpwFDRGJADRaFUU2xp9GgFk8g36fSoKn2hMIwXkANANQJSBfIKMIEAMGysiHIgAx0mfyXDl5HPZ0YWIUAZxoAwaJINxScOiIh9FHohy4oRcsbXsWKsN0V2w+8k3fl8UlO7PrpcpNjIjAr5Br61KrgFiQG0CuiE62epH37tdpAA5qXgyw5eRoAziQBk0eNqzLdYLr9b4P8J2NEQkApHkQ9IQUYHKAA1SQ/nYV+T8e/WiQZISsxOb7kjVUYQyUAZxoAwaPO2Zx/TDfTSwtiqhNxJ6uPJrg//85J+SpF06pRnmN5z29Ofa0DXxaLshdcwlQBnEgTJoQTlyPluPsBx9dUxXZkcDMGSIEF3nN0TRkEYVuv00rs6ZqCYXvdQBZRAHyqAlMpDk3dqqCAD9clT8aYOz2XuduERu4126sNVA7b0CEd9X5gYl832+GGmaUAZxoAwaJoNMstA0MDRsVAZKMnBjZdsYP5KHmtjE6IHOaTiNvnrhbce5rOC4suqYsBy5OqxAbLgMgL2qQgQ6C5GuY/MAGMqDALTScOl3v0/Wi522n0FDLwNlUB3KoOHdBG3o2jXAPQNIBOZFIMVFi4u+uMjfnmy6BtOgSSIAvGuxOpRBw4uO7FwDKObB7cLyczMBidxktHRBagr0MWm4IQjysLcn9wFOlR4H5gwaJoNMcY9zIgK8po8U0uIdXA0hAo1SkE+wsxf1RQSAkUEcKIOGdhM0MkAhEXIA9v4B3DmIew0QDeC94K7DzD0CDQrh64CjCXGgDJomg1xNAHICKCxClSESiJhnAMVEEAGShnIHISYP6ZkALJRBHCiDpuUM0mpD7Q7oFOZ4HTR+LEgY4uYgjCJMOoNQF6AM4kAZNDCBaCcp9SW+aPAbK9I/1iShnVuQkQGnPZsUyqBhMvD1BbZq0FT45Wcz9t/3ODRgZBAHyqBD8xn0FRYdxYEyCIQyaB6UQRwog0Aog+bBbkIcKINAKIPmQRnEgTIIhDJoHpRBHCiDrj9rsQdQBnGgDAKhDJoHZRAHyqAVE6L2g6qfnzcqVYe3ME8AZdBsGfDBq2FQBhPABGLzYDchDuwmBEIZNA/KIA6UQSCUQfOgDOJAGQRCGTQPyiAOlEEglEHzoAziQBm0TAaZB6+OGI4s+nmZTP2ojP6w1y7zfqYJZVAdjia0WAbvvPOOm5ubcwsLC5ll//797r777nMvvvii++qrr2TdfKM8duyY2717t6xrl0OHDrnHH39c9l20nYL9Fr22XbB/vE6dUAbVoQxaLoMbb7zR3XbbbbLkhYDGiMU2bP2Do5FiHWyHr3Y7fEVDP3z4sLt48aLftkgG+tp5qejrYx91QhlUhzJocTnyBx984GWAK/rTTz8ti73q43dotPlGrTLAgv8jGsCC/eg+tUFj23zIn5cB9jFsqbOrQBnEgTmDlspAG7QFjRVdBb3S6+/zMsD22E9+vwcPHvSywP9HRQZYZxSUQfugDBrSTSibfBslA4Arur3K2/0Nk4Gug8Z+4MAB2RbrIP9QVQb2M00bPlEpDpRBh2Sg2yLMR4PVcF8ZFRnotq+++qrvbiDKsFAG3YYy6FA3QWVSRQa2waOLoXkHHZkoGxnMYniRkUEcKIMOySA/2pBvsONkoA0YowFF6+UTiMOgDNoJZdAhGSAKQOJPhxwxUlA2gThsPR2iLJIBRiHyC3IONhqpA0YGceitDKqGs02RARojGn7R8OC4ocVYMiiqM7CvW4YY3QoOLVaHdQYdkYFtkPp9maKjcTLQ4clxMsB66FLYBYIalo8ogjKYLZTBBDRJBtpg0UCxoCGiAGlUOfK4BCK2KYouQnIGdcPIIA697SZ0JWeABooGa7P+wygjg7xsJhlarAvKIA6UQcvuTShTZzCs6zOq6Ei3Qf5BKxg1AalQBt2GMuiQDCaNDFBwpFEBIoD8OpRBt6EMAumiDNDNQK5BRYAEZH5YElAG3YYyaHnOICRDb29hxlCkZv+xP606hAgwSlC0D8qg21AGLZQBQvhJZVA0DwH2i4hg2KxFKgPNKTQFJhDjQBm0sJugBUdVugk6mYkuqBhEJIBuQr5YqOgWZkQTWD9/E9MsoQziQBm0SAaTzDeI9dCY80tI0VWVORXrgDKIA2XQsshgEhmM2t+odYa9LmXQLSiDGnMGoTMPT2sfZd5jjMZeZh+jXqvs54kZGQwCj2HRelX3Mep9hBJyPimUQSCUQfgJWWYdymAw9LhUEQJlUKcM9sy7zZvnau8mkJKRwdIFiQqARgdkNIwMJpDB4JYbKIOGyODi/Jz7Zt9u+ZuIDC4vJxJIuwpkPJRBBRlcuX7rKrR09AivOjMGUcA2GaQ5AyxXZ/0GWwJlEMj62ffdpV3paMKeeTnx3NrqdP46pBRfn3lDBK0y+PiuOzN9ZpEBewljoQxCWVt1F/btS0YT9szLSfj5m29LKDoqLG3KMFzbkWO7mT2ey08+Ifkb/Xucf/AB+bnIwG36bchoKIMK4GTDFUivRJ8ce0hOOlyBVAoqhqaNybcRewz1uOJYX027CIjO8LdAtAYZfHr65Vm/5VZCGUwQlkIEejW6cuqk/E5VUCQFEoYeMz2O6TforCV5mrVVEbPmcPD3QNSGfAEJhzKowqaTxCFCU1yR8BVXpy9fe2UrJE1DWT2JtfBl3DIJVfdfZruQ91Z2f2Vf00p1q4uwLt0DHdlBtw1/h0+feWqiY9hnKINAtIEjkYgMtpYl4+vF63bJCeo2VvwIA4e1JicjA7furp4/6z770f1blaDp3+Dc3Xckx55RWCUog0D0hMTJeeWl55ORBVyZ0v6qRgmQAiIFDEWiW8FlsmMgQ7qnTkp+BsdcE4aQgHYPVt97S/IIlAFlUAsa7idj1+tu+YVntyIEnJzpCYqrli6QhH7lEn4M9DhCAJqn8RHZwg4vAt8949BBaXhvwqSk/Va9CiECeHf/gj9ZJbOdXrF8GGtOXi4lj4EeN3v8TH4Aovjw3sPu2uJiZsiRkUF5KIMY/dfcqAEy2Ehe4SqFqxhEYBeVA5fqx8BGWsgPJEOI676oSOQccIciycKcQSD58e5MUctmUif/xeunRQxLDx+Xexcw8sBlwmOA4/jwcTmu0iXA8KKOLqR/A96HMBmUQSB2uMv+jFej2ZD/O9ivJAzKoAaaLouqdQSkW1AGNdD0xkMZEEAZEEIEyoAQIlAGhBCBMiCECJQBIUSgDBoCJ0Ehs4DlyA2k6cOPpJtQBoSQbbCbQAgRKANCiEAZEEIEyoAQIlAGhBCBMiCECJQBIT1mYGpbKANCesyAMiCE5GFkQAgRKANCiEAZEEIEyoAQIlAGhBCBMiCECJQBIUSgDAjpMQMWHRFCAGVACBEoA0JIHBmMmsV3mjP81jF78KxmKI4xO3LTZliu8kDXGPvIr28f1V7306YH6T7yS6z9hWwzbD/K/wEUoMv9QkbW7wAAAABJRU5ErkJggg=="
+        },
+        {
+          "id": "18ktfiu",
+          "type": "heading",
+          "x": 65,
+          "y": 290,
+          "content": "{{report_title}}",
+          "fontSize": 30,
+          "bold": true,
+          "italic": false,
+          "underline": false,
+          "color": "#1E293B",
+          "width": 465
+        },
+        {
+          "id": "fhskyao",
+          "type": "text",
+          "x": 100,
+          "y": 346,
+          "content": "Monthly Sensor Performance Report",
+          "fontSize": 14,
+          "bold": false,
+          "italic": true,
+          "underline": false,
+          "color": "#64748B",
+          "width": 395
+        },
+        {
+          "id": "0dkllnc",
+          "type": "divider",
+          "x": 40,
+          "y": 394,
+          "color": "#CBD5E1",
+          "width": 515,
+          "thickness": 1
+        },
+        {
+          "id": "jwxbztb",
+          "type": "text",
+          "x": 100,
+          "y": 414,
+          "content": "Period:        {{report_period}}\nPrepared by:   {{prepared_by}}\nDate:          {{report_date}}",
+          "fontSize": 12,
+          "bold": false,
+          "italic": false,
+          "underline": false,
+          "color": "#374151",
+          "width": 395
+        },
+        {
+          "id": "svbdne4",
+          "type": "divider",
+          "x": 40,
+          "y": 510,
+          "color": "#DBEAFE",
+          "width": 515,
+          "thickness": 1
+        },
+        {
+          "id": "tdq2m99",
+          "type": "text",
+          "x": 100,
+          "y": 526,
+          "content": "This report covers 5 sensor categories with 32 sensors each.\nAll readings are based on the most recent 30-day monitoring window.",
+          "fontSize": 11,
+          "bold": false,
+          "italic": true,
+          "underline": false,
+          "color": "#475569",
+          "width": 395
+        },
+        {
+          "id": "h2txlfm",
+          "type": "divider",
+          "x": 0,
+          "y": 834,
+          "color": "#1E40AF",
+          "width": 595,
+          "thickness": 8
+        },
+        {
+          "id": "sitr7vy",
+          "type": "text",
+          "x": 40,
+          "y": 800,
+          "content": "{{company_name}}",
+          "fontSize": 10,
+          "bold": false,
+          "italic": false,
+          "underline": false,
+          "color": "#64748B",
+          "width": 300
+        }
+      ]
+    },
+    {
+      "id": "sh7ev7x",
+      "bookmark": "Temperature Sensors",
+      "header": {
+        "height": 70,
+        "elements": [
+          {
+            "id": "wov9n60",
+            "type": "image",
+            "x": 475,
+            "y": 18,
+            "label": "Logo",
+            "width": 80,
+            "height": 38,
+            "bgColor": "#DBEAFE",
+            "src": "data:image/png;base64,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"
+          },
+          {
+            "id": "evxtnn6",
+            "type": "heading",
+            "x": 40,
+            "y": 24,
+            "content": "Temperature Sensors",
+            "fontSize": 18,
+            "bold": true,
+            "italic": false,
+            "underline": false,
+            "color": "#DC2626",
+            "width": 420
+          },
+          {
+            "id": "j9lfnkq",
+            "type": "divider",
+            "x": 40,
+            "y": 60,
+            "color": "#DC2626",
+            "width": 515,
+            "thickness": 2
+          }
+        ]
+      },
+      "footer": {
+        "height": 50,
+        "elements": [
+          {
+            "id": "y1e2lpy",
+            "type": "divider",
+            "x": 40,
+            "y": 0,
+            "color": "#CBD5E1",
+            "width": 515,
+            "thickness": 1
+          },
+          {
+            "id": "wb05iqd",
+            "type": "text",
+            "x": 40,
+            "y": 10,
+            "content": "{{report_title}} — {{company_name}} — {{report_period}}",
+            "fontSize": 8,
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "color": "#94A3B8",
+            "width": 460
+          },
+          {
+            "id": "zuqnozs",
+            "type": "text",
+            "x": 525,
+            "y": 10,
+            "content": "{{page_number}}",
+            "fontSize": 8,
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "color": "#64748B",
+            "width": 30
+          }
+        ]
+      },
+      "elements": [
+        {
+          "id": "6sp546o",
+          "type": "text",
+          "x": 40,
+          "y": 4,
+          "content": "Temperature Sensors — 32 sensors monitored over the past 30 days. Unit: °C. Data key: temperature_sensors.",
+          "fontSize": 9,
+          "bold": false,
+          "italic": false,
+          "underline": false,
+          "color": "#94A3B8",
+          "width": 515
+        },
+        {
+          "id": "ondl6iz",
+          "x": 40,
+          "y": 22,
+          "type": "repeater",
+          "label": "Temperature Sensors",
+          "dataKey": "temperature_sensors",
+          "width": 515,
+          "cardWidth": 515,
+          "cardHeight": 290,
+          "itemsPerRow": 1,
+          "gap": 15,
+          "cardElements": [
+            {
+              "id": "j0gxxg0",
+              "x": 10,
+              "y": 10,
+              "type": "heading",
+              "content": "{{sensor_name}}",
+              "fontSize": 12,
+              "bold": true,
+              "italic": false,
+              "underline": false,
+              "color": "#1E40AF",
+              "width": 495
+            },
+            {
+              "id": "ppqdak7",
+              "x": 10,
+              "y": 30,
+              "type": "divider",
+              "color": "#DBEAFE",
+              "width": 495,
+              "thickness": 1
+            },
+            {
+              "id": "pa0rwm6",
+              "x": 10,
+              "y": 38,
+              "type": "chart",
+              "width": 495,
+              "height": 140,
+              "option": {},
+              "seriesDataField": "chartData"
+            },
+            {
+              "id": "qzoval5",
+              "x": 10,
+              "y": 188,
+              "type": "text",
+              "content": "The monthly average value of {{sensor_name}} is {{average_value}}",
+              "fontSize": 10,
+              "bold": false,
+              "italic": false,
+              "underline": false,
+              "color": "#374151",
+              "width": 495
+            },
+            {
+              "id": "p1kesls",
+              "x": 10,
+              "y": 204,
+              "type": "text",
+              "content": "The lowest {{sensor_name}} was on {{date}} with {{lowest_value}}",
+              "fontSize": 10,
+              "bold": false,
+              "italic": false,
+              "underline": false,
+              "color": "#374151",
+              "width": 495
+            },
+            {
+              "id": "cjmbetu",
+              "x": 10,
+              "y": 220,
+              "type": "text",
+              "content": "The highest {{sensor_name}} was on {{date}} with {{highest_value}}",
+              "fontSize": 10,
+              "bold": false,
+              "italic": false,
+              "underline": false,
+              "color": "#374151",
+              "width": 495
+            },
+            {
+              "id": "o63avzl",
+              "x": 10,
+              "y": 236,
+              "type": "text",
+              "content": "{{sensor_name}} {{change_direction}} by {{percentage}} compared to the previous month.",
+              "fontSize": 10,
+              "bold": false,
+              "italic": false,
+              "underline": false,
+              "color": "#374151",
+              "width": 495
+            },
+            {
+              "id": "lk0oev2",
+              "x": 10,
+              "y": 254,
+              "type": "divider",
+              "color": "#E2E8F0",
+              "width": 495,
+              "thickness": 1
+            },
+            {
+              "id": "7oyw21s",
+              "x": 10,
+              "y": 262,
+              "type": "text",
+              "content": "{{status}}",
+              "fontSize": 9,
+              "bold": false,
+              "italic": true,
+              "underline": false,
+              "color": "#64748B",
+              "width": 495
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "wcgldsw",
+      "bookmark": "Humidity Sensors",
+      "header": {
+        "height": 70,
+        "elements": [
+          {
+            "id": "8cgkkq3",
+            "type": "image",
+            "x": 475,
+            "y": 18,
+            "label": "Logo",
+            "width": 80,
+            "height": 38,
+            "bgColor": "#DBEAFE",
+            "src": "data:image/png;base64,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"
+          },
+          {
+            "id": "qkh8l6u",
+            "type": "heading",
+            "x": 40,
+            "y": 24,
+            "content": "Humidity Sensors",
+            "fontSize": 18,
+            "bold": true,
+            "italic": false,
+            "underline": false,
+            "color": "#0891B2",
+            "width": 420
+          },
+          {
+            "id": "vzmu976",
+            "type": "divider",
+            "x": 40,
+            "y": 60,
+            "color": "#0891B2",
+            "width": 515,
+            "thickness": 2
+          }
+        ]
+      },
+      "footer": {
+        "height": 50,
+        "elements": [
+          {
+            "id": "wijkym7",
+            "type": "divider",
+            "x": 40,
+            "y": 0,
+            "color": "#CBD5E1",
+            "width": 515,
+            "thickness": 1
+          },
+          {
+            "id": "c3m4tc0",
+            "type": "text",
+            "x": 40,
+            "y": 10,
+            "content": "{{report_title}} — {{company_name}} — {{report_period}}",
+            "fontSize": 8,
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "color": "#94A3B8",
+            "width": 460
+          },
+          {
+            "id": "dmlo39j",
+            "type": "text",
+            "x": 525,
+            "y": 10,
+            "content": "{{page_number}}",
+            "fontSize": 8,
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "color": "#64748B",
+            "width": 30
+          }
+        ]
+      },
+      "elements": [
+        {
+          "id": "27z0xym",
+          "type": "text",
+          "x": 40,
+          "y": 4,
+          "content": "Humidity Sensors — 32 sensors monitored over the past 30 days. Unit: %RH. Data key: humidity_sensors.",
+          "fontSize": 9,
+          "bold": false,
+          "italic": false,
+          "underline": false,
+          "color": "#94A3B8",
+          "width": 515
+        },
+        {
+          "id": "6wncbvq",
+          "x": 40,
+          "y": 22,
+          "type": "repeater",
+          "label": "Humidity Sensors",
+          "dataKey": "humidity_sensors",
+          "width": 515,
+          "cardWidth": 515,
+          "cardHeight": 290,
+          "itemsPerRow": 1,
+          "gap": 15,
+          "cardElements": [
+            {
+              "id": "s2s5a7c",
+              "x": 10,
+              "y": 10,
+              "type": "heading",
+              "content": "{{sensor_name}}",
+              "fontSize": 12,
+              "bold": true,
+              "italic": false,
+              "underline": false,
+              "color": "#1E40AF",
+              "width": 495
+            },
+            {
+              "id": "s6lxxkp",
+              "x": 10,
+              "y": 30,
+              "type": "divider",
+              "color": "#DBEAFE",
+              "width": 495,
+              "thickness": 1
+            },
+            {
+              "id": "gtnqlqa",
+              "x": 10,
+              "y": 38,
+              "type": "chart",
+              "width": 495,
+              "height": 140,
+              "option": {},
+              "seriesDataField": "chartData"
+            },
+            {
+              "id": "51h0dvk",
+              "x": 10,
+              "y": 188,
+              "type": "text",
+              "content": "The monthly average value of {{sensor_name}} is {{average_value}}",
+              "fontSize": 10,
+              "bold": false,
+              "italic": false,
+              "underline": false,
+              "color": "#374151",
+              "width": 495
+            },
+            {
+              "id": "juu129t",
+              "x": 10,
+              "y": 204,
+              "type": "text",
+              "content": "The lowest {{sensor_name}} was on {{date}} with {{lowest_value}}",
+              "fontSize": 10,
+              "bold": false,
+              "italic": false,
+              "underline": false,
+              "color": "#374151",
+              "width": 495
+            },
+            {
+              "id": "bchxifi",
+              "x": 10,
+              "y": 220,
+              "type": "text",
+              "content": "The highest {{sensor_name}} was on {{date}} with {{highest_value}}",
+              "fontSize": 10,
+              "bold": false,
+              "italic": false,
+              "underline": false,
+              "color": "#374151",
+              "width": 495
+            },
+            {
+              "id": "x46xi5z",
+              "x": 10,
+              "y": 236,
+              "type": "text",
+              "content": "{{sensor_name}} {{change_direction}} by {{percentage}} compared to the previous month.",
+              "fontSize": 10,
+              "bold": false,
+              "italic": false,
+              "underline": false,
+              "color": "#374151",
+              "width": 495
+            },
+            {
+              "id": "myj3zdp",
+              "x": 10,
+              "y": 254,
+              "type": "divider",
+              "color": "#E2E8F0",
+              "width": 495,
+              "thickness": 1
+            },
+            {
+              "id": "jomp6f3",
+              "x": 10,
+              "y": 262,
+              "type": "text",
+              "content": "{{status}}",
+              "fontSize": 9,
+              "bold": false,
+              "italic": true,
+              "underline": false,
+              "color": "#64748B",
+              "width": 495
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fxumhfb",
+      "bookmark": "Pressure Sensors",
+      "header": {
+        "height": 70,
+        "elements": [
+          {
+            "id": "hb11str",
+            "type": "image",
+            "x": 475,
+            "y": 18,
+            "label": "Logo",
+            "width": 80,
+            "height": 38,
+            "bgColor": "#DBEAFE",
+            "src": "data:image/png;base64,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"
+          },
+          {
+            "id": "96fngq0",
+            "type": "heading",
+            "x": 40,
+            "y": 24,
+            "content": "Pressure Sensors",
+            "fontSize": 18,
+            "bold": true,
+            "italic": false,
+            "underline": false,
+            "color": "#7C3AED",
+            "width": 420
+          },
+          {
+            "id": "g0kyv6g",
+            "type": "divider",
+            "x": 40,
+            "y": 60,
+            "color": "#7C3AED",
+            "width": 515,
+            "thickness": 2
+          }
+        ]
+      },
+      "footer": {
+        "height": 50,
+        "elements": [
+          {
+            "id": "p9jg03v",
+            "type": "divider",
+            "x": 40,
+            "y": 0,
+            "color": "#CBD5E1",
+            "width": 515,
+            "thickness": 1
+          },
+          {
+            "id": "rd12na6",
+            "type": "text",
+            "x": 40,
+            "y": 10,
+            "content": "{{report_title}} — {{company_name}} — {{report_period}}",
+            "fontSize": 8,
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "color": "#94A3B8",
+            "width": 460
+          },
+          {
+            "id": "cijflkx",
+            "type": "text",
+            "x": 525,
+            "y": 10,
+            "content": "{{page_number}}",
+            "fontSize": 8,
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "color": "#64748B",
+            "width": 30
+          }
+        ]
+      },
+      "elements": [
+        {
+          "id": "g07ongo",
+          "type": "text",
+          "x": 40,
+          "y": 4,
+          "content": "Pressure Sensors — 32 sensors monitored over the past 30 days. Unit: hPa. Data key: pressure_sensors.",
+          "fontSize": 9,
+          "bold": false,
+          "italic": false,
+          "underline": false,
+          "color": "#94A3B8",
+          "width": 515
+        },
+        {
+          "id": "mhucb9s",
+          "x": 40,
+          "y": 22,
+          "type": "repeater",
+          "label": "Pressure Sensors",
+          "dataKey": "pressure_sensors",
+          "width": 515,
+          "cardWidth": 515,
+          "cardHeight": 290,
+          "itemsPerRow": 1,
+          "gap": 15,
+          "cardElements": [
+            {
+              "id": "myqobxb",
+              "x": 10,
+              "y": 10,
+              "type": "heading",
+              "content": "{{sensor_name}}",
+              "fontSize": 12,
+              "bold": true,
+              "italic": false,
+              "underline": false,
+              "color": "#1E40AF",
+              "width": 495
+            },
+            {
+              "id": "6rb3uzr",
+              "x": 10,
+              "y": 30,
+              "type": "divider",
+              "color": "#DBEAFE",
+              "width": 495,
+              "thickness": 1
+            },
+            {
+              "id": "00s99g7",
+              "x": 10,
+              "y": 38,
+              "type": "chart",
+              "width": 495,
+              "height": 140,
+              "option": {},
+              "seriesDataField": "chartData"
+            },
+            {
+              "id": "162cbxz",
+              "x": 10,
+              "y": 188,
+              "type": "text",
+              "content": "The monthly average value of {{sensor_name}} is {{average_value}}",
+              "fontSize": 10,
+              "bold": false,
+              "italic": false,
+              "underline": false,
+              "color": "#374151",
+              "width": 495
+            },
+            {
+              "id": "d2yh2u8",
+              "x": 10,
+              "y": 204,
+              "type": "text",
+              "content": "The lowest {{sensor_name}} was on {{date}} with {{lowest_value}}",
+              "fontSize": 10,
+              "bold": false,
+              "italic": false,
+              "underline": false,
+              "color": "#374151",
+              "width": 495
+            },
+            {
+              "id": "f7egzxa",
+              "x": 10,
+              "y": 220,
+              "type": "text",
+              "content": "The highest {{sensor_name}} was on {{date}} with {{highest_value}}",
+              "fontSize": 10,
+              "bold": false,
+              "italic": false,
+              "underline": false,
+              "color": "#374151",
+              "width": 495
+            },
+            {
+              "id": "fda6mdh",
+              "x": 10,
+              "y": 236,
+              "type": "text",
+              "content": "{{sensor_name}} {{change_direction}} by {{percentage}} compared to the previous month.",
+              "fontSize": 10,
+              "bold": false,
+              "italic": false,
+              "underline": false,
+              "color": "#374151",
+              "width": 495
+            },
+            {
+              "id": "dicml76",
+              "x": 10,
+              "y": 254,
+              "type": "divider",
+              "color": "#E2E8F0",
+              "width": 495,
+              "thickness": 1
+            },
+            {
+              "id": "h9x86bv",
+              "x": 10,
+              "y": 262,
+              "type": "text",
+              "content": "{{status}}",
+              "fontSize": 9,
+              "bold": false,
+              "italic": true,
+              "underline": false,
+              "color": "#64748B",
+              "width": 495
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "h7ohvok",
+      "bookmark": "CO₂ Sensors",
+      "header": {
+        "height": 70,
+        "elements": [
+          {
+            "id": "2jan9id",
+            "type": "image",
+            "x": 475,
+            "y": 18,
+            "label": "Logo",
+            "width": 80,
+            "height": 38,
+            "bgColor": "#DBEAFE",
+            "src": "data:image/png;base64,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"
+          },
+          {
+            "id": "6p2afbq",
+            "type": "heading",
+            "x": 40,
+            "y": 24,
+            "content": "CO₂ Sensors",
+            "fontSize": 18,
+            "bold": true,
+            "italic": false,
+            "underline": false,
+            "color": "#16A34A",
+            "width": 420
+          },
+          {
+            "id": "23235k5",
+            "type": "divider",
+            "x": 40,
+            "y": 60,
+            "color": "#16A34A",
+            "width": 515,
+            "thickness": 2
+          }
+        ]
+      },
+      "footer": {
+        "height": 50,
+        "elements": [
+          {
+            "id": "a6d5occ",
+            "type": "divider",
+            "x": 40,
+            "y": 0,
+            "color": "#CBD5E1",
+            "width": 515,
+            "thickness": 1
+          },
+          {
+            "id": "qwj6d1d",
+            "type": "text",
+            "x": 40,
+            "y": 10,
+            "content": "{{report_title}} — {{company_name}} — {{report_period}}",
+            "fontSize": 8,
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "color": "#94A3B8",
+            "width": 460
+          },
+          {
+            "id": "xcml0ev",
+            "type": "text",
+            "x": 525,
+            "y": 10,
+            "content": "{{page_number}}",
+            "fontSize": 8,
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "color": "#64748B",
+            "width": 30
+          }
+        ]
+      },
+      "elements": [
+        {
+          "id": "db7vp4g",
+          "type": "text",
+          "x": 40,
+          "y": 4,
+          "content": "CO₂ Sensors — 32 sensors monitored over the past 30 days. Unit: ppm. Data key: co2_sensors.",
+          "fontSize": 9,
+          "bold": false,
+          "italic": false,
+          "underline": false,
+          "color": "#94A3B8",
+          "width": 515
+        },
+        {
+          "id": "e50aedq",
+          "x": 40,
+          "y": 22,
+          "type": "repeater",
+          "label": "CO₂ Sensors",
+          "dataKey": "co2_sensors",
+          "width": 515,
+          "cardWidth": 515,
+          "cardHeight": 290,
+          "itemsPerRow": 1,
+          "gap": 15,
+          "cardElements": [
+            {
+              "id": "g8h276f",
+              "x": 10,
+              "y": 10,
+              "type": "heading",
+              "content": "{{sensor_name}}",
+              "fontSize": 12,
+              "bold": true,
+              "italic": false,
+              "underline": false,
+              "color": "#1E40AF",
+              "width": 495
+            },
+            {
+              "id": "6nzgfqc",
+              "x": 10,
+              "y": 30,
+              "type": "divider",
+              "color": "#DBEAFE",
+              "width": 495,
+              "thickness": 1
+            },
+            {
+              "id": "mny3399",
+              "x": 10,
+              "y": 38,
+              "type": "chart",
+              "width": 495,
+              "height": 140,
+              "option": {},
+              "seriesDataField": "chartData"
+            },
+            {
+              "id": "qvms96m",
+              "x": 10,
+              "y": 188,
+              "type": "text",
+              "content": "The monthly average value of {{sensor_name}} is {{average_value}}",
+              "fontSize": 10,
+              "bold": false,
+              "italic": false,
+              "underline": false,
+              "color": "#374151",
+              "width": 495
+            },
+            {
+              "id": "1gcmqlb",
+              "x": 10,
+              "y": 204,
+              "type": "text",
+              "content": "The lowest {{sensor_name}} was on {{date}} with {{lowest_value}}",
+              "fontSize": 10,
+              "bold": false,
+              "italic": false,
+              "underline": false,
+              "color": "#374151",
+              "width": 495
+            },
+            {
+              "id": "sv39rg8",
+              "x": 10,
+              "y": 220,
+              "type": "text",
+              "content": "The highest {{sensor_name}} was on {{date}} with {{highest_value}}",
+              "fontSize": 10,
+              "bold": false,
+              "italic": false,
+              "underline": false,
+              "color": "#374151",
+              "width": 495
+            },
+            {
+              "id": "hi7b4r6",
+              "x": 10,
+              "y": 236,
+              "type": "text",
+              "content": "{{sensor_name}} {{change_direction}} by {{percentage}} compared to the previous month.",
+              "fontSize": 10,
+              "bold": false,
+              "italic": false,
+              "underline": false,
+              "color": "#374151",
+              "width": 495
+            },
+            {
+              "id": "gfsvep9",
+              "x": 10,
+              "y": 254,
+              "type": "divider",
+              "color": "#E2E8F0",
+              "width": 495,
+              "thickness": 1
+            },
+            {
+              "id": "9d1rj5f",
+              "x": 10,
+              "y": 262,
+              "type": "text",
+              "content": "{{status}}",
+              "fontSize": 9,
+              "bold": false,
+              "italic": true,
+              "underline": false,
+              "color": "#64748B",
+              "width": 495
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "07m2kla",
+      "bookmark": "Motion Sensors",
+      "header": {
+        "height": 70,
+        "elements": [
+          {
+            "id": "6h2k66s",
+            "type": "image",
+            "x": 475,
+            "y": 18,
+            "label": "Logo",
+            "width": 80,
+            "height": 38,
+            "bgColor": "#DBEAFE",
+            "src": "data:image/png;base64,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"
+          },
+          {
+            "id": "m5w7fzw",
+            "type": "heading",
+            "x": 40,
+            "y": 24,
+            "content": "Motion Sensors",
+            "fontSize": 18,
+            "bold": true,
+            "italic": false,
+            "underline": false,
+            "color": "#D97706",
+            "width": 420
+          },
+          {
+            "id": "ztxezgr",
+            "type": "divider",
+            "x": 40,
+            "y": 60,
+            "color": "#D97706",
+            "width": 515,
+            "thickness": 2
+          }
+        ]
+      },
+      "footer": {
+        "height": 50,
+        "elements": [
+          {
+            "id": "05nbqdd",
+            "type": "divider",
+            "x": 40,
+            "y": 0,
+            "color": "#CBD5E1",
+            "width": 515,
+            "thickness": 1
+          },
+          {
+            "id": "ee7rlzd",
+            "type": "text",
+            "x": 40,
+            "y": 10,
+            "content": "{{report_title}} — {{company_name}} — {{report_period}}",
+            "fontSize": 8,
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "color": "#94A3B8",
+            "width": 460
+          },
+          {
+            "id": "szzkyk0",
+            "type": "text",
+            "x": 525,
+            "y": 10,
+            "content": "{{page_number}}",
+            "fontSize": 8,
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "color": "#64748B",
+            "width": 30
+          }
+        ]
+      },
+      "elements": [
+        {
+          "id": "m642v7i",
+          "type": "text",
+          "x": 40,
+          "y": 4,
+          "content": "Motion Sensors — 32 sensors monitored over the past 30 days. Unit: events. Data key: motion_sensors.",
+          "fontSize": 9,
+          "bold": false,
+          "italic": false,
+          "underline": false,
+          "color": "#94A3B8",
+          "width": 515
+        },
+        {
+          "id": "8na73j9",
+          "x": 40,
+          "y": 22,
+          "type": "repeater",
+          "label": "Motion Sensors",
+          "dataKey": "motion_sensors",
+          "width": 515,
+          "cardWidth": 515,
+          "cardHeight": 290,
+          "itemsPerRow": 1,
+          "gap": 15,
+          "cardElements": [
+            {
+              "id": "9j7luxe",
+              "x": 10,
+              "y": 10,
+              "type": "heading",
+              "content": "{{sensor_name}}",
+              "fontSize": 12,
+              "bold": true,
+              "italic": false,
+              "underline": false,
+              "color": "#1E40AF",
+              "width": 495
+            },
+            {
+              "id": "cyaxmww",
+              "x": 10,
+              "y": 30,
+              "type": "divider",
+              "color": "#DBEAFE",
+              "width": 495,
+              "thickness": 1
+            },
+            {
+              "id": "daftedn",
+              "x": 10,
+              "y": 38,
+              "type": "chart",
+              "width": 495,
+              "height": 140,
+              "option": {},
+              "seriesDataField": "chartData"
+            },
+            {
+              "id": "mi0eqrs",
+              "x": 10,
+              "y": 188,
+              "type": "text",
+              "content": "The monthly average value of {{sensor_name}} is {{average_value}}",
+              "fontSize": 10,
+              "bold": false,
+              "italic": false,
+              "underline": false,
+              "color": "#374151",
+              "width": 495
+            },
+            {
+              "id": "eqr54vq",
+              "x": 10,
+              "y": 204,
+              "type": "text",
+              "content": "The lowest {{sensor_name}} was on {{date}} with {{lowest_value}}",
+              "fontSize": 10,
+              "bold": false,
+              "italic": false,
+              "underline": false,
+              "color": "#374151",
+              "width": 495
+            },
+            {
+              "id": "ovgb03r",
+              "x": 10,
+              "y": 220,
+              "type": "text",
+              "content": "The highest {{sensor_name}} was on {{date}} with {{highest_value}}",
+              "fontSize": 10,
+              "bold": false,
+              "italic": false,
+              "underline": false,
+              "color": "#374151",
+              "width": 495
+            },
+            {
+              "id": "6gratko",
+              "x": 10,
+              "y": 236,
+              "type": "text",
+              "content": "{{sensor_name}} {{change_direction}} by {{percentage}} compared to the previous month.",
+              "fontSize": 10,
+              "bold": false,
+              "italic": false,
+              "underline": false,
+              "color": "#374151",
+              "width": 495
+            },
+            {
+              "id": "4gxmy04",
+              "x": 10,
+              "y": 254,
+              "type": "divider",
+              "color": "#E2E8F0",
+              "width": 495,
+              "thickness": 1
+            },
+            {
+              "id": "fhkrwc1",
+              "x": 10,
+              "y": 262,
+              "type": "text",
+              "content": "{{status}}",
+              "fontSize": 9,
+              "bold": false,
+              "italic": true,
+              "underline": false,
+              "color": "#64748B",
+              "width": 495
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

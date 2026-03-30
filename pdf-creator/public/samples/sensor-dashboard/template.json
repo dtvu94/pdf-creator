@@ -1,0 +1,481 @@
+{
+  "name": "IoT Sensor Dashboard",
+  "pageSize": "A4",
+  "fonts": [
+    {
+      "family": "Open Sans",
+      "faces": [
+        {
+          "weight": "normal",
+          "style": "normal",
+          "source": "bundled",
+          "ref": "OpenSans-Regular.ttf"
+        },
+        {
+          "weight": "bold",
+          "style": "normal",
+          "source": "bundled",
+          "ref": "OpenSans-Bold.ttf"
+        },
+        {
+          "weight": "normal",
+          "style": "italic",
+          "source": "bundled",
+          "ref": "OpenSans-Italic.ttf"
+        },
+        {
+          "weight": "bold",
+          "style": "italic",
+          "source": "bundled",
+          "ref": "OpenSans-BoldItalic.ttf"
+        }
+      ]
+    },
+    {
+      "family": "Roboto",
+      "faces": [
+        {
+          "weight": "normal",
+          "style": "normal",
+          "source": "bundled",
+          "ref": "Roboto-Regular.ttf"
+        },
+        {
+          "weight": "bold",
+          "style": "normal",
+          "source": "bundled",
+          "ref": "Roboto-Bold.ttf"
+        },
+        {
+          "weight": "normal",
+          "style": "italic",
+          "source": "bundled",
+          "ref": "Roboto-Italic.ttf"
+        },
+        {
+          "weight": "bold",
+          "style": "italic",
+          "source": "bundled",
+          "ref": "Roboto-BoldItalic.ttf"
+        }
+      ]
+    },
+    {
+      "family": "Calibri",
+      "faces": [
+        {
+          "weight": "normal",
+          "style": "normal",
+          "source": "bundled",
+          "ref": "Calibri-Regular.ttf"
+        },
+        {
+          "weight": "bold",
+          "style": "normal",
+          "source": "bundled",
+          "ref": "Calibri-Bold.ttf"
+        },
+        {
+          "weight": "normal",
+          "style": "italic",
+          "source": "bundled",
+          "ref": "Calibri-Italic.ttf"
+        },
+        {
+          "weight": "bold",
+          "style": "italic",
+          "source": "bundled",
+          "ref": "Calibri-BoldItalic.ttf"
+        }
+      ]
+    },
+    {
+      "family": "Lato",
+      "faces": [
+        {
+          "weight": "normal",
+          "style": "normal",
+          "source": "bundled",
+          "ref": "Lato-Regular.ttf"
+        },
+        {
+          "weight": "bold",
+          "style": "normal",
+          "source": "bundled",
+          "ref": "Lato-Bold.ttf"
+        },
+        {
+          "weight": "normal",
+          "style": "italic",
+          "source": "bundled",
+          "ref": "Lato-Italic.ttf"
+        },
+        {
+          "weight": "bold",
+          "style": "italic",
+          "source": "bundled",
+          "ref": "Lato-BoldItalic.ttf"
+        }
+      ]
+    },
+    {
+      "family": "Inter",
+      "faces": [
+        {
+          "weight": "normal",
+          "style": "normal",
+          "source": "bundled",
+          "ref": "Inter-Regular.ttf"
+        },
+        {
+          "weight": "bold",
+          "style": "normal",
+          "source": "bundled",
+          "ref": "Inter-Bold.ttf"
+        },
+        {
+          "weight": "normal",
+          "style": "italic",
+          "source": "bundled",
+          "ref": "Inter-Italic.ttf"
+        },
+        {
+          "weight": "bold",
+          "style": "italic",
+          "source": "bundled",
+          "ref": "Inter-BoldItalic.ttf"
+        }
+      ]
+    },
+    {
+      "family": "Verdana",
+      "faces": [
+        {
+          "weight": "normal",
+          "style": "normal",
+          "source": "bundled",
+          "ref": "Verdana-Regular.ttf"
+        },
+        {
+          "weight": "bold",
+          "style": "normal",
+          "source": "bundled",
+          "ref": "Verdana-Bold.ttf"
+        },
+        {
+          "weight": "normal",
+          "style": "italic",
+          "source": "bundled",
+          "ref": "Verdana-Italic.ttf"
+        },
+        {
+          "weight": "bold",
+          "style": "italic",
+          "source": "bundled",
+          "ref": "Verdana-BoldItalic.ttf"
+        }
+      ]
+    },
+    {
+      "family": "Arial",
+      "faces": [
+        {
+          "weight": "normal",
+          "style": "normal",
+          "source": "bundled",
+          "ref": "Calibri-Regular.ttf"
+        },
+        {
+          "weight": "bold",
+          "style": "normal",
+          "source": "bundled",
+          "ref": "Calibri-Bold.ttf"
+        },
+        {
+          "weight": "normal",
+          "style": "italic",
+          "source": "bundled",
+          "ref": "Calibri-Italic.ttf"
+        },
+        {
+          "weight": "bold",
+          "style": "italic",
+          "source": "bundled",
+          "ref": "Calibri-BoldItalic.ttf"
+        }
+      ]
+    }
+  ],
+  "pages": [
+    {
+      "id": "2wa6wk0",
+      "header": {
+        "height": 80,
+        "elements": [
+          {
+            "id": "hpqzc2w",
+            "type": "heading",
+            "x": 40,
+            "y": 16,
+            "content": "IoT Sensor Dashboard",
+            "fontSize": 22,
+            "bold": true,
+            "italic": false,
+            "underline": false,
+            "color": "#0C4A6E",
+            "width": 420
+          },
+          {
+            "id": "asp5lng",
+            "type": "text",
+            "x": 40,
+            "y": 50,
+            "content": "Station: {{station_name}}  ·  Location: {{location}}  ·  {{date}}",
+            "fontSize": 10,
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "color": "#64748B",
+            "width": 515
+          },
+          {
+            "id": "s7yr8xs",
+            "type": "divider",
+            "x": 40,
+            "y": 70,
+            "color": "#0EA5E9",
+            "width": 515,
+            "thickness": 2
+          }
+        ]
+      },
+      "footer": {
+        "height": 50,
+        "elements": [
+          {
+            "id": "onxu0bm",
+            "type": "divider",
+            "x": 40,
+            "y": 0,
+            "color": "#E2E8F0",
+            "width": 515,
+            "thickness": 1
+          },
+          {
+            "id": "33riuwf",
+            "type": "text",
+            "x": 40,
+            "y": 12,
+            "content": "Last Updated: {{last_updated}}  ·  Alert Level: {{alert_level}}  ·  Operator: {{operator}}",
+            "fontSize": 9,
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "color": "#94A3B8",
+            "width": 515
+          }
+        ]
+      },
+      "elements": [
+        {
+          "id": "3jzrtf3",
+          "type": "card",
+          "x": 40,
+          "y": 0,
+          "width": 250,
+          "height": 105,
+          "title": "Temperature",
+          "value": "23.5",
+          "unit": "°C",
+          "subtitle": "Status: {{temp_status}}  ·  Threshold: {{temp_threshold}}",
+          "accentColor": "#EF4444",
+          "bgColor": "#FFFFFF",
+          "borderColor": "#FEE2E2"
+        },
+        {
+          "id": "0hs502j",
+          "type": "card",
+          "x": 305,
+          "y": 0,
+          "width": 250,
+          "height": 105,
+          "title": "Humidity",
+          "value": "67.2",
+          "unit": "%",
+          "subtitle": "Status: {{humidity_status}}  ·  Range: 40–70 %",
+          "accentColor": "#3B82F6",
+          "bgColor": "#FFFFFF",
+          "borderColor": "#DBEAFE"
+        },
+        {
+          "id": "lekd25r",
+          "type": "card",
+          "x": 40,
+          "y": 115,
+          "width": 250,
+          "height": 105,
+          "title": "Atmospheric Pressure",
+          "value": "1013",
+          "unit": "hPa",
+          "subtitle": "Status: {{pressure_status}}  ·  Trend: Stable",
+          "accentColor": "#8B5CF6",
+          "bgColor": "#FFFFFF",
+          "borderColor": "#EDE9FE"
+        },
+        {
+          "id": "fm1xk71",
+          "type": "card",
+          "x": 305,
+          "y": 115,
+          "width": 250,
+          "height": 105,
+          "title": "CO₂ Concentration",
+          "value": "412",
+          "unit": "ppm",
+          "subtitle": "Status: {{co2_status}}  ·  Outdoor avg: 415 ppm",
+          "accentColor": "#10B981",
+          "bgColor": "#FFFFFF",
+          "borderColor": "#D1FAE5"
+        },
+        {
+          "id": "ad6gmw5",
+          "type": "card",
+          "x": 40,
+          "y": 230,
+          "width": 250,
+          "height": 105,
+          "title": "Power Consumption",
+          "value": "2.4",
+          "unit": "kW",
+          "subtitle": "Status: {{power_status}}  ·  Peak: {{power_peak}}",
+          "accentColor": "#F59E0B",
+          "bgColor": "#FFFFFF",
+          "borderColor": "#FEF3C7"
+        },
+        {
+          "id": "r9b4sdq",
+          "type": "card",
+          "x": 305,
+          "y": 230,
+          "width": 250,
+          "height": 105,
+          "title": "Wind Speed",
+          "value": "12.3",
+          "unit": "m/s",
+          "subtitle": "Status: {{wind_status}}  ·  Direction: {{wind_dir}}",
+          "accentColor": "#06B6D4",
+          "bgColor": "#FFFFFF",
+          "borderColor": "#CFFAFE"
+        },
+        {
+          "id": "cv22115",
+          "type": "card",
+          "x": 40,
+          "y": 345,
+          "width": 250,
+          "height": 105,
+          "title": "UV Index",
+          "value": "3.2",
+          "unit": "UVI",
+          "subtitle": "Level: Low-Medium  ·  Peak hour: {{uv_peak_hour}}",
+          "accentColor": "#F97316",
+          "bgColor": "#FFFFFF",
+          "borderColor": "#FFEDD5"
+        },
+        {
+          "id": "dlyy773",
+          "type": "card",
+          "x": 305,
+          "y": 345,
+          "width": 250,
+          "height": 105,
+          "title": "Soil Moisture",
+          "value": "54",
+          "unit": "%",
+          "subtitle": "Status: {{moisture_status}}  ·  Field capacity: 60 %",
+          "accentColor": "#84CC16",
+          "bgColor": "#FFFFFF",
+          "borderColor": "#ECFCCB"
+        },
+        {
+          "id": "012it6m",
+          "type": "divider",
+          "x": 40,
+          "y": 462,
+          "color": "#E2E8F0",
+          "width": 515,
+          "thickness": 1
+        },
+        {
+          "id": "bk3uoay",
+          "type": "heading",
+          "x": 40,
+          "y": 474,
+          "content": "Alert Summary",
+          "fontSize": 12,
+          "bold": true,
+          "italic": false,
+          "underline": false,
+          "color": "#0C4A6E",
+          "width": 300
+        },
+        {
+          "id": "tn7bv1o",
+          "type": "text",
+          "x": 40,
+          "y": 496,
+          "content": "{{alert_summary}}",
+          "fontSize": 10,
+          "bold": false,
+          "italic": false,
+          "underline": false,
+          "color": "#374151",
+          "width": 515
+        },
+        {
+          "id": "rgnrelb",
+          "type": "text",
+          "x": 40,
+          "y": 550,
+          "content": "CO",
+          "fontSize": 8,
+          "bold": false,
+          "italic": false,
+          "underline": false,
+          "color": "#94A3B8",
+          "width": 15
+        },
+        {
+          "id": "kvtlgow",
+          "type": "text",
+          "x": 52,
+          "y": 550,
+          "content": "2",
+          "fontSize": 8,
+          "bold": false,
+          "italic": false,
+          "underline": false,
+          "color": "#94A3B8",
+          "width": 10,
+          "subscript": true
+        },
+        {
+          "id": "0wiie2c",
+          "type": "text",
+          "x": 59,
+          "y": 550,
+          "content": "measured as per ISO 16000-26 standard.",
+          "fontSize": 8,
+          "bold": false,
+          "italic": false,
+          "underline": false,
+          "color": "#94A3B8",
+          "width": 250
+        }
+      ]
+    }
+  ],
+  "styles": {
+    "primaryColor": "#0EA5E9"
+  }
+}

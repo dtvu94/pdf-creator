@@ -1,0 +1,12 @@
+{
+  "full_name": "Sarah Chen",
+  "email": "sarah.chen@email.com",
+  "phone": "+1 (555) 234-5678",
+  "location": "San Francisco, CA",
+  "date": "April 4, 2026",
+  "recipient_name": "James Rodriguez",
+  "recipient_title": "VP of Engineering",
+  "company_name": "InnovateTech Solutions",
+  "company_address": "456 Market Street, Suite 800, San Francisco, CA 94105",
+  "body": "I am writing to express my strong interest in the Lead Software Engineer position at InnovateTech Solutions. With over 8 years of experience in full-stack development and a proven track record of leading high-performing engineering teams, I am confident I would be a valuable addition to your organisation.\n\nIn my current role at TechCorp Inc., I successfully led the migration of a monolithic architecture to microservices, reducing deployment times by 75% and improving system reliability to 99.97% uptime. I also designed a real-time notification system serving 500,000 daily active users, demonstrating my ability to architect solutions at scale.\n\nWhat excites me most about InnovateTech is your commitment to using technology to solve meaningful problems. Your recent work on the open-source data platform aligns perfectly with my passion for building tools that empower developers and improve workflows.\n\nI would welcome the opportunity to discuss how my experience in distributed systems, team leadership, and agile delivery can contribute to InnovateTech's continued growth. I am available for an interview at your earliest convenience."
+}

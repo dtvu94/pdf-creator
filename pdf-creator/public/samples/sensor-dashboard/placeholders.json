@@ -1,0 +1,29 @@
+{
+  "station_name": "Station Alpha-7",
+  "location": "Building 3, Floor 2",
+  "date": "March 31, 2026",
+  "last_updated": "2026-03-31 14:22:05 UTC",
+  "alert_level": "Normal",
+  "operator": "Jane Smith",
+
+  "temp_status": "Normal",
+  "temp_threshold": "30 °C",
+
+  "humidity_status": "Optimal",
+
+  "pressure_status": "Stable",
+
+  "co2_status": "Good",
+
+  "power_status": "Active",
+  "power_peak": "3.1 kW at 09:45",
+
+  "wind_status": "Moderate",
+  "wind_dir": "NNW",
+
+  "uv_peak_hour": "12:30",
+
+  "moisture_status": "Adequate",
+
+  "alert_summary": "No active alerts. All sensors are within normal operating thresholds. Last anomaly detected: 2026-03-29 08:14 UTC — brief humidity spike to 82 % (auto-resolved)."
+}

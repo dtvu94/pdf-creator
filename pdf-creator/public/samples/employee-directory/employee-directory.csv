@@ -1,0 +1,300 @@
+Name,Department,Role,Email,Status
+Alice Johnson,Engineering,Senior Engineer,alice@company.com,Active
+Bob Smith,Marketing,Marketing Manager,bob@company.com,Active
+Carol Davis,HR,HR Specialist,carol@company.com,Active
+David Wilson,Engineering,Junior Developer,david@company.com,Active
+Eva Martinez,Finance,Financial Analyst,eva@company.com,On Leave
+Frank Lee,Engineering,DevOps Engineer,frank@company.com,Active
+Grace Kim,Marketing,Content Specialist,grace@company.com,Active
+Henry Brown,HR,Recruiter,henry@company.com,Active
+Iris Chen,Finance,Senior Accountant,iris@company.com,Active
+James Taylor,Engineering,QA Engineer,james@company.com,Active
+Karen White,Sales,Sales Representative,karen@company.com,Active
+Liam Harris,Engineering,Backend Developer,liam@company.com,Active
+Mia Clark,Design,UX Designer,mia@company.com,Active
+Noah Lewis,Marketing,SEO Specialist,noah@company.com,Active
+Olivia Walker,Finance,Budget Analyst,olivia@company.com,Active
+Paul Hall,Engineering,Frontend Developer,paul@company.com,Active
+Quinn Allen,HR,Training Coordinator,quinn@company.com,On Leave
+Rachel Young,Sales,Account Executive,rachel@company.com,Active
+Samuel Hernandez,Engineering,Systems Architect,samuel@company.com,Active
+Tina King,Legal,Legal Counsel,tina@company.com,Active
+Uma Scott,Design,Graphic Designer,uma@company.com,Active
+Victor Green,Finance,Controller,victor@company.com,Active
+Wendy Baker,Marketing,Brand Manager,wendy@company.com,Active
+Xavier Adams,Engineering,Machine Learning Engineer,xavier@company.com,Active
+Yara Nelson,HR,HR Manager,yara@company.com,Active
+Zachary Carter,Sales,Sales Manager,zachary@company.com,Active
+Abigail Mitchell,Engineering,Data Engineer,abigail@company.com,Active
+Benjamin Perez,Finance,Tax Specialist,benjamin@company.com,On Leave
+Charlotte Roberts,Marketing,Social Media Manager,charlotte@company.com,Active
+Daniel Turner,Engineering,Cloud Engineer,daniel@company.com,Active
+Eleanor Phillips,Legal,Compliance Officer,eleanor@company.com,Active
+Felix Campbell,Design,Product Designer,felix@company.com,Active
+Gabriella Parker,HR,Benefits Coordinator,gabriella@company.com,Active
+Harrison Evans,Engineering,Security Engineer,harrison@company.com,Active
+Isabella Edwards,Sales,Business Development Rep,isabella@company.com,Active
+Jackson Collins,Finance,Financial Controller,jackson@company.com,Active
+Katherine Stewart,Marketing,Marketing Analyst,katherine@company.com,On Leave
+Leonard Sanchez,Engineering,Platform Engineer,leonard@company.com,Active
+Madison Morris,Design,Visual Designer,madison@company.com,Active
+Nathan Rogers,Sales,Regional Sales Director,nathan@company.com,Active
+Natalie Reed,HR,People Operations Manager,natalie@company.com,Active
+Oscar Cook,Engineering,Embedded Systems Engineer,oscar@company.com,Active
+Penelope Morgan,Finance,Investment Analyst,penelope@company.com,Active
+Quentin Bell,Marketing,Growth Hacker,quentin@company.com,Active
+Rebecca Murphy,Legal,Patent Attorney,rebecca@company.com,Active
+Sebastian Bailey,Engineering,Full Stack Developer,sebastian@company.com,Active
+Stephanie Rivera,Design,Motion Designer,stephanie@company.com,On Leave
+Theodore Cooper,Finance,Risk Analyst,theodore@company.com,Active
+Ursula Richardson,HR,Talent Acquisition Lead,ursula@company.com,Active
+Vincent Cox,Sales,Enterprise Account Manager,vincent@company.com,Active
+Wanda Howard,Engineering,Infrastructure Engineer,wanda@company.com,Active
+Xander Ward,Marketing,Email Marketing Specialist,xander@company.com,Active
+Yvonne Torres,Finance,Payroll Manager,yvonne@company.com,Active
+Zoe Peterson,Design,UI Designer,zoe@company.com,Active
+Aaron Gray,Engineering,Site Reliability Engineer,aaron@company.com,Active
+Bella Ramirez,HR,Employee Relations Specialist,bella@company.com,Active
+Carlos James,Sales,Sales Engineer,carlos@company.com,On Leave
+Diana Watson,Finance,Treasury Analyst,diana@company.com,Active
+Ethan Brooks,Engineering,Mobile Developer,ethan@company.com,Active
+Fiona Kelly,Marketing,Content Strategist,fiona@company.com,Active
+George Sanders,Legal,Employment Attorney,george@company.com,Active
+Hannah Price,Design,Design Lead,hannah@company.com,Active
+Ian Bennett,Engineering,API Developer,ian@company.com,Active
+Julia Wood,Finance,Audit Manager,julia@company.com,Active
+Kevin Barnes,HR,Organizational Development Specialist,kevin@company.com,Active
+Laura Ross,Marketing,Product Marketing Manager,laura@company.com,On Leave
+Marcus Henderson,Engineering,Data Scientist,marcus@company.com,Active
+Naomi Coleman,Sales,Inside Sales Representative,naomi@company.com,Active
+Oliver Jenkins,Finance,FP&A Analyst,oliver@company.com,Active
+Patricia Perry,Legal,Regulatory Affairs Specialist,patricia@company.com,Active
+Robert Powell,Engineering,Principal Engineer,robert@company.com,Active
+Sandra Long,Design,Brand Designer,sandra@company.com,Active
+Thomas Patterson,HR,HRIS Analyst,thomas@company.com,Active
+Ulyana Hughes,Sales,Channel Partner Manager,ulyana@company.com,Active
+Walter Flores,Engineering,Robotics Engineer,walter@company.com,On Leave
+Xena Washington,Finance,Cost Analyst,xena@company.com,Active
+Yasmine Butler,Marketing,Demand Generation Manager,yasmine@company.com,Active
+Zara Simmons,HR,Workforce Planning Analyst,zara@company.com,Active
+Adrian Foster,Engineering,Network Engineer,adrian@company.com,Active
+Brenda Gonzales,Sales,Key Account Manager,brenda@company.com,Active
+Christopher Bryant,Finance,Financial Reporting Manager,christopher@company.com,Active
+Danielle Alexander,Legal,Data Privacy Officer,danielle@company.com,Active
+Edward Russell,Engineering,Firmware Engineer,edward@company.com,Active
+Frances Griffin,Design,Illustration Artist,frances@company.com,On Leave
+Gregory Diaz,Marketing,PR Manager,gregory@company.com,Active
+Helena Hayes,HR,Compensation Analyst,helena@company.com,Active
+Ivan Myers,Sales,Strategic Account Executive,ivan@company.com,Active
+Jennifer Ford,Finance,Mergers and Acquisitions Analyst,jennifer@company.com,Active
+Keith Hamilton,Engineering,Research Engineer,keith@company.com,Active
+Lydia Graham,Legal,Intellectual Property Counsel,lydia@company.com,Active
+Michael Sullivan,Marketing,Analytics Manager,michael@company.com,Active
+Nicole Wallace,HR,Learning and Development Manager,nicole@company.com,On Leave
+Owen West,Engineering,Compiler Engineer,owen@company.com,Active
+Priscilla Cole,Sales,Sales Operations Analyst,priscilla@company.com,Active
+Quincy Jordan,Finance,Capital Markets Analyst,quincy@company.com,Active
+Rosa Owens,Design,Creative Director,rosa@company.com,Active
+Stanley Reynolds,Engineering,Hardware Engineer,stanley@company.com,Active
+Tara Fisher,HR,HR Business Partner,tara@company.com,Active
+Umar Ellis,Sales,Territory Manager,umar@company.com,Active
+Vivienne Harrison,Finance,Financial Systems Manager,vivienne@company.com,Active
+William Gibson,Engineering,Quantum Computing Researcher,william@company.com,On Leave
+Xiomara McDonald,Marketing,Campaign Manager,xiomara@company.com,Active
+Yusuf Cruz,Legal,Corporate Secretary,yusuf@company.com,Active
+Zelda Marshall,HR,Diversity and Inclusion Manager,zelda@company.com,Active
+Albert Ortiz,Engineering,Computer Vision Engineer,albert@company.com,Active
+Bonnie Gomez,Sales,Sales Trainer,bonnie@company.com,Active
+Cedric Murray,Finance,Treasury Manager,cedric@company.com,Active
+Delilah Freeman,Design,Experience Researcher,delilah@company.com,Active
+Eugene Wells,Engineering,Telecommunications Engineer,eugene@company.com,On Leave
+Flora Webb,Marketing,Affiliate Marketing Manager,flora@company.com,Active
+Glen Stone,HR,Benefits Administrator,glen@company.com,Active
+Harriet Kennedy,Sales,Customer Success Manager,harriet@company.com,Active
+Ignacio Tucker,Finance,Budget Manager,ignacio@company.com,Active
+Josephine Daniels,Legal,Contracts Manager,josephine@company.com,Active
+Knox Grant,Engineering,Distributed Systems Engineer,knox@company.com,Active
+Loretta Payne,Design,Packaging Designer,loretta@company.com,On Leave
+Monroe Hawkins,Marketing,Event Marketing Manager,monroe@company.com,Active
+Nadia Thornton,HR,Onboarding Specialist,nadia@company.com,Active
+Preston Vargas,Sales,Sales Development Representative,preston@company.com,Active
+Queenie Dunn,Finance,Accounts Payable Specialist,queenie@company.com,Active
+Rex Watkins,Engineering,Simulation Engineer,rex@company.com,Active
+Selena Fleming,Legal,Litigation Specialist,selena@company.com,Active
+Terrence Bishop,Marketing,Video Marketing Specialist,terrence@company.com,Active
+Uriah Manning,Engineering,Cryptography Engineer,uriah@company.com,On Leave
+Valentina Garrett,HR,Employee Experience Manager,valentina@company.com,Active
+Walton Norris,Sales,VP of Sales,walton@company.com,Active
+Xyla Doyle,Finance,Accounts Receivable Specialist,xyla@company.com,Active
+Yvette Chambers,Design,Design Systems Engineer,yvette@company.com,Active
+Zeus Townsend,Engineering,Autonomous Systems Engineer,zeus@company.com,Active
+Anna Benson,HR,HR Coordinator,anna@company.com,Active
+Boris Caldwell,Sales,Partner Sales Manager,boris@company.com,Active
+Cecilia Nichols,Finance,Insurance Analyst,cecilia@company.com,On Leave
+Dario Phelps,Engineering,Bioinformatics Engineer,dario@company.com,Active
+Esme Walters,Marketing,Influencer Marketing Manager,esme@company.com,Active
+Fabian Walsh,Legal,Antitrust Counsel,fabian@company.com,Active
+Greta Obrien,Design,Typographer,greta@company.com,Active
+Hugo Lawson,Engineering,Game Developer,hugo@company.com,Active
+Ingrid Matthews,HR,Labor Relations Specialist,ingrid@company.com,On Leave
+Joel Hudson,Sales,Field Sales Representative,joel@company.com,Active
+Kira Gardner,Finance,Financial Planning Manager,kira@company.com,Active
+Landon Hunt,Engineering,GIS Engineer,landon@company.com,Active
+Madeleine Hart,Legal,Environmental Counsel,madeleine@company.com,Active
+Nico Cunningham,Marketing,Podcast Marketing Specialist,nico@company.com,Active
+Odette Carr,HR,Succession Planning Analyst,odette@company.com,Active
+Pierce Foster,Sales,Sales Analyst,pierce@company.com,On Leave
+Queena Jacobs,Finance,Tax Compliance Manager,queena@company.com,Active
+Roderick Grant,Engineering,High Performance Computing Engineer,roderick@company.com,Active
+Sage Murphy,Design,Service Designer,sage@company.com,Active
+Tobias Snyder,Marketing,Community Manager,tobias@company.com,Active
+Ursula Pierce,HR,HR Data Analyst,ursula2@company.com,Active
+Vera Stone,Sales,Revenue Operations Manager,vera@company.com,Active
+Werner Craig,Finance,Commodity Analyst,werner@company.com,Active
+Xanthe Bishop,Engineering,Accessibility Engineer,xanthe@company.com,On Leave
+Yolanda Chambers,Legal,Securities Counsel,yolanda@company.com,Active
+Zephyr Wells,HR,People Analytics Manager,zephyr@company.com,Active
+Anton Brooks,Engineering,Photonics Engineer,anton@company.com,Active
+Blanche Curtis,Sales,Retail Sales Manager,blanche@company.com,Active
+Crispin Torres,Finance,Credit Risk Analyst,crispin@company.com,Active
+Dahlia Morgan,Design,Digital Artist,dahlia@company.com,Active
+Emilio Reed,Engineering,Aerospace Engineer,emilio@company.com,On Leave
+Fallon Bailey,Marketing,Loyalty Program Manager,fallon@company.com,Active
+Gareth Bell,HR,Recruitment Marketing Specialist,gareth@company.com,Active
+Hilda Fox,Sales,Account Coordinator,hilda@company.com,Active
+Isadora Manning,Finance,Real Estate Finance Analyst,isadora@company.com,Active
+Jefferson Cole,Legal,Technology Counsel,jefferson@company.com,Active
+Kaya Shaw,Engineering,Optical Engineer,kaya@company.com,Active
+Leila Pearce,Design,Web Designer,leila@company.com,On Leave
+Miles Reynolds,Marketing,Partner Marketing Manager,miles@company.com,Active
+Nell Warren,HR,Workplace Culture Specialist,nell@company.com,Active
+Octavia Henderson,Sales,Chief Revenue Officer,octavia@company.com,Active
+Phineas Ross,Finance,Venture Capital Analyst,phineas@company.com,Active
+Regan Murphy,Engineering,Speech Recognition Engineer,regan@company.com,Active
+Sienna Price,Legal,M&A Counsel,sienna@company.com,Active
+Titus Coleman,Marketing,Digital Advertising Specialist,titus@company.com,On Leave
+Umberto Torres,Engineering,Quantum Networking Researcher,umberto@company.com,Active
+Violeta Morgan,HR,Employer Branding Specialist,violeta@company.com,Active
+Winston Kelly,Sales,Enterprise Sales Executive,winston@company.com,Active
+Xena Bell,Finance,Healthcare Finance Analyst,xena2@company.com,Active
+Yael Simmons,Design,3D Modeler,yael@company.com,Active
+Zara Cox,Engineering,Thermal Engineer,zara2@company.com,On Leave
+Alec Brooks,HR,HR Project Manager,alec@company.com,Active
+Blythe Diaz,Sales,Sales Content Manager,blythe@company.com,Active
+Conrad Fisher,Finance,Corporate Finance Manager,conrad@company.com,Active
+Delia Grant,Marketing,Market Research Analyst,delia@company.com,Active
+Emmet Hall,Engineering,Radio Frequency Engineer,emmet@company.com,Active
+Faye Jenkins,Legal,Privacy Counsel,faye@company.com,On Leave
+George Lawson,Design,Design Researcher,george2@company.com,Active
+Hattie Powell,HR,Career Development Specialist,hattie@company.com,Active
+Ivor Russell,Sales,Presales Engineer,ivor@company.com,Active
+Jacinta Sullivan,Finance,Structured Finance Analyst,jacinta@company.com,Active
+Kieran Wood,Engineering,Mechatronics Engineer,kieran@company.com,Active
+Lavinia Barnes,Legal,Labor and Employment Counsel,lavinia@company.com,Active
+Myron Patterson,Marketing,Search Engine Marketing Specialist,myron@company.com,On Leave
+Nola Henderson,HR,Compensation and Benefits Manager,nola@company.com,Active
+Oswald Jenkins,Sales,SMB Account Executive,oswald@company.com,Active
+Pixie Coleman,Finance,Equity Research Analyst,pixie@company.com,Active
+Quaid Foster,Engineering,Autonomous Vehicle Engineer,quaid@company.com,Active
+Rosalind Hughes,Design,Art Director,rosalind@company.com,Active
+Sterling Mitchell,Marketing,Conversion Rate Optimizer,sterling@company.com,On Leave
+Thaddeus Powell,HR,Change Management Specialist,thaddeus@company.com,Active
+Ulrica Sanders,Sales,Customer Retention Specialist,ulrica@company.com,Active
+Vaughn Coleman,Finance,Asset Management Analyst,vaughn@company.com,Active
+Waverly Harris,Engineering,Materials Engineer,waverly@company.com,Active
+Xoey Bennett,Legal,Tax Counsel,xoey@company.com,Active
+Yancy Price,HR,Industrial Psychologist,yancy@company.com,On Leave
+Zola Jenkins,Sales,Vice President of Business Development,zola@company.com,Active
+Amos Carter,Engineering,Reliability Engineer,amos@company.com,Active
+Bree Nelson,Finance,Financial Risk Manager,bree@company.com,Active
+Cliff Turner,Marketing,User Acquisition Manager,cliff@company.com,Active
+Dawn Morgan,Design,Design Operations Manager,dawn@company.com,Active
+Elvis Rogers,Engineering,Control Systems Engineer,elvis@company.com,On Leave
+Faith Bryant,HR,HR Generalist,faith@company.com,Active
+Gordon Alexander,Sales,National Accounts Manager,gordon@company.com,Active
+Hazel Washington,Finance,Fund Accountant,hazel@company.com,Active
+Ira Brooks,Engineering,Natural Language Processing Engineer,ira@company.com,Active
+Joy Hamilton,Legal,Real Estate Counsel,joy@company.com,Active
+Kelvin Walker,Marketing,Retention Marketing Specialist,kelvin@company.com,Active
+Lily Collins,HR,Payroll Specialist,lily@company.com,On Leave
+Morton Foster,Sales,Sales Enablement Manager,morton@company.com,Active
+Nina Wells,Finance,Portfolio Analyst,nina@company.com,Active
+Otto Gray,Engineering,Computer Graphics Engineer,otto@company.com,Active
+Petra Kelly,Design,Environmental Designer,petra@company.com,Active
+Quinlan Hayes,Marketing,Brand Strategist,quinlan@company.com,Active
+Rhea Flores,HR,Employee Wellness Manager,rhea@company.com,On Leave
+Scotty Reed,Sales,Outbound Sales Specialist,scotty@company.com,Active
+Tilda Cox,Finance,ESG Analyst,tilda@company.com,Active
+Uma Patterson,Engineering,Augmented Reality Developer,uma2@company.com,Active
+Vance Brooks,Legal,Healthcare Counsel,vance@company.com,Active
+Winona Sanders,Marketing,Trade Marketing Manager,winona@company.com,Active
+Xander Powell,HR,Talent Development Specialist,xander2@company.com,Active
+Yolanda Fisher,Sales,Sales Operations Director,yolanda2@company.com,On Leave
+Zack Bennett,Engineering,Virtual Reality Developer,zack@company.com,Active
+Alma Mitchell,Finance,Liquidity Risk Analyst,alma@company.com,Active
+Bram Nelson,Marketing,Account Based Marketing Manager,bram@company.com,Active
+Cleo Turner,Design,Spatial Designer,cleo@company.com,Active
+Douglas Morgan,Engineering,AI Safety Researcher,douglas@company.com,Active
+Edwina Rogers,HR,Succession Management Analyst,edwina@company.com,On Leave
+Fletcher Bryant,Sales,Global Sales Manager,fletcher@company.com,Active
+Gemma Alexander,Finance,Forensic Accountant,gemma@company.com,Active
+Hector Washington,Engineering,Reliability and Maintenance Engineer,hector@company.com,Active
+Isis Brooks,Legal,Immigration Counsel,isis@company.com,Active
+Jeremiah Hamilton,Marketing,Programmatic Advertising Manager,jeremiah@company.com,Active
+Kris Walker,HR,HR Systems Administrator,kris@company.com,On Leave
+Lacey Collins,Sales,Sales Compensation Analyst,lacey@company.com,Active
+Marco Foster,Finance,Pension Fund Analyst,marco@company.com,Active
+Nile Wells,Engineering,Biomechanical Engineer,nile@company.com,Active
+Opal Gray,Design,User Research Lead,opal@company.com,Active
+Perry Kelly,Marketing,Marketplace Marketing Manager,perry@company.com,Active
+Quinn Flores,HR,Organizational Effectiveness Analyst,quinn2@company.com,Active
+Roland Brooks,Sales,Channel Sales Manager,roland@company.com,Active
+Selma Nelson,Finance,Corporate Treasury Analyst,selma@company.com,Active
+Travis Turner,Engineering,Embedded Software Engineer,travis@company.com,On Leave
+Una Morgan,Marketing,Influencer Relations Specialist,una@company.com,Active
+Vito Rogers,Legal,Construction Counsel,vito@company.com,Active
+Wren Bryant,Design,Interaction Designer,wren@company.com,Active
+Xerxes Alexander,Engineering,Power Systems Engineer,xerxes@company.com,Active
+Yolanda Washington,HR,Benefits Analyst,yolanda3@company.com,On Leave
+Zion Brooks,Sales,Sales Intelligence Analyst,zion@company.com,Active
+Abner Hamilton,Finance,Financial Modeling Analyst,abner@company.com,Active
+Britta Walker,Marketing,Omnichannel Marketing Manager,britta@company.com,Active
+Cormac Collins,Engineering,Computer Architecture Engineer,cormac@company.com,Active
+Daphne Foster,Design,Design Strategist,daphne@company.com,Active
+Eli Wells,Legal,Commercial Contracts Counsel,eli@company.com,On Leave
+Freya Gray,HR,Remote Work Specialist,freya@company.com,Active
+Gage Kelly,Sales,Sales Process Manager,gage@company.com,Active
+Holly Flores,Finance,Capital Budgeting Analyst,holly@company.com,Active
+Igor Brooks,Engineering,Satellite Systems Engineer,igor@company.com,Active
+Janet Nelson,Marketing,Public Relations Specialist,janet@company.com,On Leave
+Kirk Turner,HR,Labor Market Analyst,kirk@company.com,Active
+Lena Morgan,Sales,Strategic Partnerships Manager,lena@company.com,Active
+Milo Rogers,Finance,Bond Analyst,milo@company.com,Active
+Nova Bryant,Engineering,Cybersecurity Analyst,nova@company.com,Active
+Omar Alexander,Design,Design Director,omar@company.com,Active
+Paloma Washington,Legal,Benefits Counsel,paloma@company.com,Active
+Reed Brooks,Marketing,Brand Experience Manager,reed@company.com,On Leave
+Sasha Hamilton,HR,Organizational Psychologist,sasha@company.com,Active
+Taylor Walker,Sales,Revenue Enablement Director,taylor@company.com,Active
+Ulysses Collins,Finance,Derivatives Analyst,ulysses@company.com,Active
+Venus Foster,Engineering,Nanotechnology Researcher,venus@company.com,Active
+Whitney Wells,Design,Content Design Lead,whitney@company.com,On Leave
+Xara Gray,Marketing,Mobile Marketing Manager,xara@company.com,Active
+Yule Kelly,HR,Workplace Safety Manager,yule@company.com,Active
+Zander Flores,Sales,Sales Technology Manager,zander@company.com,Active
+Adele Brooks,Finance,Securitization Analyst,adele@company.com,Active
+Bruno Nelson,Engineering,Energy Systems Engineer,bruno@company.com,On Leave
+Celia Turner,Marketing,Search Experience Specialist,celia@company.com,Active
+Devon Morgan,HR,Global Mobility Specialist,devon@company.com,Active
+Emmett Rogers,Sales,Outbound Business Development Manager,emmett@company.com,Active
+Fern Bryant,Legal,Competition Law Counsel,fern@company.com,Active
+Gus Alexander,Finance,Currency Risk Analyst,gus@company.com,On Leave
+Hope Washington,Design,Inclusive Design Specialist,hope@company.com,Active
+Irwin Brooks,Engineering,Geotechnical Engineer,irwin@company.com,Active
+Joan Hamilton,Marketing,Performance Marketing Lead,joan@company.com,Active
+Kobe Walker,HR,Total Rewards Manager,kobe@company.com,Active
+Luna Collins,Sales,B2B Marketing Manager,luna@company.com,On Leave
+Max Foster,Finance,Private Equity Analyst,max@company.com,Active
+Neva Wells,Engineering,Aerospace Systems Engineer,neva@company.com,Active
+Oz Gray,Design,Brand Identity Designer,oz@company.com,Active
+Pablo Kelly,Sales,Chief Sales Officer,pablo@company.com,Active

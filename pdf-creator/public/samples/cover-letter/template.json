@@ -1,0 +1,320 @@
+{
+  "name": "Cover Letter",
+  "pageSize": "A4",
+  "fonts": [
+    {
+      "family": "Open Sans",
+      "faces": [
+        {
+          "weight": "normal",
+          "style": "normal",
+          "source": "bundled",
+          "ref": "OpenSans-Regular.ttf"
+        },
+        {
+          "weight": "bold",
+          "style": "normal",
+          "source": "bundled",
+          "ref": "OpenSans-Bold.ttf"
+        },
+        {
+          "weight": "normal",
+          "style": "italic",
+          "source": "bundled",
+          "ref": "OpenSans-Italic.ttf"
+        },
+        {
+          "weight": "bold",
+          "style": "italic",
+          "source": "bundled",
+          "ref": "OpenSans-BoldItalic.ttf"
+        }
+      ]
+    },
+    {
+      "family": "Roboto",
+      "faces": [
+        {
+          "weight": "normal",
+          "style": "normal",
+          "source": "bundled",
+          "ref": "Roboto-Regular.ttf"
+        },
+        {
+          "weight": "bold",
+          "style": "normal",
+          "source": "bundled",
+          "ref": "Roboto-Bold.ttf"
+        },
+        {
+          "weight": "normal",
+          "style": "italic",
+          "source": "bundled",
+          "ref": "Roboto-Italic.ttf"
+        },
+        {
+          "weight": "bold",
+          "style": "italic",
+          "source": "bundled",
+          "ref": "Roboto-BoldItalic.ttf"
+        }
+      ]
+    },
+    {
+      "family": "Calibri",
+      "faces": [
+        {
+          "weight": "normal",
+          "style": "normal",
+          "source": "bundled",
+          "ref": "Calibri-Regular.ttf"
+        },
+        {
+          "weight": "bold",
+          "style": "normal",
+          "source": "bundled",
+          "ref": "Calibri-Bold.ttf"
+        },
+        {
+          "weight": "normal",
+          "style": "italic",
+          "source": "bundled",
+          "ref": "Calibri-Italic.ttf"
+        },
+        {
+          "weight": "bold",
+          "style": "italic",
+          "source": "bundled",
+          "ref": "Calibri-BoldItalic.ttf"
+        }
+      ]
+    },
+    {
+      "family": "Lato",
+      "faces": [
+        {
+          "weight": "normal",
+          "style": "normal",
+          "source": "bundled",
+          "ref": "Lato-Regular.ttf"
+        },
+        {
+          "weight": "bold",
+          "style": "normal",
+          "source": "bundled",
+          "ref": "Lato-Bold.ttf"
+        },
+        {
+          "weight": "normal",
+          "style": "italic",
+          "source": "bundled",
+          "ref": "Lato-Italic.ttf"
+        },
+        {
+          "weight": "bold",
+          "style": "italic",
+          "source": "bundled",
+          "ref": "Lato-BoldItalic.ttf"
+        }
+      ]
+    },
+    {
+      "family": "Inter",
+      "faces": [
+        {
+          "weight": "normal",
+          "style": "normal",
+          "source": "bundled",
+          "ref": "Inter-Regular.ttf"
+        },
+        {
+          "weight": "bold",
+          "style": "normal",
+          "source": "bundled",
+          "ref": "Inter-Bold.ttf"
+        },
+        {
+          "weight": "normal",
+          "style": "italic",
+          "source": "bundled",
+          "ref": "Inter-Italic.ttf"
+        },
+        {
+          "weight": "bold",
+          "style": "italic",
+          "source": "bundled",
+          "ref": "Inter-BoldItalic.ttf"
+        }
+      ]
+    },
+    {
+      "family": "Verdana",
+      "faces": [
+        {
+          "weight": "normal",
+          "style": "normal",
+          "source": "bundled",
+          "ref": "Verdana-Regular.ttf"
+        },
+        {
+          "weight": "bold",
+          "style": "normal",
+          "source": "bundled",
+          "ref": "Verdana-Bold.ttf"
+        },
+        {
+          "weight": "normal",
+          "style": "italic",
+          "source": "bundled",
+          "ref": "Verdana-Italic.ttf"
+        },
+        {
+          "weight": "bold",
+          "style": "italic",
+          "source": "bundled",
+          "ref": "Verdana-BoldItalic.ttf"
+        }
+      ]
+    },
+    {
+      "family": "Arial",
+      "faces": [
+        {
+          "weight": "normal",
+          "style": "normal",
+          "source": "bundled",
+          "ref": "Calibri-Regular.ttf"
+        },
+        {
+          "weight": "bold",
+          "style": "normal",
+          "source": "bundled",
+          "ref": "Calibri-Bold.ttf"
+        },
+        {
+          "weight": "normal",
+          "style": "italic",
+          "source": "bundled",
+          "ref": "Calibri-Italic.ttf"
+        },
+        {
+          "weight": "bold",
+          "style": "italic",
+          "source": "bundled",
+          "ref": "Calibri-BoldItalic.ttf"
+        }
+      ]
+    }
+  ],
+  "styles": {
+    "primaryColor": "#1E3A5F"
+  },
+  "pages": [
+    {
+      "id": "nqbw99p",
+      "elements": [
+        {
+          "id": "0bw0lh0",
+          "type": "heading",
+          "x": 40,
+          "y": 40,
+          "content": "{{full_name}}",
+          "fontSize": 22,
+          "bold": true,
+          "italic": false,
+          "underline": false,
+          "color": "#1E3A5F",
+          "width": 515
+        },
+        {
+          "id": "8leslcq",
+          "type": "text",
+          "x": 40,
+          "y": 70,
+          "content": "{{email}} | {{phone}} | {{location}}",
+          "fontSize": 10,
+          "bold": false,
+          "italic": false,
+          "underline": false,
+          "color": "#64748B",
+          "width": 515
+        },
+        {
+          "id": "jk7ji52",
+          "type": "divider",
+          "x": 40,
+          "y": 90,
+          "color": "#1E3A5F",
+          "width": 515,
+          "thickness": 2
+        },
+        {
+          "id": "7czsngg",
+          "type": "text",
+          "x": 40,
+          "y": 112,
+          "content": "{{date}}",
+          "fontSize": 11,
+          "bold": false,
+          "italic": false,
+          "underline": false,
+          "color": "#374151",
+          "width": 515
+        },
+        {
+          "id": "vf59i4s",
+          "type": "text",
+          "x": 40,
+          "y": 138,
+          "content": "{{recipient_name}}\n{{recipient_title}}\n{{company_name}}\n{{company_address}}",
+          "fontSize": 11,
+          "bold": false,
+          "italic": false,
+          "underline": false,
+          "color": "#374151",
+          "width": 515
+        },
+        {
+          "id": "h8dr56i",
+          "type": "text",
+          "x": 40,
+          "y": 220,
+          "content": "Dear {{recipient_name}},",
+          "fontSize": 11,
+          "bold": true,
+          "italic": false,
+          "underline": false,
+          "color": "#374151",
+          "width": 515
+        },
+        {
+          "id": "avanjt1",
+          "type": "text",
+          "x": 40,
+          "y": 248,
+          "content": "{{body}}",
+          "fontSize": 11,
+          "bold": false,
+          "italic": false,
+          "underline": false,
+          "color": "#374151",
+          "width": 515,
+          "lineHeight": 1.6
+        },
+        {
+          "id": "et3yqhz",
+          "type": "text",
+          "x": 40,
+          "y": 520,
+          "content": "Sincerely,\n\n\n{{full_name}}",
+          "fontSize": 11,
+          "bold": false,
+          "italic": false,
+          "underline": false,
+          "color": "#374151",
+          "width": 515
+        }
+      ]
+    }
+  ]
+}

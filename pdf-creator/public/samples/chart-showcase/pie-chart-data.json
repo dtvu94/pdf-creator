@@ -1,0 +1,40 @@
+{
+  "title": {
+    "text": "Website Traffic Sources",
+    "left": "center",
+    "textStyle": { "fontSize": 12, "color": "#1E293B", "fontWeight": "bold" }
+  },
+  "tooltip": { "trigger": "item", "formatter": "{b}: {c} ({d}%)" },
+  "legend": {
+    "orient": "vertical",
+    "left": 16,
+    "top": "middle",
+    "textStyle": { "fontSize": 10, "color": "#374151" },
+    "itemGap": 10
+  },
+  "series": [
+    {
+      "type": "pie",
+      "radius": ["36%", "68%"],
+      "center": ["60%", "54%"],
+      "data": [
+        { "name": "Organic Search", "value": 4821 },
+        { "name": "Direct", "value": 2934 },
+        { "name": "Referral", "value": 1872 },
+        { "name": "Social Media", "value": 1563 },
+        { "name": "Email", "value": 847 },
+        { "name": "Paid Ads", "value": 612 }
+      ],
+      "label": {
+        "show": true,
+        "position": "inside",
+        "formatter": "{d}%",
+        "fontSize": 10,
+        "fontWeight": "bold",
+        "color": "#fff"
+      },
+      "labelLine": { "show": false },
+      "emphasis": { "scale": true, "scaleSize": 6 }
+    }
+  ]
+}

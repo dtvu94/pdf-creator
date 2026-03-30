@@ -1,0 +1,15 @@
+{
+  "event_name": "Annual Charity Gala 2026",
+  "event_description": "Join us for an enchanting evening of fine dining, live music, and inspiring stories as we celebrate a decade of making a difference in our community. All proceeds support the Children's Education Fund.",
+  "event_date": "May 15, 2026",
+  "event_day": "Saturday",
+  "event_time": "7:00 PM",
+  "event_duration": "7:00 PM – 11:00 PM",
+  "venue_name": "The Grand Ballroom at The Ritz-Carlton",
+  "venue_address": "600 Stockton Street, San Francisco, CA 94108",
+  "dress_code": "Black Tie / Formal Evening Wear",
+  "rsvp_date": "May 1, 2026",
+  "rsvp_email": "rsvp@charitygala.org",
+  "rsvp_phone": "+1 (555) 789-0123",
+  "host_name": "The Children's Education Foundation"
+}

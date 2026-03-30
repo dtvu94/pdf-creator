@@ -1,0 +1,64 @@
+{
+  "_comment": "ECharts option for the Heatmap chart on page 3 of the Chart Showcase template.",
+  "_usage": "Copy everything except the _comment and _usage keys, or paste this entire file — the renderer ignores unknown keys.",
+
+  "title": {
+    "text": "Team Activity Heatmap — Tasks Completed",
+    "subtext": "Average per time-slot across a 4-week sprint",
+    "left": "center",
+    "textStyle": { "fontSize": 13, "color": "#1E293B", "fontWeight": "bold" },
+    "subtextStyle": { "fontSize": 9, "color": "#94A3B8" }
+  },
+
+  "tooltip": {
+    "position": "top",
+    "formatter": "{b0} {a0}: {c} tasks"
+  },
+
+  "grid": { "left": 72, "right": 16, "top": 72, "bottom": 60 },
+
+  "xAxis": {
+    "type": "category",
+    "data": ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"],
+    "splitArea": { "show": true },
+    "axisLabel": { "fontSize": 10, "color": "#374151" }
+  },
+
+  "yAxis": {
+    "type": "category",
+    "data": ["08:00", "10:00", "12:00", "14:00", "16:00", "18:00", "20:00"],
+    "splitArea": { "show": true },
+    "axisLabel": { "fontSize": 9, "color": "#374151" }
+  },
+
+  "visualMap": {
+    "min": 0,
+    "max": 15,
+    "calculable": true,
+    "orient": "horizontal",
+    "left": "center",
+    "bottom": 8,
+    "inRange": { "color": ["#EFF6FF", "#BFDBFE", "#3B82F6", "#1D4ED8"] },
+    "textStyle": { "fontSize": 9, "color": "#374151" }
+  },
+
+  "series": [
+    {
+      "name": "Tasks",
+      "type": "heatmap",
+      "label": { "show": true, "fontSize": 8, "color": "#1E293B" },
+      "emphasis": {
+        "itemStyle": { "shadowBlur": 6, "shadowColor": "rgba(59,130,246,0.4)" }
+      },
+      "data": [
+        [0, 0,  3], [0, 1, 12], [0, 2,  8], [0, 3, 14], [0, 4, 11], [0, 5,  4], [0, 6,  2],
+        [1, 0,  4], [1, 1, 13], [1, 2,  9], [1, 3, 12], [1, 4, 10], [1, 5,  3], [1, 6,  1],
+        [2, 0,  5], [2, 1, 11], [2, 2, 10], [2, 3, 15], [2, 4, 12], [2, 5,  5], [2, 6,  2],
+        [3, 0,  3], [3, 1, 10], [3, 2,  8], [3, 3, 13], [3, 4,  9], [3, 5,  4], [3, 6,  1],
+        [4, 0,  4], [4, 1,  9], [4, 2,  7], [4, 3, 10], [4, 4,  8], [4, 5,  6], [4, 6,  3],
+        [5, 0,  2], [5, 1,  5], [5, 2,  4], [5, 3,  6], [5, 4,  5], [5, 5,  3], [5, 6,  2],
+        [6, 0,  1], [6, 1,  3], [6, 2,  2], [6, 3,  4], [6, 4,  3], [6, 5,  2], [6, 6,  1]
+      ]
+    }
+  ]
+}

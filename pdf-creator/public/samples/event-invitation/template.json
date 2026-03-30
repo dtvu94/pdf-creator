@@ -1,0 +1,435 @@
+{
+  "name": "Event Invitation",
+  "pageSize": "A4",
+  "fonts": [
+    {
+      "family": "Open Sans",
+      "faces": [
+        {
+          "weight": "normal",
+          "style": "normal",
+          "source": "bundled",
+          "ref": "OpenSans-Regular.ttf"
+        },
+        {
+          "weight": "bold",
+          "style": "normal",
+          "source": "bundled",
+          "ref": "OpenSans-Bold.ttf"
+        },
+        {
+          "weight": "normal",
+          "style": "italic",
+          "source": "bundled",
+          "ref": "OpenSans-Italic.ttf"
+        },
+        {
+          "weight": "bold",
+          "style": "italic",
+          "source": "bundled",
+          "ref": "OpenSans-BoldItalic.ttf"
+        }
+      ]
+    },
+    {
+      "family": "Roboto",
+      "faces": [
+        {
+          "weight": "normal",
+          "style": "normal",
+          "source": "bundled",
+          "ref": "Roboto-Regular.ttf"
+        },
+        {
+          "weight": "bold",
+          "style": "normal",
+          "source": "bundled",
+          "ref": "Roboto-Bold.ttf"
+        },
+        {
+          "weight": "normal",
+          "style": "italic",
+          "source": "bundled",
+          "ref": "Roboto-Italic.ttf"
+        },
+        {
+          "weight": "bold",
+          "style": "italic",
+          "source": "bundled",
+          "ref": "Roboto-BoldItalic.ttf"
+        }
+      ]
+    },
+    {
+      "family": "Calibri",
+      "faces": [
+        {
+          "weight": "normal",
+          "style": "normal",
+          "source": "bundled",
+          "ref": "Calibri-Regular.ttf"
+        },
+        {
+          "weight": "bold",
+          "style": "normal",
+          "source": "bundled",
+          "ref": "Calibri-Bold.ttf"
+        },
+        {
+          "weight": "normal",
+          "style": "italic",
+          "source": "bundled",
+          "ref": "Calibri-Italic.ttf"
+        },
+        {
+          "weight": "bold",
+          "style": "italic",
+          "source": "bundled",
+          "ref": "Calibri-BoldItalic.ttf"
+        }
+      ]
+    },
+    {
+      "family": "Lato",
+      "faces": [
+        {
+          "weight": "normal",
+          "style": "normal",
+          "source": "bundled",
+          "ref": "Lato-Regular.ttf"
+        },
+        {
+          "weight": "bold",
+          "style": "normal",
+          "source": "bundled",
+          "ref": "Lato-Bold.ttf"
+        },
+        {
+          "weight": "normal",
+          "style": "italic",
+          "source": "bundled",
+          "ref": "Lato-Italic.ttf"
+        },
+        {
+          "weight": "bold",
+          "style": "italic",
+          "source": "bundled",
+          "ref": "Lato-BoldItalic.ttf"
+        }
+      ]
+    },
+    {
+      "family": "Inter",
+      "faces": [
+        {
+          "weight": "normal",
+          "style": "normal",
+          "source": "bundled",
+          "ref": "Inter-Regular.ttf"
+        },
+        {
+          "weight": "bold",
+          "style": "normal",
+          "source": "bundled",
+          "ref": "Inter-Bold.ttf"
+        },
+        {
+          "weight": "normal",
+          "style": "italic",
+          "source": "bundled",
+          "ref": "Inter-Italic.ttf"
+        },
+        {
+          "weight": "bold",
+          "style": "italic",
+          "source": "bundled",
+          "ref": "Inter-BoldItalic.ttf"
+        }
+      ]
+    },
+    {
+      "family": "Verdana",
+      "faces": [
+        {
+          "weight": "normal",
+          "style": "normal",
+          "source": "bundled",
+          "ref": "Verdana-Regular.ttf"
+        },
+        {
+          "weight": "bold",
+          "style": "normal",
+          "source": "bundled",
+          "ref": "Verdana-Bold.ttf"
+        },
+        {
+          "weight": "normal",
+          "style": "italic",
+          "source": "bundled",
+          "ref": "Verdana-Italic.ttf"
+        },
+        {
+          "weight": "bold",
+          "style": "italic",
+          "source": "bundled",
+          "ref": "Verdana-BoldItalic.ttf"
+        }
+      ]
+    },
+    {
+      "family": "Arial",
+      "faces": [
+        {
+          "weight": "normal",
+          "style": "normal",
+          "source": "bundled",
+          "ref": "Calibri-Regular.ttf"
+        },
+        {
+          "weight": "bold",
+          "style": "normal",
+          "source": "bundled",
+          "ref": "Calibri-Bold.ttf"
+        },
+        {
+          "weight": "normal",
+          "style": "italic",
+          "source": "bundled",
+          "ref": "Calibri-Italic.ttf"
+        },
+        {
+          "weight": "bold",
+          "style": "italic",
+          "source": "bundled",
+          "ref": "Calibri-BoldItalic.ttf"
+        }
+      ]
+    }
+  ],
+  "styles": {
+    "primaryColor": "#9333EA"
+  },
+  "pages": [
+    {
+      "id": "bjx1pk6",
+      "elements": [
+        {
+          "id": "1d0tbkw",
+          "type": "shape",
+          "x": 0,
+          "y": 0,
+          "shapeType": "rectangle",
+          "width": 595,
+          "height": 8,
+          "fillColor": "#9333EA",
+          "strokeColor": "#9333EA",
+          "strokeWidth": 0,
+          "borderRadius": 0
+        },
+        {
+          "id": "rw9t3hj",
+          "type": "shape",
+          "x": 272,
+          "y": 50,
+          "shapeType": "diamond",
+          "width": 50,
+          "height": 50,
+          "fillColor": "#F3E8FF",
+          "strokeColor": "#9333EA",
+          "strokeWidth": 1.5,
+          "borderRadius": 0
+        },
+        {
+          "id": "cqaclws",
+          "type": "heading",
+          "x": 40,
+          "y": 120,
+          "content": "You’re Invited",
+          "fontSize": 36,
+          "bold": true,
+          "italic": false,
+          "underline": false,
+          "color": "#9333EA",
+          "width": 515,
+          "textAlign": "center"
+        },
+        {
+          "id": "nbth8cd",
+          "type": "heading",
+          "x": 40,
+          "y": 180,
+          "content": "{{event_name}}",
+          "fontSize": 24,
+          "bold": true,
+          "italic": false,
+          "underline": false,
+          "color": "#1E293B",
+          "width": 515,
+          "textAlign": "center"
+        },
+        {
+          "id": "9zq9653",
+          "type": "divider",
+          "x": 200,
+          "y": 225,
+          "color": "#9333EA",
+          "width": 195,
+          "thickness": 2
+        },
+        {
+          "id": "o3mxb1n",
+          "type": "text",
+          "x": 80,
+          "y": 250,
+          "content": "{{event_description}}",
+          "fontSize": 13,
+          "bold": false,
+          "italic": false,
+          "underline": false,
+          "color": "#374151",
+          "width": 435,
+          "textAlign": "center",
+          "lineHeight": 1.6
+        },
+        {
+          "id": "gw9qn4a",
+          "type": "card",
+          "x": 60,
+          "y": 340,
+          "title": "DATE",
+          "value": "{{event_date}}",
+          "unit": "",
+          "subtitle": "{{event_day}}",
+          "accentColor": "#9333EA",
+          "bgColor": "#FFFFFF",
+          "borderColor": "#E9D5FF",
+          "width": 220,
+          "height": 95
+        },
+        {
+          "id": "9aosqk3",
+          "type": "card",
+          "x": 315,
+          "y": 340,
+          "title": "TIME",
+          "value": "{{event_time}}",
+          "unit": "",
+          "subtitle": "{{event_duration}}",
+          "accentColor": "#9333EA",
+          "bgColor": "#FFFFFF",
+          "borderColor": "#E9D5FF",
+          "width": 220,
+          "height": 95
+        },
+        {
+          "id": "i22bk9z",
+          "type": "heading",
+          "x": 40,
+          "y": 470,
+          "content": "Venue",
+          "fontSize": 14,
+          "bold": true,
+          "italic": false,
+          "underline": false,
+          "color": "#9333EA",
+          "width": 515,
+          "textAlign": "center"
+        },
+        {
+          "id": "2gu680s",
+          "type": "text",
+          "x": 80,
+          "y": 495,
+          "content": "{{venue_name}}\n{{venue_address}}",
+          "fontSize": 13,
+          "bold": false,
+          "italic": false,
+          "underline": false,
+          "color": "#374151",
+          "width": 435,
+          "textAlign": "center",
+          "lineHeight": 1.5
+        },
+        {
+          "id": "txyjc5q",
+          "type": "divider",
+          "x": 200,
+          "y": 555,
+          "color": "#E9D5FF",
+          "width": 195,
+          "thickness": 1
+        },
+        {
+          "id": "97b1l0h",
+          "type": "text",
+          "x": 80,
+          "y": 575,
+          "content": "Dress Code: {{dress_code}}",
+          "fontSize": 12,
+          "bold": false,
+          "italic": true,
+          "underline": false,
+          "color": "#64748B",
+          "width": 435,
+          "textAlign": "center"
+        },
+        {
+          "id": "bb4s2lj",
+          "type": "heading",
+          "x": 40,
+          "y": 620,
+          "content": "RSVP",
+          "fontSize": 16,
+          "bold": true,
+          "italic": false,
+          "underline": false,
+          "color": "#9333EA",
+          "width": 515,
+          "textAlign": "center"
+        },
+        {
+          "id": "xo2zc1q",
+          "type": "text",
+          "x": 80,
+          "y": 650,
+          "content": "Please respond by {{rsvp_date}}\n{{rsvp_email}} | {{rsvp_phone}}",
+          "fontSize": 12,
+          "bold": false,
+          "italic": false,
+          "underline": false,
+          "color": "#374151",
+          "width": 435,
+          "textAlign": "center",
+          "lineHeight": 1.6
+        },
+        {
+          "id": "luaul5b",
+          "type": "text",
+          "x": 80,
+          "y": 730,
+          "content": "Hosted by {{host_name}}",
+          "fontSize": 11,
+          "bold": false,
+          "italic": true,
+          "underline": false,
+          "color": "#64748B",
+          "width": 435,
+          "textAlign": "center"
+        },
+        {
+          "id": "s9mdfmj",
+          "type": "shape",
+          "x": 0,
+          "y": 834,
+          "shapeType": "rectangle",
+          "width": 595,
+          "height": 8,
+          "fillColor": "#9333EA",
+          "strokeColor": "#9333EA",
+          "strokeWidth": 0,
+          "borderRadius": 0
+        }
+      ]
+    }
+  ]
+}

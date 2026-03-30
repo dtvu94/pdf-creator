@@ -1,0 +1,17 @@
+{
+  "effective_date": "April 4, 2026",
+  "disclosing_party_name": "InnovateTech Solutions Inc.",
+  "disclosing_party_address": "456 Market Street, Suite 800, San Francisco, CA 94105",
+  "receiving_party_name": "Apex Consulting Group LLC",
+  "receiving_party_address": "789 Business Park Drive, Palo Alto, CA 94301",
+  "section1_text": "\"Confidential Information\" means any and all non-public information, whether written, oral, electronic, or visual, disclosed by the Disclosing Party to the Receiving Party, including but not limited to: trade secrets, business plans, financial data, customer lists, technical specifications, software source code, algorithms, product roadmaps, marketing strategies, and any other proprietary information.",
+  "section2_text": "The Receiving Party agrees to: (a) hold all Confidential Information in strict confidence; (b) not disclose Confidential Information to any third party without prior written consent; (c) use Confidential Information solely for the purpose of evaluating a potential business relationship; (d) protect Confidential Information using at least the same degree of care used to protect its own confidential information, but in no event less than reasonable care.",
+  "section3_text": "This Agreement shall remain in effect for a period of two (2) years from the Effective Date. The obligations of confidentiality shall survive the termination of this Agreement for an additional period of three (3) years.",
+  "section4_text": "The Receiving Party acknowledges that any breach of this Agreement may cause irreparable harm to the Disclosing Party, and that monetary damages may be insufficient. Accordingly, the Disclosing Party shall be entitled to seek injunctive relief in addition to any other remedies available at law or in equity.",
+  "section5_text": "This Agreement constitutes the entire agreement between the parties with respect to its subject matter. This Agreement shall be governed by and construed in accordance with the laws of the State of California. Any amendments must be in writing and signed by both parties. If any provision is found to be unenforceable, the remaining provisions shall continue in full force and effect.",
+  "disclosing_party_signatory": "James Rodriguez",
+  "disclosing_party_title": "VP of Engineering",
+  "receiving_party_signatory": "Lisa Park",
+  "receiving_party_title": "Managing Partner",
+  "signing_date": "April 4, 2026"
+}

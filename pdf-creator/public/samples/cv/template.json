@@ -1,0 +1,657 @@
+{
+  "name": "Professional CV",
+  "pageSize": "A4",
+  "fonts": [
+    {
+      "family": "Open Sans",
+      "faces": [
+        {
+          "weight": "normal",
+          "style": "normal",
+          "source": "bundled",
+          "ref": "OpenSans-Regular.ttf"
+        },
+        {
+          "weight": "bold",
+          "style": "normal",
+          "source": "bundled",
+          "ref": "OpenSans-Bold.ttf"
+        },
+        {
+          "weight": "normal",
+          "style": "italic",
+          "source": "bundled",
+          "ref": "OpenSans-Italic.ttf"
+        },
+        {
+          "weight": "bold",
+          "style": "italic",
+          "source": "bundled",
+          "ref": "OpenSans-BoldItalic.ttf"
+        }
+      ]
+    },
+    {
+      "family": "Roboto",
+      "faces": [
+        {
+          "weight": "normal",
+          "style": "normal",
+          "source": "bundled",
+          "ref": "Roboto-Regular.ttf"
+        },
+        {
+          "weight": "bold",
+          "style": "normal",
+          "source": "bundled",
+          "ref": "Roboto-Bold.ttf"
+        },
+        {
+          "weight": "normal",
+          "style": "italic",
+          "source": "bundled",
+          "ref": "Roboto-Italic.ttf"
+        },
+        {
+          "weight": "bold",
+          "style": "italic",
+          "source": "bundled",
+          "ref": "Roboto-BoldItalic.ttf"
+        }
+      ]
+    },
+    {
+      "family": "Calibri",
+      "faces": [
+        {
+          "weight": "normal",
+          "style": "normal",
+          "source": "bundled",
+          "ref": "Calibri-Regular.ttf"
+        },
+        {
+          "weight": "bold",
+          "style": "normal",
+          "source": "bundled",
+          "ref": "Calibri-Bold.ttf"
+        },
+        {
+          "weight": "normal",
+          "style": "italic",
+          "source": "bundled",
+          "ref": "Calibri-Italic.ttf"
+        },
+        {
+          "weight": "bold",
+          "style": "italic",
+          "source": "bundled",
+          "ref": "Calibri-BoldItalic.ttf"
+        }
+      ]
+    },
+    {
+      "family": "Lato",
+      "faces": [
+        {
+          "weight": "normal",
+          "style": "normal",
+          "source": "bundled",
+          "ref": "Lato-Regular.ttf"
+        },
+        {
+          "weight": "bold",
+          "style": "normal",
+          "source": "bundled",
+          "ref": "Lato-Bold.ttf"
+        },
+        {
+          "weight": "normal",
+          "style": "italic",
+          "source": "bundled",
+          "ref": "Lato-Italic.ttf"
+        },
+        {
+          "weight": "bold",
+          "style": "italic",
+          "source": "bundled",
+          "ref": "Lato-BoldItalic.ttf"
+        }
+      ]
+    },
+    {
+      "family": "Inter",
+      "faces": [
+        {
+          "weight": "normal",
+          "style": "normal",
+          "source": "bundled",
+          "ref": "Inter-Regular.ttf"
+        },
+        {
+          "weight": "bold",
+          "style": "normal",
+          "source": "bundled",
+          "ref": "Inter-Bold.ttf"
+        },
+        {
+          "weight": "normal",
+          "style": "italic",
+          "source": "bundled",
+          "ref": "Inter-Italic.ttf"
+        },
+        {
+          "weight": "bold",
+          "style": "italic",
+          "source": "bundled",
+          "ref": "Inter-BoldItalic.ttf"
+        }
+      ]
+    },
+    {
+      "family": "Verdana",
+      "faces": [
+        {
+          "weight": "normal",
+          "style": "normal",
+          "source": "bundled",
+          "ref": "Verdana-Regular.ttf"
+        },
+        {
+          "weight": "bold",
+          "style": "normal",
+          "source": "bundled",
+          "ref": "Verdana-Bold.ttf"
+        },
+        {
+          "weight": "normal",
+          "style": "italic",
+          "source": "bundled",
+          "ref": "Verdana-Italic.ttf"
+        },
+        {
+          "weight": "bold",
+          "style": "italic",
+          "source": "bundled",
+          "ref": "Verdana-BoldItalic.ttf"
+        }
+      ]
+    },
+    {
+      "family": "Arial",
+      "faces": [
+        {
+          "weight": "normal",
+          "style": "normal",
+          "source": "bundled",
+          "ref": "Calibri-Regular.ttf"
+        },
+        {
+          "weight": "bold",
+          "style": "normal",
+          "source": "bundled",
+          "ref": "Calibri-Bold.ttf"
+        },
+        {
+          "weight": "normal",
+          "style": "italic",
+          "source": "bundled",
+          "ref": "Calibri-Italic.ttf"
+        },
+        {
+          "weight": "bold",
+          "style": "italic",
+          "source": "bundled",
+          "ref": "Calibri-BoldItalic.ttf"
+        }
+      ]
+    }
+  ],
+  "styles": {
+    "primaryColor": "#1E3A5F"
+  },
+  "pages": [
+    {
+      "id": "djg4qap",
+      "elements": [
+        {
+          "id": "ohmp89o",
+          "type": "shape",
+          "x": 0,
+          "y": 0,
+          "shapeType": "rectangle",
+          "width": 200,
+          "height": 842,
+          "fillColor": "#1E3A5F",
+          "strokeColor": "#1E3A5F",
+          "strokeWidth": 0,
+          "borderRadius": 0,
+          "opacity": 1
+        },
+        {
+          "id": "lr4m6qg",
+          "type": "heading",
+          "x": 20,
+          "y": 35,
+          "content": "{{full_name}}",
+          "fontSize": 22,
+          "bold": true,
+          "italic": false,
+          "underline": false,
+          "color": "#FFFFFF",
+          "width": 165
+        },
+        {
+          "id": "1y8kihr",
+          "type": "text",
+          "x": 20,
+          "y": 68,
+          "content": "{{job_title}}",
+          "fontSize": 12,
+          "bold": false,
+          "italic": false,
+          "underline": false,
+          "color": "#93C5FD",
+          "width": 165
+        },
+        {
+          "id": "yo3rnzt",
+          "type": "divider",
+          "x": 20,
+          "y": 92,
+          "color": "#3B82F6",
+          "width": 160,
+          "thickness": 1
+        },
+        {
+          "id": "1yhp15r",
+          "type": "heading",
+          "x": 20,
+          "y": 104,
+          "content": "Contact",
+          "fontSize": 11,
+          "bold": true,
+          "italic": false,
+          "underline": false,
+          "color": "#93C5FD",
+          "width": 160
+        },
+        {
+          "id": "fq0moh9",
+          "type": "text",
+          "x": 20,
+          "y": 122,
+          "content": "{{email}}\n{{phone}}\n{{location}}\n{{linkedin}}",
+          "fontSize": 10,
+          "bold": false,
+          "italic": false,
+          "underline": false,
+          "color": "#E2E8F0",
+          "width": 160,
+          "lineHeight": 1.7
+        },
+        {
+          "id": "zg367uc",
+          "type": "divider",
+          "x": 20,
+          "y": 195,
+          "color": "#3B82F6",
+          "width": 160,
+          "thickness": 1
+        },
+        {
+          "id": "ylt0wr8",
+          "type": "heading",
+          "x": 20,
+          "y": 207,
+          "content": "Skills",
+          "fontSize": 11,
+          "bold": true,
+          "italic": false,
+          "underline": false,
+          "color": "#93C5FD",
+          "width": 160
+        },
+        {
+          "id": "hv7iacs",
+          "type": "text",
+          "x": 20,
+          "y": 225,
+          "content": "{{skills}}",
+          "fontSize": 10,
+          "bold": false,
+          "italic": false,
+          "underline": false,
+          "color": "#E2E8F0",
+          "width": 160,
+          "lineHeight": 1.7,
+          "listStyle": "bullet"
+        },
+        {
+          "id": "9jw1mrs",
+          "type": "divider",
+          "x": 20,
+          "y": 340,
+          "color": "#3B82F6",
+          "width": 160,
+          "thickness": 1
+        },
+        {
+          "id": "22q6gx7",
+          "type": "heading",
+          "x": 20,
+          "y": 352,
+          "content": "Languages",
+          "fontSize": 11,
+          "bold": true,
+          "italic": false,
+          "underline": false,
+          "color": "#93C5FD",
+          "width": 160
+        },
+        {
+          "id": "nes6aww",
+          "type": "text",
+          "x": 20,
+          "y": 370,
+          "content": "{{languages}}",
+          "fontSize": 10,
+          "bold": false,
+          "italic": false,
+          "underline": false,
+          "color": "#E2E8F0",
+          "width": 160,
+          "lineHeight": 1.7
+        },
+        {
+          "id": "jzwqxxj",
+          "type": "divider",
+          "x": 20,
+          "y": 430,
+          "color": "#3B82F6",
+          "width": 160,
+          "thickness": 1
+        },
+        {
+          "id": "j3kis03",
+          "type": "heading",
+          "x": 20,
+          "y": 442,
+          "content": "Education",
+          "fontSize": 11,
+          "bold": true,
+          "italic": false,
+          "underline": false,
+          "color": "#93C5FD",
+          "width": 160
+        },
+        {
+          "id": "wsl29qf",
+          "type": "text",
+          "x": 20,
+          "y": 460,
+          "content": "{{degree}}\n{{university}}\n{{graduation_year}}",
+          "fontSize": 10,
+          "bold": false,
+          "italic": false,
+          "underline": false,
+          "color": "#E2E8F0",
+          "width": 160,
+          "lineHeight": 1.6
+        },
+        {
+          "id": "2td6v6k",
+          "type": "heading",
+          "x": 220,
+          "y": 35,
+          "content": "Profile",
+          "fontSize": 14,
+          "bold": true,
+          "italic": false,
+          "underline": false,
+          "color": "#1E3A5F",
+          "width": 340
+        },
+        {
+          "id": "umg4pi8",
+          "type": "divider",
+          "x": 220,
+          "y": 56,
+          "color": "#1E3A5F",
+          "width": 340,
+          "thickness": 2
+        },
+        {
+          "id": "19oyy19",
+          "type": "text",
+          "x": 220,
+          "y": 68,
+          "content": "{{profile_summary}}",
+          "fontSize": 11,
+          "bold": false,
+          "italic": false,
+          "underline": false,
+          "color": "#374151",
+          "width": 340,
+          "lineHeight": 1.6
+        },
+        {
+          "id": "gtc8kn0",
+          "type": "heading",
+          "x": 220,
+          "y": 140,
+          "content": "Work Experience",
+          "fontSize": 14,
+          "bold": true,
+          "italic": false,
+          "underline": false,
+          "color": "#1E3A5F",
+          "width": 340
+        },
+        {
+          "id": "h3ijirm",
+          "type": "divider",
+          "x": 220,
+          "y": 161,
+          "color": "#1E3A5F",
+          "width": 340,
+          "thickness": 2
+        },
+        {
+          "id": "umld9e5",
+          "type": "text",
+          "x": 220,
+          "y": 175,
+          "content": "{{job1_title}}  —  {{job1_company}}",
+          "fontSize": 12,
+          "bold": true,
+          "italic": false,
+          "underline": false,
+          "color": "#1E293B",
+          "width": 340
+        },
+        {
+          "id": "4oimmld",
+          "type": "text",
+          "x": 220,
+          "y": 192,
+          "content": "{{job1_dates}}",
+          "fontSize": 10,
+          "bold": false,
+          "italic": true,
+          "underline": false,
+          "color": "#64748B",
+          "width": 340
+        },
+        {
+          "id": "i8xqyip",
+          "type": "text",
+          "x": 220,
+          "y": 208,
+          "content": "{{job1_description}}",
+          "fontSize": 10,
+          "bold": false,
+          "italic": false,
+          "underline": false,
+          "color": "#374151",
+          "width": 340,
+          "lineHeight": 1.5,
+          "listStyle": "bullet"
+        },
+        {
+          "id": "o4icxmv",
+          "type": "text",
+          "x": 220,
+          "y": 310,
+          "content": "{{job2_title}}  —  {{job2_company}}",
+          "fontSize": 12,
+          "bold": true,
+          "italic": false,
+          "underline": false,
+          "color": "#1E293B",
+          "width": 340
+        },
+        {
+          "id": "oe08b8z",
+          "type": "text",
+          "x": 220,
+          "y": 327,
+          "content": "{{job2_dates}}",
+          "fontSize": 10,
+          "bold": false,
+          "italic": true,
+          "underline": false,
+          "color": "#64748B",
+          "width": 340
+        },
+        {
+          "id": "vx7dls6",
+          "type": "text",
+          "x": 220,
+          "y": 343,
+          "content": "{{job2_description}}",
+          "fontSize": 10,
+          "bold": false,
+          "italic": false,
+          "underline": false,
+          "color": "#374151",
+          "width": 340,
+          "lineHeight": 1.5,
+          "listStyle": "bullet"
+        },
+        {
+          "id": "am6j1rw",
+          "type": "text",
+          "x": 220,
+          "y": 445,
+          "content": "{{job3_title}}  —  {{job3_company}}",
+          "fontSize": 12,
+          "bold": true,
+          "italic": false,
+          "underline": false,
+          "color": "#1E293B",
+          "width": 340
+        },
+        {
+          "id": "7uwc8tt",
+          "type": "text",
+          "x": 220,
+          "y": 462,
+          "content": "{{job3_dates}}",
+          "fontSize": 10,
+          "bold": false,
+          "italic": true,
+          "underline": false,
+          "color": "#64748B",
+          "width": 340
+        },
+        {
+          "id": "lr9pph0",
+          "type": "text",
+          "x": 220,
+          "y": 478,
+          "content": "{{job3_description}}",
+          "fontSize": 10,
+          "bold": false,
+          "italic": false,
+          "underline": false,
+          "color": "#374151",
+          "width": 340,
+          "lineHeight": 1.5,
+          "listStyle": "bullet"
+        },
+        {
+          "id": "h7bz2b1",
+          "type": "heading",
+          "x": 220,
+          "y": 580,
+          "content": "Certifications",
+          "fontSize": 14,
+          "bold": true,
+          "italic": false,
+          "underline": false,
+          "color": "#1E3A5F",
+          "width": 340
+        },
+        {
+          "id": "pqwnyee",
+          "type": "divider",
+          "x": 220,
+          "y": 601,
+          "color": "#1E3A5F",
+          "width": 340,
+          "thickness": 2
+        },
+        {
+          "id": "dsknno9",
+          "type": "text",
+          "x": 220,
+          "y": 613,
+          "content": "{{certifications}}",
+          "fontSize": 10,
+          "bold": false,
+          "italic": false,
+          "underline": false,
+          "color": "#374151",
+          "width": 340,
+          "lineHeight": 1.6,
+          "listStyle": "bullet"
+        },
+        {
+          "id": "ztcyk1w",
+          "type": "heading",
+          "x": 220,
+          "y": 700,
+          "content": "References",
+          "fontSize": 14,
+          "bold": true,
+          "italic": false,
+          "underline": false,
+          "color": "#1E3A5F",
+          "width": 340
+        },
+        {
+          "id": "dbvut9z",
+          "type": "divider",
+          "x": 220,
+          "y": 721,
+          "color": "#1E3A5F",
+          "width": 340,
+          "thickness": 2
+        },
+        {
+          "id": "qjlgn79",
+          "type": "text",
+          "x": 220,
+          "y": 733,
+          "content": "Available upon request.",
+          "fontSize": 10,
+          "bold": false,
+          "italic": true,
+          "underline": false,
+          "color": "#64748B",
+          "width": 340
+        }
+      ]
+    }
+  ]
+}

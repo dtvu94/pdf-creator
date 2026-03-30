@@ -1,0 +1,1071 @@
+{
+  "name": "Chart Showcase",
+  "pageSize": "A4",
+  "fonts": [
+    {
+      "family": "Open Sans",
+      "faces": [
+        {
+          "weight": "normal",
+          "style": "normal",
+          "source": "bundled",
+          "ref": "OpenSans-Regular.ttf"
+        },
+        {
+          "weight": "bold",
+          "style": "normal",
+          "source": "bundled",
+          "ref": "OpenSans-Bold.ttf"
+        },
+        {
+          "weight": "normal",
+          "style": "italic",
+          "source": "bundled",
+          "ref": "OpenSans-Italic.ttf"
+        },
+        {
+          "weight": "bold",
+          "style": "italic",
+          "source": "bundled",
+          "ref": "OpenSans-BoldItalic.ttf"
+        }
+      ]
+    },
+    {
+      "family": "Roboto",
+      "faces": [
+        {
+          "weight": "normal",
+          "style": "normal",
+          "source": "bundled",
+          "ref": "Roboto-Regular.ttf"
+        },
+        {
+          "weight": "bold",
+          "style": "normal",
+          "source": "bundled",
+          "ref": "Roboto-Bold.ttf"
+        },
+        {
+          "weight": "normal",
+          "style": "italic",
+          "source": "bundled",
+          "ref": "Roboto-Italic.ttf"
+        },
+        {
+          "weight": "bold",
+          "style": "italic",
+          "source": "bundled",
+          "ref": "Roboto-BoldItalic.ttf"
+        }
+      ]
+    },
+    {
+      "family": "Calibri",
+      "faces": [
+        {
+          "weight": "normal",
+          "style": "normal",
+          "source": "bundled",
+          "ref": "Calibri-Regular.ttf"
+        },
+        {
+          "weight": "bold",
+          "style": "normal",
+          "source": "bundled",
+          "ref": "Calibri-Bold.ttf"
+        },
+        {
+          "weight": "normal",
+          "style": "italic",
+          "source": "bundled",
+          "ref": "Calibri-Italic.ttf"
+        },
+        {
+          "weight": "bold",
+          "style": "italic",
+          "source": "bundled",
+          "ref": "Calibri-BoldItalic.ttf"
+        }
+      ]
+    },
+    {
+      "family": "Lato",
+      "faces": [
+        {
+          "weight": "normal",
+          "style": "normal",
+          "source": "bundled",
+          "ref": "Lato-Regular.ttf"
+        },
+        {
+          "weight": "bold",
+          "style": "normal",
+          "source": "bundled",
+          "ref": "Lato-Bold.ttf"
+        },
+        {
+          "weight": "normal",
+          "style": "italic",
+          "source": "bundled",
+          "ref": "Lato-Italic.ttf"
+        },
+        {
+          "weight": "bold",
+          "style": "italic",
+          "source": "bundled",
+          "ref": "Lato-BoldItalic.ttf"
+        }
+      ]
+    },
+    {
+      "family": "Inter",
+      "faces": [
+        {
+          "weight": "normal",
+          "style": "normal",
+          "source": "bundled",
+          "ref": "Inter-Regular.ttf"
+        },
+        {
+          "weight": "bold",
+          "style": "normal",
+          "source": "bundled",
+          "ref": "Inter-Bold.ttf"
+        },
+        {
+          "weight": "normal",
+          "style": "italic",
+          "source": "bundled",
+          "ref": "Inter-Italic.ttf"
+        },
+        {
+          "weight": "bold",
+          "style": "italic",
+          "source": "bundled",
+          "ref": "Inter-BoldItalic.ttf"
+        }
+      ]
+    },
+    {
+      "family": "Verdana",
+      "faces": [
+        {
+          "weight": "normal",
+          "style": "normal",
+          "source": "bundled",
+          "ref": "Verdana-Regular.ttf"
+        },
+        {
+          "weight": "bold",
+          "style": "normal",
+          "source": "bundled",
+          "ref": "Verdana-Bold.ttf"
+        },
+        {
+          "weight": "normal",
+          "style": "italic",
+          "source": "bundled",
+          "ref": "Verdana-Italic.ttf"
+        },
+        {
+          "weight": "bold",
+          "style": "italic",
+          "source": "bundled",
+          "ref": "Verdana-BoldItalic.ttf"
+        }
+      ]
+    },
+    {
+      "family": "Arial",
+      "faces": [
+        {
+          "weight": "normal",
+          "style": "normal",
+          "source": "bundled",
+          "ref": "Calibri-Regular.ttf"
+        },
+        {
+          "weight": "bold",
+          "style": "normal",
+          "source": "bundled",
+          "ref": "Calibri-Bold.ttf"
+        },
+        {
+          "weight": "normal",
+          "style": "italic",
+          "source": "bundled",
+          "ref": "Calibri-Italic.ttf"
+        },
+        {
+          "weight": "bold",
+          "style": "italic",
+          "source": "bundled",
+          "ref": "Calibri-BoldItalic.ttf"
+        }
+      ]
+    }
+  ],
+  "pages": [
+    {
+      "id": "ift5bn6",
+      "header": {
+        "height": 70,
+        "elements": [
+          {
+            "id": "v81fb8f",
+            "type": "heading",
+            "x": 40,
+            "y": 14,
+            "content": "Chart Showcase — Data Visualisation Report",
+            "fontSize": 17,
+            "bold": true,
+            "italic": false,
+            "underline": false,
+            "color": "#1E293B",
+            "width": 440
+          },
+          {
+            "id": "ersmdpa",
+            "type": "text",
+            "x": 40,
+            "y": 46,
+            "content": "Report date: {{report_date}}  ·  Prepared by: {{author}}  ·  Page {{page_number}} of {{total_pages}}",
+            "fontSize": 9,
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "color": "#64748B",
+            "width": 515
+          },
+          {
+            "id": "ws7at52",
+            "type": "divider",
+            "x": 40,
+            "y": 63,
+            "color": "#3B82F6",
+            "width": 515,
+            "thickness": 2
+          }
+        ]
+      },
+      "footer": {
+        "height": 40,
+        "elements": [
+          {
+            "id": "bo2z7m6",
+            "type": "divider",
+            "x": 40,
+            "y": 0,
+            "color": "#E2E8F0",
+            "width": 515,
+            "thickness": 1
+          },
+          {
+            "id": "mqijv8m",
+            "type": "text",
+            "x": 40,
+            "y": 12,
+            "content": "Default data is pre-filled. Override at export time via public/samples/chart-showcase/vertical-bar-chart-data.json or horizontal-bar-chart-data.json",
+            "fontSize": 8,
+            "bold": false,
+            "italic": true,
+            "underline": false,
+            "color": "#94A3B8",
+            "width": 515
+          }
+        ]
+      },
+      "elements": [
+        {
+          "id": "zplptb8",
+          "type": "heading",
+          "x": 40,
+          "y": 8,
+          "content": "Page 1 — Bar Charts",
+          "fontSize": 13,
+          "bold": true,
+          "italic": false,
+          "underline": false,
+          "color": "#6366F1",
+          "width": 515
+        },
+        {
+          "id": "3i9wflq",
+          "type": "text",
+          "x": 40,
+          "y": 30,
+          "content": "Each chart below requires a data file upload at export time. The chart structure (axes, colours, labels) is already configured.",
+          "fontSize": 9,
+          "bold": false,
+          "italic": false,
+          "underline": false,
+          "color": "#64748B",
+          "width": 515
+        },
+        {
+          "id": "nz780yz",
+          "type": "divider",
+          "x": 40,
+          "y": 50,
+          "color": "#E2E8F0",
+          "width": 515,
+          "thickness": 1
+        },
+        {
+          "id": "evb41pp",
+          "type": "text",
+          "x": 40,
+          "y": 60,
+          "content": "VERTICAL BAR CHART  ·  pre-filled data  ·  override at export via public/samples/chart-showcase/vertical-bar-chart-data.json",
+          "fontSize": 8,
+          "bold": true,
+          "italic": false,
+          "underline": false,
+          "color": "#6366F1",
+          "width": 515
+        },
+        {
+          "id": "v27o5cp",
+          "type": "chart",
+          "x": 40,
+          "y": 72,
+          "width": 515,
+          "height": 248,
+          "option": {
+            "title": {
+              "text": "Quarterly Production — 2023 vs 2024 (units)",
+              "textStyle": {
+                "fontSize": 12,
+                "color": "#1E293B",
+                "fontWeight": "bold"
+              }
+            },
+            "tooltip": {
+              "trigger": "axis",
+              "axisPointer": {
+                "type": "shadow"
+              }
+            },
+            "legend": {
+              "data": [
+                "2023",
+                "2024"
+              ],
+              "right": 8,
+              "top": 8,
+              "textStyle": {
+                "fontSize": 10
+              }
+            },
+            "grid": {
+              "left": 56,
+              "right": 16,
+              "top": 52,
+              "bottom": 36
+            },
+            "xAxis": {
+              "type": "category",
+              "data": [
+                "Q1",
+                "Q2",
+                "Q3",
+                "Q4"
+              ],
+              "axisTick": {
+                "alignWithLabel": true
+              }
+            },
+            "yAxis": {
+              "type": "value",
+              "name": "Units",
+              "nameTextStyle": {
+                "color": "#94A3B8",
+                "fontSize": 10
+              }
+            },
+            "series": [
+              {
+                "name": "2023",
+                "type": "bar",
+                "barGap": "6%",
+                "data": [
+                  12400,
+                  15800,
+                  14200,
+                  17600
+                ],
+                "itemStyle": {
+                  "color": "#6366F1"
+                },
+                "label": {
+                  "show": true,
+                  "position": "top",
+                  "fontSize": 9,
+                  "color": "#374151"
+                }
+              },
+              {
+                "name": "2024",
+                "type": "bar",
+                "data": [
+                  14100,
+                  17300,
+                  16800,
+                  21200
+                ],
+                "itemStyle": {
+                  "color": "#F59E0B"
+                },
+                "label": {
+                  "show": true,
+                  "position": "top",
+                  "fontSize": 9,
+                  "color": "#374151"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "id": "0rmqxem",
+          "type": "divider",
+          "x": 40,
+          "y": 328,
+          "color": "#E2E8F0",
+          "width": 515,
+          "thickness": 1
+        },
+        {
+          "id": "f2dwk71",
+          "type": "text",
+          "x": 40,
+          "y": 336,
+          "content": "HORIZONTAL BAR CHART  ·  pre-filled data  ·  override at export via public/samples/chart-showcase/horizontal-bar-chart-data.json",
+          "fontSize": 8,
+          "bold": true,
+          "italic": false,
+          "underline": false,
+          "color": "#3B82F6",
+          "width": 515
+        },
+        {
+          "id": "hqat18b",
+          "type": "chart",
+          "x": 40,
+          "y": 346,
+          "width": 515,
+          "height": 248,
+          "option": {
+            "title": {
+              "text": "Revenue by Market, H1 vs H2 2024 ($M)",
+              "textStyle": {
+                "fontSize": 12,
+                "color": "#1E293B",
+                "fontWeight": "bold"
+              }
+            },
+            "tooltip": {
+              "trigger": "axis",
+              "axisPointer": {
+                "type": "shadow"
+              }
+            },
+            "legend": {
+              "data": [
+                "H1",
+                "H2"
+              ],
+              "right": 8,
+              "top": 8,
+              "textStyle": {
+                "fontSize": 10
+              }
+            },
+            "grid": {
+              "left": 120,
+              "right": 60,
+              "top": 52,
+              "bottom": 28
+            },
+            "xAxis": {
+              "type": "value",
+              "name": "$M",
+              "nameTextStyle": {
+                "color": "#94A3B8",
+                "fontSize": 10
+              }
+            },
+            "yAxis": {
+              "type": "category",
+              "data": [
+                "Middle East",
+                "Latin America",
+                "EMEA",
+                "APAC",
+                "North America"
+              ],
+              "axisLabel": {
+                "fontSize": 10
+              }
+            },
+            "series": [
+              {
+                "name": "H1",
+                "type": "bar",
+                "data": [
+                  18.4,
+                  24.7,
+                  53.2,
+                  76.5,
+                  112.8
+                ],
+                "itemStyle": {
+                  "color": "#3B82F6"
+                },
+                "label": {
+                  "show": true,
+                  "position": "right",
+                  "fontSize": 9
+                }
+              },
+              {
+                "name": "H2",
+                "type": "bar",
+                "data": [
+                  21.3,
+                  28.1,
+                  61.4,
+                  89.2,
+                  128.6
+                ],
+                "itemStyle": {
+                  "color": "#10B981"
+                },
+                "label": {
+                  "show": true,
+                  "position": "right",
+                  "fontSize": 9
+                }
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "57knf3i",
+      "header": {
+        "height": 70,
+        "elements": [
+          {
+            "id": "3qedwnf",
+            "type": "heading",
+            "x": 40,
+            "y": 14,
+            "content": "Chart Showcase — Data Visualisation Report",
+            "fontSize": 17,
+            "bold": true,
+            "italic": false,
+            "underline": false,
+            "color": "#1E293B",
+            "width": 440
+          },
+          {
+            "id": "me3gthz",
+            "type": "text",
+            "x": 40,
+            "y": 46,
+            "content": "Report date: {{report_date}}  ·  Prepared by: {{author}}  ·  Page {{page_number}} of {{total_pages}}",
+            "fontSize": 9,
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "color": "#64748B",
+            "width": 515
+          },
+          {
+            "id": "rp4ekmn",
+            "type": "divider",
+            "x": 40,
+            "y": 63,
+            "color": "#3B82F6",
+            "width": 515,
+            "thickness": 2
+          }
+        ]
+      },
+      "footer": {
+        "height": 40,
+        "elements": [
+          {
+            "id": "080x024",
+            "type": "divider",
+            "x": 40,
+            "y": 0,
+            "color": "#E2E8F0",
+            "width": 515,
+            "thickness": 1
+          },
+          {
+            "id": "pcphmb3",
+            "type": "text",
+            "x": 40,
+            "y": 12,
+            "content": "Default data is pre-filled. Override at export time via public/samples/chart-showcase/line-chart-data.json or pie-chart-data.json",
+            "fontSize": 8,
+            "bold": false,
+            "italic": true,
+            "underline": false,
+            "color": "#94A3B8",
+            "width": 515
+          }
+        ]
+      },
+      "elements": [
+        {
+          "id": "jzrdxw9",
+          "type": "heading",
+          "x": 40,
+          "y": 8,
+          "content": "Page 2 — Line & Pie Charts",
+          "fontSize": 13,
+          "bold": true,
+          "italic": false,
+          "underline": false,
+          "color": "#0EA5E9",
+          "width": 515
+        },
+        {
+          "id": "jxf6ti8",
+          "type": "text",
+          "x": 40,
+          "y": 30,
+          "content": "Each chart below requires a data file upload at export time. The chart structure (axes, colours, labels) is already configured.",
+          "fontSize": 9,
+          "bold": false,
+          "italic": false,
+          "underline": false,
+          "color": "#64748B",
+          "width": 515
+        },
+        {
+          "id": "x3ralwy",
+          "type": "divider",
+          "x": 40,
+          "y": 50,
+          "color": "#E2E8F0",
+          "width": 515,
+          "thickness": 1
+        },
+        {
+          "id": "cua1rvx",
+          "type": "text",
+          "x": 40,
+          "y": 60,
+          "content": "LINE CHART  ·  pre-filled data  ·  override at export via public/samples/chart-showcase/line-chart-data.json",
+          "fontSize": 8,
+          "bold": true,
+          "italic": false,
+          "underline": false,
+          "color": "#3B82F6",
+          "width": 515
+        },
+        {
+          "id": "xul6amt",
+          "type": "chart",
+          "x": 40,
+          "y": 72,
+          "width": 515,
+          "height": 248,
+          "option": {
+            "title": {
+              "text": "Monthly Temperature Trend (°C)",
+              "textStyle": {
+                "fontSize": 12,
+                "color": "#1E293B",
+                "fontWeight": "bold"
+              }
+            },
+            "tooltip": {
+              "trigger": "axis"
+            },
+            "legend": {
+              "data": [
+                "Zone A",
+                "Zone B"
+              ],
+              "right": 8,
+              "top": 8,
+              "textStyle": {
+                "fontSize": 10
+              }
+            },
+            "grid": {
+              "left": 50,
+              "right": 20,
+              "top": 52,
+              "bottom": 36
+            },
+            "xAxis": {
+              "type": "category",
+              "boundaryGap": false,
+              "data": [
+                "Jan",
+                "Feb",
+                "Mar",
+                "Apr",
+                "May",
+                "Jun",
+                "Jul",
+                "Aug",
+                "Sep",
+                "Oct",
+                "Nov",
+                "Dec"
+              ]
+            },
+            "yAxis": {
+              "type": "value",
+              "name": "°C",
+              "nameTextStyle": {
+                "color": "#94A3B8",
+                "fontSize": 10
+              }
+            },
+            "series": [
+              {
+                "name": "Zone A",
+                "type": "line",
+                "smooth": true,
+                "data": [
+                  4.2,
+                  5.8,
+                  10.1,
+                  15.4,
+                  20.7,
+                  25.3,
+                  28.6,
+                  27.9,
+                  23.2,
+                  17.5,
+                  10.8,
+                  6.1
+                ],
+                "itemStyle": {
+                  "color": "#3B82F6"
+                },
+                "areaStyle": {
+                  "color": "#3B82F6",
+                  "opacity": 0.08
+                },
+                "symbol": "circle",
+                "symbolSize": 5
+              },
+              {
+                "name": "Zone B",
+                "type": "line",
+                "smooth": true,
+                "data": [
+                  7.5,
+                  9.2,
+                  13.8,
+                  18.6,
+                  23.4,
+                  28.1,
+                  31.4,
+                  30.8,
+                  26.3,
+                  20.1,
+                  13.9,
+                  9.2
+                ],
+                "itemStyle": {
+                  "color": "#10B981"
+                },
+                "areaStyle": {
+                  "color": "#10B981",
+                  "opacity": 0.08
+                },
+                "symbol": "circle",
+                "symbolSize": 5
+              }
+            ]
+          }
+        },
+        {
+          "id": "thndxsx",
+          "type": "divider",
+          "x": 40,
+          "y": 328,
+          "color": "#E2E8F0",
+          "width": 515,
+          "thickness": 1
+        },
+        {
+          "id": "9nyuwxc",
+          "type": "text",
+          "x": 40,
+          "y": 336,
+          "content": "PIE / DONUT CHART  ·  pre-filled data  ·  override at export via public/samples/chart-showcase/pie-chart-data.json",
+          "fontSize": 8,
+          "bold": true,
+          "italic": false,
+          "underline": false,
+          "color": "#10B981",
+          "width": 515
+        },
+        {
+          "id": "0ss6l33",
+          "type": "chart",
+          "x": 40,
+          "y": 346,
+          "width": 515,
+          "height": 248,
+          "option": {
+            "title": {
+              "text": "Website Traffic Sources",
+              "left": "center",
+              "textStyle": {
+                "fontSize": 12,
+                "color": "#1E293B",
+                "fontWeight": "bold"
+              }
+            },
+            "tooltip": {
+              "trigger": "item",
+              "formatter": "{b}: {c} ({d}%)"
+            },
+            "legend": {
+              "orient": "vertical",
+              "left": 16,
+              "top": "middle",
+              "textStyle": {
+                "fontSize": 10,
+                "color": "#374151"
+              },
+              "itemGap": 10
+            },
+            "series": [
+              {
+                "type": "pie",
+                "radius": [
+                  "36%",
+                  "68%"
+                ],
+                "center": [
+                  "60%",
+                  "54%"
+                ],
+                "data": [
+                  {
+                    "name": "Organic Search",
+                    "value": 4821
+                  },
+                  {
+                    "name": "Direct",
+                    "value": 2934
+                  },
+                  {
+                    "name": "Referral",
+                    "value": 1872
+                  },
+                  {
+                    "name": "Social Media",
+                    "value": 1563
+                  },
+                  {
+                    "name": "Email",
+                    "value": 847
+                  },
+                  {
+                    "name": "Paid Ads",
+                    "value": 612
+                  }
+                ],
+                "label": {
+                  "show": true,
+                  "position": "inside",
+                  "formatter": "{d}%",
+                  "fontSize": 10,
+                  "fontWeight": "bold",
+                  "color": "#fff"
+                },
+                "labelLine": {
+                  "show": false
+                },
+                "emphasis": {
+                  "scale": true,
+                  "scaleSize": 6
+                }
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "qkbshme",
+      "header": {
+        "height": 70,
+        "elements": [
+          {
+            "id": "owj7p15",
+            "type": "heading",
+            "x": 40,
+            "y": 14,
+            "content": "Chart Showcase — Data Visualisation Report",
+            "fontSize": 17,
+            "bold": true,
+            "italic": false,
+            "underline": false,
+            "color": "#1E293B",
+            "width": 440
+          },
+          {
+            "id": "cc07hic",
+            "type": "text",
+            "x": 40,
+            "y": 46,
+            "content": "Report date: {{report_date}}  ·  Prepared by: {{author}}  ·  Page {{page_number}} of {{total_pages}}",
+            "fontSize": 9,
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "color": "#64748B",
+            "width": 515
+          },
+          {
+            "id": "zsy6b9b",
+            "type": "divider",
+            "x": 40,
+            "y": 63,
+            "color": "#3B82F6",
+            "width": 515,
+            "thickness": 2
+          }
+        ]
+      },
+      "footer": {
+        "height": 40,
+        "elements": [
+          {
+            "id": "fo86whi",
+            "type": "divider",
+            "x": 40,
+            "y": 0,
+            "color": "#E2E8F0",
+            "width": 515,
+            "thickness": 1
+          },
+          {
+            "id": "phe50a5",
+            "type": "text",
+            "x": 40,
+            "y": 12,
+            "content": "Fully blank charts — provide a complete ECharts option JSON at export time.",
+            "fontSize": 8,
+            "bold": false,
+            "italic": true,
+            "underline": false,
+            "color": "#94A3B8",
+            "width": 515
+          }
+        ]
+      },
+      "elements": [
+        {
+          "id": "qzzrgwx",
+          "type": "heading",
+          "x": 40,
+          "y": 8,
+          "content": "Page 3 — Charts Configured at Export",
+          "fontSize": 13,
+          "bold": true,
+          "italic": false,
+          "underline": false,
+          "color": "#F59E0B",
+          "width": 515
+        },
+        {
+          "id": "z1i0ymr",
+          "type": "text",
+          "x": 40,
+          "y": 30,
+          "content": "These charts have no pre-set structure. Provide a complete ECharts option JSON at export — use the sample files as a starting point.",
+          "fontSize": 9,
+          "bold": false,
+          "italic": false,
+          "underline": false,
+          "color": "#64748B",
+          "width": 515
+        },
+        {
+          "id": "510xw1h",
+          "type": "divider",
+          "x": 40,
+          "y": 50,
+          "color": "#E2E8F0",
+          "width": 515,
+          "thickness": 1
+        },
+        {
+          "id": "0jj1wzc",
+          "type": "text",
+          "x": 40,
+          "y": 60,
+          "content": "SCATTER CHART  ·  full option required at export  ·  see public/samples/chart-showcase/scatter-chart-option.json",
+          "fontSize": 8,
+          "bold": true,
+          "italic": false,
+          "underline": false,
+          "color": "#F59E0B",
+          "width": 515
+        },
+        {
+          "id": "eevqx3i",
+          "type": "chart",
+          "x": 40,
+          "y": 72,
+          "width": 515,
+          "height": 248,
+          "option": {}
+        },
+        {
+          "id": "f2n5t3y",
+          "type": "divider",
+          "x": 40,
+          "y": 328,
+          "color": "#E2E8F0",
+          "width": 515,
+          "thickness": 1
+        },
+        {
+          "id": "zuu6n8q",
+          "type": "text",
+          "x": 40,
+          "y": 336,
+          "content": "HEATMAP CHART  ·  full option required at export  ·  see public/samples/chart-showcase/heatmap-chart-option.json",
+          "fontSize": 8,
+          "bold": true,
+          "italic": false,
+          "underline": false,
+          "color": "#EF4444",
+          "width": 515
+        },
+        {
+          "id": "uwg5k4p",
+          "type": "chart",
+          "x": 40,
+          "y": 346,
+          "width": 515,
+          "height": 248,
+          "option": {}
+        }
+      ]
+    }
+  ],
+  "styles": {
+    "primaryColor": "#3B82F6"
+  }
+}
