@@ -24,7 +24,7 @@ A browser-based, WYSIWYG PDF template editor. Design multi-page documents visual
 
 PDF Creator is a **Next.js 16** application that lets users:
 
-- Browse a gallery of six built-in templates or start from a blank page.
+- Browse a gallery of 18 built-in templates or start from a blank page.
 - Edit PDF pages on a scaled canvas — add, drag, resize, and configure elements in a right-side properties panel.
 - Embed `{{placeholder}}` tokens in text, tables, cards, and repeater elements; fill them at export time.
 - Use **Auto CSV** tables that accept a CSV upload at export time, generating reports from dynamic datasets.
@@ -32,7 +32,7 @@ PDF Creator is a **Next.js 16** application that lets users:
 - Insert **Repeater** elements that stamp out a card template once per data item (e.g. one card per sensor).
 - Draw **Shapes** (rectangle, circle, line, triangle, diamond, arrow, heart) with configurable fill, stroke, and border radius.
 - Add **Links** with clickable `href` targets in the exported PDF.
-- Upload custom fonts (WOFF) and choose from 7 bundled font families (Open Sans, Roboto, Calibri, Lato, Inter, Verdana, Arial).
+- Upload custom fonts (TTF/OTF) and choose from 9 bundled font families (Open Sans, Roboto, Calibri, Lato, Inter, Verdana, Arial, Times New Roman, Georgia).
 - Undo / redo all edits, copy / paste / duplicate elements, and align or distribute multi-selections.
 - Embed PDF **metadata** (title, author, subject, keywords, dates) and protect the PDF with a **password**.
 - Overlay a **watermark** image on selected pages.
@@ -51,12 +51,24 @@ The home page (`/`) shows a card for each built-in template plus a **+ New templ
 
 | Template | Description |
 | --- | --- |
-| **Annual Report** | 5-page report with title, executive summary, statistics pages, and closing |
+| **Annual Report** | Multi-page report with title, KPIs, regional analysis, strategy |
 | **Invoice** | Single-page invoice with line items, tax, and payment terms |
 | **Employee Directory** | Staff listing driven by a CSV upload at export time |
 | **IoT Sensor Dashboard** | KPI cards and placeholder-driven metrics page |
-| **Chart Showcase** | 2-page showcase of bar, line, pie, scatter, and heatmap charts |
-| **Monthly Sensor Report** | 6-page report with a cover page and one repeating card section per sensor type |
+| **Chart Showcase** | Multi-page showcase of bar, line, pie, scatter, and heatmap charts |
+| **Monthly Sensor Report** | Multi-page report with cover page and one repeating card section per sensor type |
+| **Professional CV** | Sidebar layout with skills, experience, and education |
+| **Cover Letter** | Formal letter format, matches the CV style |
+| **Meeting Minutes** | Agenda table, discussion, and action items |
+| **Project Proposal** | Cover page, timeline, budget, scope |
+| **Purchase Order** | Order form with line items |
+| **Quotation** | Price quote with validity period and terms |
+| **Certificate** | Achievement certificate with dual signature blocks |
+| **NDA / Contract** | Multi-page legal format with numbered clauses |
+| **Research Paper** | Academic format with abstract, methodology, references |
+| **Lesson Plan** | Learning objectives, procedure table, assessment |
+| **Event Invitation** | Decorative layout with RSVP details |
+| **Travel Itinerary** | Day-by-day schedule with contact information |
 
 Click any card to open it in the editor.
 
@@ -99,9 +111,11 @@ Click any card to open it in the editor.
 | Control | Action |
 | --- | --- |
 | Page size selector | Switch between A4, A3, A5 |
-| Font selector | Choose from 7 bundled font families |
+| Font selector | Choose from 9 bundled font families |
 | Metadata | Toggle PDF metadata wizard step on/off |
 | Password | Toggle PDF password protection on/off |
+| PDF/A | Toggle PDF/A archival conversion on/off |
+| Signature | Toggle digital signature wizard step on/off |
 | Watermark | Toggle watermark overlay on/off |
 | Compress | Toggle image compression settings on/off |
 
@@ -189,7 +203,7 @@ Clicking an element opens its property editor. Fields vary by element type:
 | Shape | Shape type, fill colour, stroke colour, stroke width, border radius, width, height |
 | Repeater | Data key, card width/height, items per row, gap, card elements |
 
-When no element is selected the panel shows the **Font Manager** for uploading custom WOFF fonts.
+When no element is selected the panel shows the **Font Manager** for uploading custom TTF/OTF fonts.
 
 ---
 
@@ -240,7 +254,7 @@ Upload an image from disk (converted to base64) or enter a URL. If no source is 
 
 ### Fonts
 
-The **Font Manager** panel (visible when no element is selected) lets you upload WOFF font files. Uploaded fonts are stored server-side during the session and registered with `@react-pdf/renderer` at export time. Seven bundled font families are always available: Open Sans, Roboto, Calibri, Lato, Inter, Verdana, and Arial.
+The **Font Manager** panel (visible when no element is selected) lets you upload TTF or OTF font files. Uploaded fonts are stored server-side during the session and registered with `@react-pdf/renderer` at export time. Nine bundled font families are always available: Open Sans, Roboto, Calibri, Lato, Inter, Verdana, Arial, Times New Roman, and Georgia.
 
 Before exporting, if any uploaded font is no longer available on the server (e.g. after a server restart), a **Missing Fonts** modal prompts you to re-upload the files.
 
@@ -257,8 +271,10 @@ Clicking **Export PDF** opens a step-by-step wizard. Steps are shown only when a
 5. **Repeater data** — shown once per repeater; provide a JSON array of items.
 6. **Metadata** — fill in PDF metadata (title, author, subject, keywords, dates).
 7. **Password** — set an optional password to encrypt the PDF.
+8. **PDF/A** — select PDF/A part (1/2/3) and conformance level (A/B/U) for archival output.
+9. **Digital Signature** — upload a PKCS#12 or JKS keystore with signing metadata.
 
-After all steps complete, the PDF is generated and downloaded.
+After all steps complete, the PDF is generated and downloaded. PDF/A conversion, digital signing, and password encryption are delegated to the `pdfa-generator` service (default `http://localhost:8090`, configurable via the `PDFA_SERVICE_URL` environment variable).
 
 ---
 
@@ -276,10 +292,10 @@ After all steps complete, the PDF is generated and downloaded.
 
 | Layer | Technology |
 | --- | --- |
-| Framework | Next.js 16.2.1 (App Router) |
+| Framework | Next.js 16.2.3 (App Router) |
 | UI | React 19 |
 | PDF rendering | @react-pdf/renderer v4 |
-| PDF encryption | muhammara v6 |
+| PDF/A, signing, encryption | `pdfa-generator` service (Java + Apache PDFBox) |
 | Charts | Apache ECharts 6 |
 | Image processing | sharp v0.34 |
 | Icons | lucide-react |
@@ -314,11 +330,14 @@ pdf-creator/
 │   └── api/
 │       ├── generate-pdf/
 │       │   └── route.tsx             # POST /api/generate-pdf
-│       └── fonts/
-│           ├── route.ts              # POST /api/fonts (upload)
-│           ├── status/route.ts       # POST /api/fonts/status (check)
-│           ├── [id]/route.ts         # GET  /api/fonts/:id (serve)
-│           └── cleanup/route.ts      # POST /api/fonts/cleanup
+│       ├── fonts/
+│       │   ├── route.ts              # POST /api/fonts (upload)
+│       │   ├── status/route.ts       # POST /api/fonts/status (check)
+│       │   ├── [id]/route.ts         # GET  /api/fonts/:id (serve)
+│       │   └── cleanup/route.ts      # POST /api/fonts/cleanup
+│       └── share/
+│           ├── route.ts              # POST /api/share (store template)
+│           └── [id]/route.ts         # GET  /api/share/:id (retrieve)
 │
 ├── components/
 │   ├── TemplateGallery/
@@ -351,6 +370,8 @@ pdf-creator/
 │   │   │   ├── RepeaterStep.tsx      # Provide repeater item JSON
 │   │   │   ├── MetadataStep.tsx      # Fill PDF metadata fields
 │   │   │   ├── PasswordStep.tsx      # Set PDF password
+│   │   │   ├── PdfAStep.tsx          # Configure PDF/A conformance level
+│   │   │   ├── SignatureStep.tsx     # Upload keystore for digital signing
 │   │   │   ├── WizardStepper.tsx     # Progress stepper component
 │   │   │   ├── MetaChip.tsx          # Metadata tag chip
 │   │   │   ├── styles.ts             # Modal styles
@@ -362,31 +383,47 @@ pdf-creator/
 │   ├── ElementView.tsx               # Renders any element type on the canvas
 │   ├── PdfTemplate.tsx               # @react-pdf/renderer document (client)
 │   ├── ExportPdfButton.tsx           # Export wizard orchestrator
-│   ├── FontManagerPanel.tsx          # Upload / manage custom WOFF fonts
+│   ├── FontManagerPanel.tsx          # Upload / manage custom TTF/OTF fonts
 │   ├── FontSelector.tsx              # Font family dropdown
 │   ├── PageSizeSelector.tsx          # A4 / A3 / A5 dropdown
 │   └── PlaceholderPicker.tsx         # {} toolbar button + popover
 │
 ├── lib/
 │   ├── templates/
-│   │   ├── index.ts                  # TEMPLATE_REGISTRY + getTemplateById
-│   │   ├── report.ts                 # Annual Report (5 pages)
-│   │   ├── invoice.ts                # Invoice (1 page)
-│   │   ├── employee-directory.ts     # Employee Directory (1 page + auto table)
-│   │   ├── sensor-dashboard.ts       # IoT Sensor Dashboard (1 page)
-│   │   ├── chart-showcase.ts         # Chart Showcase (2 pages)
-│   │   ├── sensor-report.ts          # Monthly Sensor Report (6 pages + repeaters)
+│   │   ├── index.ts                  # TEMPLATE_REGISTRY (18 templates) + getTemplateById
+│   │   ├── report.ts                 # Annual Report
+│   │   ├── invoice.ts                # Invoice
+│   │   ├── employee-directory.ts     # Employee Directory (auto CSV table)
+│   │   ├── sensor-dashboard.ts       # IoT Sensor Dashboard (KPI cards)
+│   │   ├── chart-showcase.ts         # Chart Showcase
+│   │   ├── sensor-report.ts          # Monthly Sensor Report (repeaters)
+│   │   ├── cv.ts                     # Professional CV
+│   │   ├── cover-letter.ts           # Cover Letter
+│   │   ├── meeting-minutes.ts        # Meeting Minutes
+│   │   ├── project-proposal.ts       # Project Proposal
+│   │   ├── purchase-order.ts         # Purchase Order
+│   │   ├── quotation.ts              # Quotation
+│   │   ├── certificate.ts            # Certificate
+│   │   ├── nda.ts                    # NDA / Contract
+│   │   ├── research-paper.ts         # Research Paper
+│   │   ├── lesson-plan.ts            # Lesson Plan
+│   │   ├── event-invitation.ts       # Event Invitation
+│   │   ├── travel-itinerary.ts       # Travel Itinerary
 │   │   └── utils.ts                  # makeId, createElement, page dimensions, bundled fonts
 │   ├── placeholders.ts               # extractPlaceholders, applyValues, collectAutoTables,
-│   │                                 # applyAutoRows, collectCharts, applyChartImages
-│   ├── encryptPdf.ts                 # PDF password encryption (muhammara)
+│   │                                 # applyAutoRows, collectCharts, applyChartImages,
+│   │                                 # collectRepeaters, applyRepeaterItems
+│   ├── pdfaService.ts                # PDF/A, signing, encryption via pdfa-generator
 │   ├── fontRegistry.ts               # Client-side font registration
 │   ├── fontRegistry.server.ts        # Server-side font registration
 │   ├── serverPdfRenderer.tsx         # PdfDocument component (API route)
-│   ├── imageConvert.ts               # Client image → base64 helper
+│   ├── serverChartRenderer.ts        # Server-side ECharts SSR → PNG (sharp)
 │   ├── serverImageConvert.ts         # Server image fetch + convert (sharp)
+│   ├── imageConvert.ts               # Client image → base64 helper
+│   ├── shareStore.ts                 # In-memory store for template sharing
 │   ├── useEditorFonts.ts             # Font loading hook
 │   ├── useHistory.ts                 # Undo/redo history hook
+│   ├── useAutoSave.ts                # Auto-save drafts to localStorage
 │   └── utils.tsx                     # btnStyle, downloadJson, parseTableData
 │
 ├── types/
@@ -396,18 +433,34 @@ pdf-creator/
 │                                     # WatermarkConfig, PdfMetadata, …
 │
 ├── scripts/
-│   └── export-templates.ts           # Export built-in templates to public/samples/
+│   ├── export-templates.ts           # Export built-in templates to public/samples/
+│   ├── render-chart-showcase.ts      # Pre-render charts for the chart-showcase template
+│   └── generate-samples.sh           # Generate PDFs from sample templates via REST API
 │
 └── public/
-    ├── fonts/                        # Bundled WOFF files (Open Sans, Roboto, Calibri,
-    │                                 # Lato, Inter, Verdana, Arial)
+    ├── fonts/                        # Bundled TTF files (32 files, 9 families:
+    │                                 # Open Sans, Roboto, Calibri, Lato, Inter, Verdana,
+    │                                 # Arial, Times New Roman, Georgia)
     └── samples/                      # Sample data & template JSON for each template
+        ├── certificate/
         ├── chart-showcase/
+        ├── cover-letter/
+        ├── cv/
+        ├── digital-signature/        # Sample PKCS#12 keystore for signing
         ├── employee-directory/
+        ├── event-invitation/
         ├── invoice/
+        ├── lesson-plan/
+        ├── meeting-minutes/
+        ├── nda/
+        ├── project-proposal/
+        ├── purchase-order/
+        ├── quotation/
         ├── report/
+        ├── research-paper/
         ├── sensor-dashboard/
-        └── sensor-report/
+        ├── sensor-report/
+        └── travel-itinerary/
 ```
 
 ---
@@ -421,7 +474,7 @@ Template
 ├── name: string
 ├── pageSize: "A4" | "A3" | "A5"
 ├── fontFamily?: string                  # active font family
-├── fonts: TemplateFont[]                # bundled + custom WOFF definitions
+├── fonts: TemplateFont[]                # bundled + custom TTF/OTF definitions
 ├── styles: { primaryColor: string }
 ├── includeMetadata?: boolean
 ├── watermark?: WatermarkConfig
@@ -484,10 +537,17 @@ User clicks "Export PDF"
       ├─ 7. Password (if enabled)
       │       Enter password to encrypt the PDF
       │
+      ├─ 8. PDF/A (if enabled)
+      │       Select part (1/2/3) and conformance level (A/B/U)
+      │
+      ├─ 9. Signature (if enabled)
+      │       Upload keystore (PKCS#12 / JKS), enter password, sign metadata
+      │
       └─ Generate PDF
               applyValues + applyAutoRows + applyChartImages + applyRepeaterItems
-              → registerFonts → @react-pdf/renderer → encryptPdf (optional)
-              → Blob → download
+              → registerFonts → @react-pdf/renderer → Blob
+              → (optional via pdfa-generator) PDF/A → sign → encrypt
+              → download
 ```
 
 ---
@@ -500,7 +560,7 @@ User clicks "Export PDF"
 | npm | 10 |
 | Docker *(containerised deployment only)* | 24 |
 
-No environment variables are required for basic operation. The font upload API uses the server's temporary file system; fonts are held in memory for the session.
+Basic PDF generation requires no environment variables. For PDF/A conversion, digital signatures, and encryption, the `pdfa-generator` Java microservice must be running (default: `http://localhost:8090`, configurable via `PDFA_SERVICE_URL`). Optionally set `CRON_SECRET` to authenticate the `/api/fonts/cleanup` endpoint. Uploaded fonts are stored in `/tmp/pdf-creator-fonts/`.
 
 ---
 
