@@ -785,8 +785,88 @@ def deployment_page(story, styles):
     story.append(PageBreak())
 
 
+def curl_examples_page(story, styles):
+    """Page 12: cURL Examples — Generate PDFs from sample templates."""
+    story.append(Paragraph("cURL Examples", styles['SlideTitle']))
+    story.append(Paragraph(
+        "Generate PDFs from built-in sample templates via the REST API",
+        styles['SlideSubtitle'],
+    ))
+
+    story.append(Paragraph(
+        "Each built-in template ships with sample data in "
+        "<b>pdf-creator/public/samples/&lt;id&gt;/</b>. "
+        "With the dev server running on port 3000, use these cURL commands "
+        "to generate production-ready PDFs.",
+        styles['Body'],
+    ))
+
+    examples = [
+        ("1. Invoice", (
+            "curl -X POST http://localhost:3000/api/generate-pdf \\\n"
+            "  -F \"template=@public/samples/invoice/template.json;"
+            "type=application/json\" \\\n"
+            "  -F \"placeholders=@public/samples/invoice/placeholders.json;"
+            "type=application/json\" \\\n"
+            "  -F \"metadata=@public/samples/invoice/metadata.json;"
+            "type=application/json\" \\\n"
+            "  -o invoice.pdf"
+        )),
+        ("2. Professional CV", (
+            "curl -X POST http://localhost:3000/api/generate-pdf \\\n"
+            "  -F \"template=@public/samples/cv/template.json;"
+            "type=application/json\" \\\n"
+            "  -F \"placeholders=@public/samples/cv/placeholders.json;"
+            "type=application/json\" \\\n"
+            "  -F \"metadata=@public/samples/cv/metadata.json;"
+            "type=application/json\" \\\n"
+            "  -o cv.pdf"
+        )),
+        ("3. Annual Report", (
+            "curl -X POST http://localhost:3000/api/generate-pdf \\\n"
+            "  -F \"template=@public/samples/report/template.json;"
+            "type=application/json\" \\\n"
+            "  -F \"placeholders=@public/samples/report/placeholders.json;"
+            "type=application/json\" \\\n"
+            "  -F \"metadata=@public/samples/report/metadata.json;"
+            "type=application/json\" \\\n"
+            "  -o report.pdf"
+        )),
+    ]
+
+    for title, code in examples:
+        story.append(Paragraph(title, styles['SectionHeader']))
+        code_para = Paragraph(
+            code.replace('\n', '<br/>'),
+            ParagraphStyle('CurlCode', fontName='Courier', fontSize=8,
+                           leading=11.5, textColor=HexColor("#e2e8f0"),
+                           backColor=BG_DARK),
+        )
+        code_table = Table([[code_para]], colWidths=[W - 56*mm])
+        code_table.setStyle(TableStyle([
+            ('BACKGROUND', (0, 0), (-1, -1), BG_DARK),
+            ('TOPPADDING', (0, 0), (-1, -1), 3*mm),
+            ('BOTTOMPADDING', (0, 0), (-1, -1), 3*mm),
+            ('LEFTPADDING', (0, 0), (-1, -1), 4*mm),
+            ('RIGHTPADDING', (0, 0), (-1, -1), 4*mm),
+            ('ROUNDEDCORNERS', [2*mm, 2*mm, 2*mm, 2*mm]),
+        ]))
+        story.append(code_table)
+        story.append(Spacer(1, 2*mm))
+
+    story.append(Spacer(1, 3*mm))
+    story.append(Paragraph(
+        "<i>Run these from the <b>pdf-creator/</b> project root. "
+        "All 18 templates follow the same pattern — swap the template ID "
+        "(invoice, cv, report, nda, certificate, etc.) to generate any sample.</i>",
+        styles['SmallNote'],
+    ))
+
+    story.append(PageBreak())
+
+
 def closing_page(story, styles):
-    """Page 12: Summary & Next Steps."""
+    """Page 13: Summary & Next Steps."""
     story.append(Paragraph("Summary", styles['SlideTitle']))
     story.append(Paragraph("What makes this platform stand out", styles['SlideSubtitle']))
 
@@ -880,6 +960,7 @@ def main():
     pdfa_security_page(story, styles)
     pdfa_manipulation_page(story, styles)
     deployment_page(story, styles)
+    curl_examples_page(story, styles)
     closing_page(story, styles)
 
     doc.build(story)
